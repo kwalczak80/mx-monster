@@ -55,9 +55,9 @@ The primary goal of the website, from a site user’s perspective, is as follows
 
 - As a user, I want to view a list of all the products to choose items to purchase
 - As a user, I want to see the products grouped in relevant categories to help me to narrow down the product I’m looking for
-- As a user, I want to see individual product details to have a detailed explanation of the product
+- As a user, I want to see individual product details to have a detailed explanation of the product along with the price
 - As a user, I want to have contact information available to make contact with the store in case of any queries or problems
-- As a user, I want to easily select the product(s) I want to purchase 
+- As a user, I want to easily select the product(s) I want to purchase
 - As a user, I want to see the items selected for purchase to keep track of my selections
 - As a user, I want to see a running total of the shopping basket to keep track of my spending
 - As a user, I want to select multiple quantities of the same product, to order two or more of the same products
@@ -66,15 +66,13 @@ The primary goal of the website, from a site user’s perspective, is as follows
 - As a user, I want to register for an account
 - As a user, I want to have my payment information saved to speed up the purchase process
 - As a user, I want to have an option to recover my password if required
+- As a user, I want to have a secure payment checkout
+- As a user, I want to have an option to quickly search for a product I'm looking for
+- As a user, I want to edit the basket content
 
 ### Store Owner
 
-- I want to attract customers to buy motorcycle clothing, equipment, or accessories.
 - I want an appealing website with a range of products
-- I want shoppers to be able to view the full range of products available for sale in different categories 
-- I want shoppers to be able to view the relevant description of each product along with the price and other relevant information
-- I want shoppers to be able to have an option to quickly search for a product they are looking for.
-- I want shoppers to be able to add products to the basket and edit the basket content
 - I want shoppers to be able to read about the business
 - I want shoppers to be able to navigate the site easily and quickly
 - I want to be able easily to log in and log out to access personal information
