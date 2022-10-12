@@ -85,4 +85,9 @@ The primary goal of the website, from a site user’s perspective, is as follows
 
 If the page cannot be loaded, the user should be able to return through the website's navigational structure without hitting the back button on their browser.
 
+## Agile Methodology
+
+![Kanban Agile image](docs/images/agile/kanban-agile.JPG)
+
+Github issues were used to create the User stories and group them according to MoSCoW prioritization technique. Link to the project with live issues can be found [HERE](https://github.com/users/kwalczak80/projects/8/views/1)
 
