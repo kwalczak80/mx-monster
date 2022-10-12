@@ -91,3 +91,9 @@ If the page cannot be loaded, the user should be able to return through the webs
 
 Github issues were used to create the User stories and group them according to MoSCoW prioritization technique. Link to the project with live issues can be found [HERE](https://github.com/users/kwalczak80/projects/8/views/1)
 
+## Wireframes-Desktop
+
+## Wireframes-Tablet
+
+## Wireframes-Mobile
+
