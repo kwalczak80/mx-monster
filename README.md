@@ -80,3 +80,9 @@ The primary goal of the website, from a site user’s perspective, is as follows
 - I want to be able to edit/update a product price, description, images, and other information.
 - I want to be able to delete a product that I no longer wish to sell.
 - I want to be able to view all orders to determine which are completed and which are outstanding
+
+### Error Handling
+
+If the page cannot be loaded, the user should be able to return through the website's navigational structure without hitting the back button on their browser.
+
+
