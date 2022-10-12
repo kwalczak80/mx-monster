@@ -93,10 +93,54 @@ Github issues were used to create the User stories and group them according to M
 
 ## Wireframes-Desktop
 
+- Home page
+- Products page
+- Products view
+- Shopping bag
+- Sign Up page
+- Sign In page
+- Contact page
+- Newsletter page
+- Newsletter Subscribe
+- Newsletter Unsubscribe
+
 ## Wireframes-Tablet
 
+- Home page
+- Products page
+- Products view
+- Shopping bag
+- Sign Up page
+- Sign In page
+- Contact page
+- Newsletter page
+- Newsletter Subscribe
+- Newsletter Unsubscribe
+
 ## Wireframes-Mobile
+
+- Home page
+- Products page
+- Products view
+- Shopping bag
+- Sign Up page
+- Sign In page
+- Contact page
+- Newsletter page
+- Newsletter Subscribe
+- Newsletter Unsubscribe
 
 ## Site Map
 
 The information architecture was organized in such a way as to ensure that users can navigate through the site easily.
+
+## Structure
+
+### Code structure
+
+### Database design
+
+The data schema was created using [drawsql](https://drawsql.app/)
+
+![Database design](docs/database/database-design.JPG)
+
