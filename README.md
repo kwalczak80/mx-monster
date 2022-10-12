@@ -97,3 +97,6 @@ Github issues were used to create the User stories and group them according to M
 
 ## Wireframes-Mobile
 
+## Site Map
+
+The information architecture was organized in such a way as to ensure that users can navigate through the site easily.
