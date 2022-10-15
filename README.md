@@ -138,6 +138,22 @@ The information architecture was organized in such a way as to ensure that users
 
 ### Code structure
 
+The project is organized into various applications, as constructed using the Django Framework. App details are as follows:
+
+- Home - this app contains information about the MX Monster home page with quick links in the header. 
+- Products - this app contains information related to the products displayed on the website.
+
+To complement the apps there are:
+
+- Mx Monster: Mx Monster level files - settings.py for project level settings and urls.py to route the website urls.
+- Templates: Containing the base.html, allauth(django authentication). The partial folder contains the navbar and footer HTML.
+- Templates (app level): some of the apps have their own templates directory for HTML to consider portability and reuse.
+- Urls (app level): each app has its own urls.py file to consider portability and reuse.
+- Static: CSS files for the website and admin panel.
+- manage.py: This file is used to start the site and perform functions during development.
+- README.md: Documentation about the project.
+- Requirements.txt: Containing the project dependencies. Note: Environment variable values are not exposed in the source code as they are stored locally in env.py that is not checked in(listed in .gitignore).
+
 ### Database design
 
 The data schema was created using [drawsql](https://drawsql.app/)
