@@ -133,6 +133,7 @@ Github issues were used to create the User stories and group them according to M
 ## Site Map
 
 The information architecture was organized in such a way as to ensure that users can navigate through the site easily.
+![Site Map](docs/images/site_map/site-map.png)
 
 ## Structure
 
