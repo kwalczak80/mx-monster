@@ -3,11 +3,31 @@ html {
 }
 
 body {
-    background: url('/media/africa-twin-background.jpg') no-repeat center center fixed;
+    background: url('/media/africa-twin-background.jpg') no-repeat center center;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
+}
+
+/* Footer */
+
+.fa-brands:hover {
+    color: #36b924 !important;
+  }
+  
+.fa-brands
+  { 
+    color: rgb(255, 255, 255) !important;
+  }
+
+a {
+    text-decoration: none !important;
+    
+  }
+
+a:hover {
+    color: #36b924 !important;
 }
 
 /* from Bulma */
