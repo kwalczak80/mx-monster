@@ -1,5 +1,7 @@
 html {
     height: 100%;
+    margin:0;
+    padding:0;
 }
 
 body {
@@ -11,6 +13,21 @@ body {
 }
 
 /* Footer */
+.footer {
+    bottom:0;
+    left:0;
+    width: 100%;
+    position: absolute;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none !important;
+}
+
+.footer-link:hover {
+    color: #36b924 !important;
+}
 
 .fa-brands:hover {
     color: #36b924 !important;
@@ -20,15 +37,6 @@ body {
   { 
     color: rgb(255, 255, 255) !important;
   }
-
-a {
-    text-decoration: none !important;
-    
-  }
-
-a:hover {
-    color: #36b924 !important;
-}
 
 /* from Bulma */
 .icon {
