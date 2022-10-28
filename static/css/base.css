@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Michroma&family=Varela+Round&display=swap');
 
 html {
     height: 100%;
@@ -9,9 +9,9 @@ html {
 body {
     background: url('/media/africa-twin-background.jpg') no-repeat center center;
     background-size: cover;
+    font-family: 'Varela Round', sans-serif;
     height: calc(100vh - 164px);
     color: #555;
-    font-family: 'Lato';
     min-height: 100vh;
 }
 
@@ -50,8 +50,12 @@ body {
     width: 1.5rem;
 }
 
-.logo-font {
-    text-transform: uppercase;
+#logo-font h1 {
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(102, 163, 52), rgb(51, 204, 145), rgb(7, 44, 148));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Anton', sans-serif;
 }
 
 .main-logo-link {
