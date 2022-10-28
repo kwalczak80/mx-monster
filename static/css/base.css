@@ -29,6 +29,7 @@ body {
 
 .footer-link:hover {
     color: #36b924 !important;
+    font-weight: 700;
 }
 
 .fa-brands:hover {
