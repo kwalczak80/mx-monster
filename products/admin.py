@@ -14,6 +14,7 @@ class ProductAdmin(admin.ModelAdmin):
         'is_available',
         'image',
     )
+    list_editable = ('is_available',)
 
     ordering = ('sku',)
 
