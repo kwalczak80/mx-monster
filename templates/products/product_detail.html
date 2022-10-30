@@ -97,7 +97,11 @@
                                 </span>
                                 <span class="text-uppercase">Keep Shopping</span>
                             </a>
+                            {% if product.stock <= 0 %}
+                            <h5 class="text-danger pt-4">We are sorry but currently this product is out of stock</h5>
+                            {% else%}
                             <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Bag">
+                            {% endif %}
                         </div>
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         {% endwith %}
