@@ -1,1 +1,1 @@
-web: gunicorn mx-monster.wsgi:application
+web: gunicorn mx_monster.wsgi:application
