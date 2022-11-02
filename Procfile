@@ -1,0 +1,1 @@
+web: gunicorn mx-monster.wsgi:application
