@@ -22,7 +22,7 @@
                 <div class="card">
                     <div class="card-header">
                         <a class="card-link" data-toggle="collapse" href="#heading-{{ question.id }}">
-                            {{ question.question }}
+                            {{ question.question }}<i class="fa fa-angle-down"></i>
                         </a>
                     </div>
                     <div id="heading-{{ question.id }}" class="collapse" data-parent="#accordion">
@@ -36,7 +36,7 @@
                 {% else%}
                 <div class="container-lg">
                     <div class="text-center text-danger">
-                        <h4>No frequently asked questions to display</h4>
+                        <h4>No frequently asked questions and answers to display</h4>
                     </div>
                 </div>
                 {% endif %}

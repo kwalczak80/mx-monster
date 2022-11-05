@@ -41,6 +41,12 @@ body {
     color: rgb(255, 255, 255) !important;
   }
 
+.card-link i {
+    position: absolute;
+    right: 1rem;
+}
+
+
 /* from Bulma */
 .icon {
     align-items: center;
