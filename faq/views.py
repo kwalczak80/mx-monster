@@ -1,3 +1,7 @@
 from django.shortcuts import render
+from django.http import HttpResponse, request
 
-# Create your views here.
+
+def faq(request):
+    """ Frequently asked questions """
+    return render(request, 'faq/faq.html')
