@@ -1,11 +1,11 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
     </div>
+</div>
 {% endblock %}
 {% block content %}
 <div class="overlay"></div>
@@ -17,15 +17,29 @@
             <hr>
             {% if questions%}
             {% for question in questions %}
-            <h4>{{ question.question }}</h4>
-            {% endfor %}
-            {% else%}
-            <div class="container-lg">
-                <div class="text-center text-danger">
-                    <h4>No frequently asked questions to display</h4>
+            <!-- accordeaon header -->
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#heading-{{ question.id }}">
+                            {{ question.question }}
+                        </a>
+                    </div>
+                    <div id="heading-{{ question.id }}" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            {{ question.answer }}
+                        </div>
+                    </div>
                 </div>
-            </div>    
-             {% endif %}
+            </div>
+                {% endfor %}
+                {% else%}
+                <div class="container-lg">
+                    <div class="text-center text-danger">
+                        <h4>No frequently asked questions to display</h4>
+                    </div>
+                </div>
+                {% endif %}
         </div>
     </div>
     <a href="{% url 'home' %}" class="btn btn-primary text-center" aria-label="Back to home page">Home</a>
