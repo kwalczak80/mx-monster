@@ -11,7 +11,7 @@ class NewsletterUserSignUpForm(forms.ModelForm):
         fields = ['email']
 
         def clean_email(self):
-            """[clean email]"""
+            """ Clean email """
             email = self.cleaned_data.get('email')
 
             return email
