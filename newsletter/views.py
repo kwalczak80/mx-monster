@@ -49,3 +49,27 @@ def newsletter_signup(request):
 
     return render(request, template, context)
 
+
+def newsletter_unsubscribe(request):
+    """ Newsletter unsubscribe """
+    form = NewsletterUserSignUpForm(request.POST or None)
+
+    if form.is_valid():
+        instance = form.save(commit=False)
+        if NewsletterUser.objects.filter(email=instance.email).exists():
+            NewsletterUser.objects.filter(email=instance.email).delete()
+            messages.success(request,
+                             'Your email has been \
+                                 deleted from our database.')
+        else:
+            messages.warning(request,
+                             'Sorry but the email you provided \
+                                 does not exist in our database!')
+
+    context = {
+        'form': form,
+    }
+
+    template = 'newsletter/newsletter_unsubscribe.html'
+
+    return render(request, template, context)
