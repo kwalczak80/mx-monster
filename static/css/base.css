@@ -15,6 +15,9 @@ body {
     min-height: 100vh; 
 }
 
+.card-link {
+    color: #555 !important;
+}
 /* Contact page */
 .business-hours {
     background:#212529;
