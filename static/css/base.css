@@ -15,6 +15,25 @@ body {
     min-height: 100vh; 
 }
 
+/* Contact page */
+
+.business-hours {
+    background:#212529;
+    padding: 1.5rem 1rem;
+    color: rgba(255,255,255,.55);
+    }
+
+.business-hours li {
+    line-height: 30px;
+    border-bottom: 1px solid #333; 
+    }
+.business-hours li:last-child {
+    border-bottom: none; 
+    }
+.business-hours .opening-hours li.today {
+    color: #ffac0c; 
+    }
+
 /* Footer */
 .footer {
     position: sticky;
