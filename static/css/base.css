@@ -39,12 +39,13 @@ body {
 /* Footer */
 .footer {
     position: sticky;
-    top: 100%;   
+    top: 100%;
+    background: #212529 !important;   
 }
 
 .footer-link {
     font-family: 'Michroma', sans-serif;
-    color: white;
+    color: rgba(255,255,255,.55);
     text-decoration: none !important;
 }
 
@@ -59,7 +60,7 @@ body {
   
 .fa-brands
   { 
-    color: rgb(255, 255, 255) !important;
+    color: rgba(255,255,255,.55) !important;
   }
 
 .card-link i {
