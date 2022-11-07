@@ -10,10 +10,35 @@
 
 {% block content %}
 <div class="overlay"></div>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <hr>
+            <h2 class="logo-font mb-4">CONTACT US</h2>
+            <hr>
+        </div>
+    </div>
+</div>
 <div class="container footer-padding">
     <div class="row">
-        <div class="col-12">
-            Contact
+        <!-- Contact form -->
+        <br>
+        <div class="col-sm-7 contact-form">
+            <h2 class="mb-2">Leave Us a Message</h2>
+            <p>If you have a question or require additional information, leave us a message by filling up the form
+                below.</p>
+            <p>We will contact you as soon as possible.</p>
+            <div class="row">
+                <div class="col">
+                    <form action="{% url 'contact' %}" method="POST">
+                        {% csrf_token %}
+                        {% for field in form %}
+                        {{ field | as_crispy_field}}
+                        {% endfor %}
+                        <input type="submit" value="Submit" class="btn btn-black text-white" aria-label="submit">
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 </div>
