@@ -161,3 +161,70 @@ The data schema was created using [drawsql](https://drawsql.app/)
 
 ![Database design](docs/database/database-design.JPG)
 
+## Bugs
+
+<details>
+<summary>Success toast was not displaying correctly</summary>
+
+I have omitted in error to loop through the messages
+![Successful toast not showing correctly](docs/images/bugs/successful_toast_not_showing_correctly.JPG)
+
+Fix
+
+{% if messages %}
+        <div class="message-container">
+            {% include 'partials/toasts/toast_success.html' %}
+        </div>
+{% endif %}
+</details>
+
+<details>
+<summary>Unable to display the toast message after bag adjustment</summary>
+
+![Unable to display the toast message after bag adjustment](docs/images/bugs/unable_to_display_%20the_toast_message_after_bag_adjustment.JPG)
+
+Fix
+
+Add get_object_or_404 as it was not included in error.
+</details>
+
+<details>
+<summary>Authentication error at checkout</summary>
+
+![Authentication error at checkout](docs/images/bugs/authentication_error_at_checkout.jpg)
+
+Fix
+
+Despite the fact that the public and secret keys were added to the gitpod variables I had to add the also to the env file.
+
+</details>
+
+<details>
+<summary>Unable to run the website on the localhost(desktop)</summary>
+
+![Page not found](docs/images/bugs/page_not_found.png)
+
+Fix
+
+Clear the session cookies. When using the laptop I deleted some products from the database. Deleted items no longer existed in the database but were still presented in the basket. This issue was causing an error.
+</details>
+
+<details>
+<summary>Failed to deploy to Heroku</summary>
+
+![Failed to deploy to Heroku](docs/images/bugs/failed_to_deploy_to_heroku.jpg)
+
+Issue: Original Proc file web: gunicorn mx-monster.wsgi:application (incorrect appication name)
+
+Fix: Original Proc file web: gunicorn mx_monster.wsgi:application
+
+</details>
+
+<details>
+<summary>Unable to display privacy page</summary>
+
+![Unable to display privacy page](docs/images/bugs/unable_to_display_privacy_page.jpg)
+
+Fix: Add missing {% block content %} tag
+
+</details>
