@@ -161,6 +161,22 @@ The data schema was created using [drawsql](https://drawsql.app/)
 
 ![Database design](docs/database/database-design.JPG)
 
+## Models
+
+The following models were created to represent the database model structure for the website:
+
+Checkout model
+
+Contact model
+
+FAQ model
+
+Newsletter model
+
+Products model
+
+Profiles model
+
 ## Bugs
 
 <details>
