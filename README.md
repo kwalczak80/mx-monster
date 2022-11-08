@@ -228,3 +228,23 @@ Fix: Original Proc file web: gunicorn mx_monster.wsgi:application
 Fix: Add missing {% block content %} tag
 
 </details>
+
+## Credits
+
+Throughout the process of building this project, various online sources have been used to help fix bugs & tackle problems, in addition to multiple modules to create the functionality of this website:
+
+- [Stack Overflow](https://stackoverflow.com/) - To find solutions to the issues I encountered while creating this project.
+- [W3Schools](https://www.w3schools.com/) - additional source of knowledge.
+- [Udemy](https://www.udemy.com/) - various tutorials related to Django, Javascript and Python.
+- [Business Opening hours card](https://bootsnipp.com/snippets/5K3o7) - to create the business opening hours card with the current day of the week.
+
+## Content
+
+- [FC Moto](https://www.fc-moto.de/) - product images
+- [Privacy Policy Generator](https://policymaker.io/privacy-policy/) - to generate the privacy policy for MX Moster store.
+- [Terms and Conditions Generator](https://policymaker.io/terms-and-conditions/) - to generate the terms and conditions for MX store.
+
+
+## Acknowledgments
+
+- My Mentor [Simen Eventyret](https://github.com/Eventyret) mentor for continuous helpful feedback.
