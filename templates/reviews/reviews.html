@@ -17,7 +17,7 @@
                             <div class="card-body">
                             {% if reviews %}
                                 {% for review in reviews %}
-                                    <span>Posted on: &nbsp;{{ review.review_date|date:"M d, Y" }}</span><br>
+                                    <span>Posted on: &nbsp;{{ review.review_date|date:"d M, Y" }}</span><br>
                                     <p>{{ review.description }}</p>
                                     <p>Review added by - <strong>{{ review.user }}</strong>
                                     {% if request.user.is_authenticated %} 

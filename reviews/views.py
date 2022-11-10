@@ -20,7 +20,8 @@ def add_review(request, product_id):
             description = form.cleaned_data['description']
             Review.objects.create(user=user, product=get_object_or_404(Product,
                                   pk=product_id), description=description)
-            messages.success(request, 'Thank you. Your review has been added successfully.')
+            messages.success(request, 'Thank you. Your review \
+                                       has been added successfully.')
             return redirect(reverse('product_detail', args=[product_id]))
         else:
             messages.error(request, 'Please try again.')
@@ -45,7 +46,8 @@ def edit_review(request, review_id):
         form = ReviewForm(request.POST, instance=review)
         if form.is_valid():
             form.save()
-            messages.success(request, 'You have edited your review succesfully.')
+            messages.success(request, 'You have edited your \
+                                       review succesfully.')
             return redirect(
                 reverse('product_detail', args=(review.product.id,)))
         else:
@@ -61,3 +63,14 @@ def edit_review(request, review_id):
     }
 
     return render(request, template, context)
+
+
+@login_required
+def delete_review(request, review_id):
+    """
+    Delete a product review
+    """
+    review = get_object_or_404(Review, pk=review_id)
+    review.delete()
+    messages.success(request, 'Review deleted!')
+    return redirect(reverse('product_detail', args=(review.product.id,)))
