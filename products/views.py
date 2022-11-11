@@ -7,14 +7,16 @@ from reviews.forms import ReviewForm
 from reviews.models import Review
 from .models import Product, Category
 from .forms import ProductForm
-
-# Create your views here.
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
     products = Product.objects.all().filter(is_available=True)
+    paginator = Paginator(products, 12)
+    page = request.GET.get('page')
+    paged_products = paginator.get_page(page)
     query = None
     categories = None
     sort = None
