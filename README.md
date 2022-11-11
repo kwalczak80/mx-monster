@@ -265,6 +265,24 @@ Fix: Add the following code within the if request.GET statement:
 
 </details>
 
+<details>
+<summary>Images displayed on cards had no equal height.</summary>
+
+![Images displayed on cards had no equal height.](docs/images/bugs/images_with_no_equal%20height.JPG)
+
+Fix: The fix was implmented by adding the following card-img-top class in the style.css file
+
+'''
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: contain;
+}
+'''
+
+![Fixed images displayed on cards with equal height.](docs/images/bugs/fixed_images_with_no_equal%20height.JPG)
+</details>
+
 ## Credits
 
 Throughout the process of building this project, various online sources have been used to help fix bugs & tackle problems, in addition to multiple modules to create the functionality of this website:
