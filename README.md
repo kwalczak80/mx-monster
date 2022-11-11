@@ -251,9 +251,17 @@ Fix: Add missing {% block content %} tag
 After pagination was implemented, the products did not display correctly on the screen when selecting any category.
 All products were displayed on the screen, regardless of which category was selected.
 
-![Unable to display privacy page](docs/images/bugs/issue_with_product_category_displaying_on_the_page.JPG)
+![Unable to display products in the selected category](docs/images/bugs/issue_with_product_category_displaying_on_the_page.JPG)
 
-Fix: Add missing {% block content %} tag
+Fix: Add the following code within the if request.GET statement:
+
+`paginator = Paginator(products, 12)`
+
+`page = request.GET.get('page')`
+
+`paged_products = paginator.get_page(page)`
+
+![Fixed issue to display products in the selected category](docs/images/bugs/fixed_issue_with_product_category.JPG)
 
 </details>
 
