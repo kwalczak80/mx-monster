@@ -50,11 +50,14 @@ def all_products(request):
             
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
+        paginator = Paginator(products, 12)
+        page = request.GET.get('page')
+        paged_products = paginator.get_page(page)
 
     current_sorting = f'{sort}_{direction}'
 
     context = {
-        'products': products,
+        'products': paged_products,
         'search_term': query,
         'current_categories': categories,
         'current_sorting': current_sorting,

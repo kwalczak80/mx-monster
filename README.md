@@ -245,6 +245,18 @@ Fix: Add missing {% block content %} tag
 
 </details>
 
+<details>
+<summary>Issue with displaying product categories after implementation of pagination</summary>
+
+After pagination was implemented, the products did not display correctly on the screen when selecting any category.
+All products were displayed on the screen, regardless of which category was selected.
+
+![Unable to display privacy page](docs/images/bugs/issue_with_product_category_displaying_on_the_page.JPG)
+
+Fix: Add missing {% block content %} tag
+
+</details>
+
 ## Credits
 
 Throughout the process of building this project, various online sources have been used to help fix bugs & tackle problems, in addition to multiple modules to create the functionality of this website:
