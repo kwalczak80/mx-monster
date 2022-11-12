@@ -33,4 +33,7 @@ urlpatterns = [
     path('review/', include('reviews.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
+handler400 = 'mx_monster.views.handler400'
+handler403 = 'mx_monster.views.handler403'
 handler404 = 'mx_monster.views.handler404'
+handler500 = 'mx_monster.views.handler500'
