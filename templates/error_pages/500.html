@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+{% block content %}
+<div class="overlay"></div>
+<div class="container footer-padding">
+    <div class="row">
+        <div class="col-12 col-md-6">
+            <hr>
+            <h2 class="logo-font mb-4">500 Internal server error</h2>
+            <h5 class="text-muted">Sorry, something went wrong on our end. We are currently trying to fix the problem.</h5>
+            <hr>
+        </div>
+    </div>
+    <a href="{% url 'home' %}" class="btn btn-primary" aria-label="Back to home page">Home</a>
+</div>
+</div>
+</div>
+{% endblock %}
