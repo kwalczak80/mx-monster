@@ -19,3 +19,10 @@ def terms(request):
     A view to display Terms and Conditions
     """
     return render(request, 'terms/terms.html')
+
+
+def about(request):
+    """
+    A view to display About page
+    """
+    return render(request, 'about/about.html')
