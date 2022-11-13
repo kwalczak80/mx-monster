@@ -18,9 +18,9 @@
             </div>
 
             <div class="container content">
-                <div class="row justify-content-center align-items-center">
+                <div class="row justify-content-center align-items-center text-justify">
                     <div class="col-12 col-lg-6">
-                        <h2>WELCOME TO MX Monster</h2>
+                        <h3 class="text-center">WELCOME TO MX Monster</h3>
                         <p>
                             MX Monster is an all new online motorcycle clothing and accessory shop.
                         </p>
@@ -46,7 +46,7 @@
                     </div>
                     <br>
                 </div>
-                <div class="row justify-content-center align-items-center">
+                <div class="row justify-content-center align-items-center text-justify">
                     <div class="col-12 col-lg-6">
                         <img class="img-fluid mt-3" src="{% static 'img/mx_monster_store_helmets.jpg'%}" alt="about us">
                     </div>
@@ -83,7 +83,7 @@
             {% for employee in staff %}
             <div class="col-md-4">
                 <img src="{{ employee.photo.url }}" alt="Photo of the sales advisor"
-                    aria-label="Photo of the sales advisor" class="rounded-circle mb-3 img-fluid">
+                    aria-label="Photo of the sales advisor" class="rounded mb-3 img-fluid">
                 <h4>{{ employee.name }}</h4>
                 <p>{{ employee.description }}</p>
                 <hr>
