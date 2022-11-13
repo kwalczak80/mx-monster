@@ -24,6 +24,11 @@ body {
 .card-link {
     color: #555 !important;
 }
+
+.index-style {
+    padding-top: 15%;
+}
+
 /* Contact page */
 .business-hours {
     background:#212529;
@@ -393,5 +398,14 @@ input[name='q']::placeholder {
 
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .display-4.logo-font {
+        font-size: 2rem;
+    }
+    .index-style {
+        padding-top: 10%;
     }
 }
