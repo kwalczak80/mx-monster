@@ -91,7 +91,7 @@ body {
 
 #logo-font h1 {
     font-size: 50px;
-    background: -webkit-linear-gradient(rgb(102, 163, 52), rgb(51, 204, 145), rgb(7, 44, 148));
+    background: -webkit-linear-gradient(rgb(243, 6, 6), rgb(177, 32, 32), rgb(3, 3, 3));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Anton', sans-serif;
@@ -105,6 +105,7 @@ body {
     background: rgba(0, 0, 0, 0.438);
     color: white;
     min-width: 260px;
+    border: 1px solid rgb(179, 18, 18);
 }
 
 .btn-black {
@@ -131,7 +132,7 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
+    background: rgb(243, 6, 6);
     color: white;
 }
 
