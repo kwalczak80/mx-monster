@@ -177,6 +177,19 @@ Products model
 
 Profiles model
 
+Reviews model
+
+Staff model
+
+| Name | Key | Type | Other Details |
+| -- | -- | -- | -- |
+| name | | CharField | Max length 100 Set default as '' |
+| description | | TextField | Set default as ''|
+| email || CharField | Max length 50 |
+| phone || CharField | Max length 50 |Set default as ''|
+| photo || ImageField ||
+| hire_date || DateTimeField | Set default date as now |
+
 ## Bugs
 
 <details>
@@ -291,6 +304,8 @@ Throughout the process of building this project, various online sources have bee
 - [W3Schools](https://www.w3schools.com/) - additional source of knowledge.
 - [Udemy](https://www.udemy.com/) - various tutorials related to Django, Javascript and Python.
 - [Business Opening hours card](https://bootsnipp.com/snippets/5K3o7) - to create the business opening hours card with the current day of the week.
+- [Motorcycle Shop](https://www.motorcycleshop.ie/contactabout-1-w.asp) - to create text content on the About page
+
 
 ## Content
 
