@@ -80,17 +80,17 @@
         <h2 class="text-center">Our Team</h2>
         <div class="row text-center">
             {% if staff %}
-            {% for staff in staff %}
+            {% for employee in staff %}
             <div class="col-md-4">
-                <img src="{{ staff.photo.url }}" alt="Photo of the sales advisor"
+                <img src="{{ employee.photo.url }}" alt="Photo of the sales advisor"
                     aria-label="Photo of the sales advisor" class="rounded-circle mb-3 img-fluid">
-                <h4>{{ staff.name }}</h4>
-                <p>{{ staff.description }}</p>
+                <h4>{{ employee.name }}</h4>
+                <p>{{ employee.description }}</p>
                 <hr>
                 <p>
-                    <i class="fa-solid fa-phone"></i> {{ staff.phone }}</p>
+                    <i class="fa-solid fa-phone"></i> {{ employee.phone }}</p>
                 <p>
-                    <i class="fa-solid fa-envelope-open"></i> {{ staff.email }}</p>
+                    <i class="fa-solid fa-envelope-open"></i> {{ employee.email }}</p>
             </div>
             {% endfor %}
             {% else %}
@@ -103,6 +103,5 @@
         </div>
     </div>
 </section>
-
 {% include 'partials/_footer.html' %}
 {% endblock %}
