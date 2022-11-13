@@ -178,9 +178,15 @@ Products model
 Profiles model
 
 Reviews model
+| Name | Key | Type | Other Details |
+| -- | -- | -- | -- |
+| user | ForeignKey | |  |
+| product | ForeignKey | | |
+| description | | TextField | Set default as ''|
+| review_date | | DateTimeField | Set default date as now |
+
 
 Staff model
-
 | Name | Key | Type | Other Details |
 | -- | -- | -- | -- |
 | name | | CharField | Max length 100 Set default as '' |
