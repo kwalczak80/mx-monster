@@ -168,10 +168,23 @@ The following models were created to represent the database model structure for 
 Checkout model
 
 Contact model
+| Name | Key | Type | Other Details |
+| -- | -- | -- | -- |
+| email | | EmailField | |
+| subject | | CharField | max_length=255 |
+| message | | TextField | |
 
 FAQ model
+| Name | Key | Type | Other Details |
+| -- | -- | -- | -- |
+| question | | CharField | Max length=254 |
+| answer | | TextField | blank=True |
 
 Newsletter model
+| Name | Key | Type | Other Details |
+| -- | -- | -- | -- |
+| email | | EmailField | |
+| date_added | | DateTimeField | Set default date as now |
 
 Products model
 
@@ -180,11 +193,10 @@ Profiles model
 Reviews model
 | Name | Key | Type | Other Details |
 | -- | -- | -- | -- |
-| user | ForeignKey | |  |
-| product | ForeignKey | | |
+| user | User | ForeignKey |  |
+| product | Product | ForeignKey | |
 | description | | TextField | Set default as ''|
 | review_date | | DateTimeField | Set default date as now |
-
 
 Staff model
 | Name | Key | Type | Other Details |
