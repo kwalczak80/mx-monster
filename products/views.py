@@ -14,6 +14,7 @@ def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
     products = Product.objects.all().filter(is_available=True)
+    # products = Product.objects.order_by('-name').filter(is_available=True)
     paginator = Paginator(products, 12)
     page = request.GET.get('page')
     paged_products = paginator.get_page(page)

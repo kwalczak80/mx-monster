@@ -166,6 +166,25 @@ The data schema was created using [drawsql](https://drawsql.app/)
 The following models were created to represent the database model structure for the website:
 
 Checkout model
+| Name | Key | Type | Other Details |
+| -- | -- | -- | -- |
+| order_number | | CharField | max_length=32 |
+| user_profile | UserProfile | ForeignKey | |
+| full_name |  | CharField | max_length=50 |
+| email |  | EmailField | max_length=254 |
+| phone_number |  | CharField | max_length=20 |
+| country |  | CountryField | blank_label='Country *' |
+| postcode |  | CharField | max_length=20 |
+| town_or_city |  | CharField | max_length=40 |
+| street_address1 | CharField |  | max_length=80 |
+| street_address2 | CharField |  | max_length=80 |
+| county |  | CharField | max_length=80 |
+| date |  | DateTimeField | auto_now_add=True |
+| delivery_cost |  | DecimalField | max_digits=6 |
+| order_total |  | DecimalField | max_digits=10 |
+| grand_total |  | DecimalField | max_digits=10 |
+| original_bag |  | TextField | default='' |
+| stripe_pid |  | CharField | max_length=254 |
 
 Contact model
 | Name | Key | Type | Other Details |
