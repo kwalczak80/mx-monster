@@ -165,7 +165,7 @@ The data schema was created using [drawsql](https://drawsql.app/)
 
 The following models were created to represent the database model structure for the website:
 
-Checkout model
+Order model
 | Name | Key | Type | Other Details |
 | -- | -- | -- | -- |
 | order_number | | CharField | max_length=32 |
@@ -186,6 +186,15 @@ Checkout model
 | original_bag |  | TextField | default='' |
 | stripe_pid |  | CharField | max_length=254 |
 
+OrderLineItem model
+| Name | Key | Type | Other Details |
+| -- | -- | -- | -- |
+| order | Order | ForeignKey | |
+| product | Product | ForeignKey | |
+| product_size | | CharField | max_length=2 |
+| quantity | | IntegerField | default=0 |
+| lineitem_total | | DecimalField | max_digits=6 |
+
 Contact model
 | Name | Key | Type | Other Details |
 | -- | -- | -- | -- |
@@ -193,7 +202,7 @@ Contact model
 | subject | | CharField | max_length=255 |
 | message | | TextField | |
 
-FAQ model
+Faq model
 | Name | Key | Type | Other Details |
 | -- | -- | -- | -- |
 | question | | CharField | Max length=254 |
@@ -205,7 +214,7 @@ Newsletter model
 | email | | EmailField | |
 | date_added | | DateTimeField | Set default date as now |
 
-Products model
+Product model
 | Name | Key | Type | Other Details |
 | -- | -- | -- | -- |
 | category | Category | ForeignKey | |
@@ -220,9 +229,28 @@ Products model
 | image_url | | URLField | max_length=1024 |
 | image | | ImageField |  |
 
-Profiles model
+Category model
+| Name | Key | Type | Other Details |
+| -- | -- | -- | -- |
+| name | | CharField | max_length=254 |
+| friendly_name | | CharField | max_length=254 |
 
-Reviews model
+
+
+UserProfile model
+| Name | Key | Type | Other Details |
+| -- | -- | -- | -- |
+| user | | User | OneToOneField |
+| default_phone_number | | CharField | max_length=20 |
+| default_street_address1 | | CharField | max_length=80 |
+| default_street_address2 | | CharField | max_length=80 |
+| default_town_or_city | | CharField | max_length=40 |
+| default_county | | CharField | max_length=80 |
+| default_postcode | | CharField | max_length=20 |
+| default_country | | CountryField | blank_label='Country' |
+
+
+Review model
 | Name | Key | Type | Other Details |
 | -- | -- | -- | -- |
 | user | User | ForeignKey |  |
