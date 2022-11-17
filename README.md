@@ -208,7 +208,7 @@ Faq model
 | question | | CharField | Max length=254 |
 | answer | | TextField | blank=True |
 
-Newsletter model
+NewsletterUser model
 | Name | Key | Type | Other Details |
 | -- | -- | -- | -- |
 | email | | EmailField | |
@@ -235,8 +235,6 @@ Category model
 | name | | CharField | max_length=254 |
 | friendly_name | | CharField | max_length=254 |
 
-
-
 UserProfile model
 | Name | Key | Type | Other Details |
 | -- | -- | -- | -- |
@@ -248,7 +246,6 @@ UserProfile model
 | default_county | | CharField | max_length=80 |
 | default_postcode | | CharField | max_length=20 |
 | default_country | | CountryField | blank_label='Country' |
-
 
 Review model
 | Name | Key | Type | Other Details |
