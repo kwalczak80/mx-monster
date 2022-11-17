@@ -176,8 +176,8 @@ Checkout model
 | country |  | CountryField | blank_label='Country *' |
 | postcode |  | CharField | max_length=20 |
 | town_or_city |  | CharField | max_length=40 |
-| street_address1 | CharField |  | max_length=80 |
-| street_address2 | CharField |  | max_length=80 |
+| street_address1 | | CharField | max_length=80 |
+| street_address2 | | CharField | max_length=80 |
 | county |  | CharField | max_length=80 |
 | date |  | DateTimeField | auto_now_add=True |
 | delivery_cost |  | DecimalField | max_digits=6 |
@@ -206,6 +206,19 @@ Newsletter model
 | date_added | | DateTimeField | Set default date as now |
 
 Products model
+| Name | Key | Type | Other Details |
+| -- | -- | -- | -- |
+| category | Category | ForeignKey | |
+| sku | | CharField | max_length=254 |
+| name | | CharField | max_length=254 |
+| description | | TextField |  |
+| is_available | | BooleanField | default=True |
+| has_sizes | | BooleanField | default=False |
+| price | | DecimalField | max_digits=6, decimal_places=2 |
+| stock | | IntegerField | default=100 |
+| rating | | DecimalField | max_digits=6, decimal_places=2 |
+| image_url | | URLField | max_length=1024 |
+| image | | ImageField |  |
 
 Profiles model
 
