@@ -302,6 +302,8 @@ I used [Coolors](https://coolors.co/) to come up with a color scheme. The color 
 - #ffac0c - text color on the business opening times card
 - #FFC107 - text color displayed on the home page carousel
 
+![Colors](docs/images/colors/website_colors.JPG)
+
 ### Icons
 
 All icons that are used in this project comes from [Font Awsome](https://fontawesome.com/) website.
