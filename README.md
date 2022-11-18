@@ -152,7 +152,7 @@ The project is organized into various applications, as constructed using the Dja
   - update an existing product,
   - delete product that is no longer for sale
 - Profiles - this app contains information related to the user profiles.
-- Reviews - this app is for users to add their reviews related to the products. The business owner can manage reviews posted by the shoppers in the admin panel.
+- Reviews - this app is for users to add their reviews related to the products. Logged-in users can edit or delete their own reviews. The business owner can manage reviews posted by the shoppers in the admin panel.
 - Staff - this app is for the business owner to manage MX Monster staff in the admin panel. Thanks to this app information about the staff members is dynamically displayed on the page. Information about the team is pulled from the database; it is not hard-coded in HTML.
 
 To complement the apps there are:
@@ -165,6 +165,8 @@ To complement the apps there are:
 - manage.py: This file is used to start the site and perform functions during development.
 - README.md: Documentation about the project.
 - Requirements.txt: Containing the project dependencies. Note: Environment variable values are not exposed in the source code as they are stored locally in env.py that is not checked in(listed in .gitignore).
+- Procfile: To run the application on Heroku
+- custom_storages.py file - to specify static and media storage location
 
 ### Database design
 
