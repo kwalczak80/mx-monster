@@ -293,6 +293,31 @@ I visited the Google fonts website to explore the available font options for my 
 
 ### Colours
 
+### Icons
+
+All icons that are used in this project comes from [Font Awsome](https://fontawesome.com/) website.
+
+### Search
+
+![Search](docs/images/icons/search_icon.jpg)
+
+### My account
+
+![My account](docs/images/icons/user_icon.jpg)
+
+### Bag shopping cart
+
+![Bag shopping cart](docs/images/icons/shopping_cart_icon.jpg)
+
+### Edit review
+
+![Edit review](docs/images/icons/edit_review_icon.jpg)
+
+### Delete review
+
+![Delete review](docs/images/icons/delete_review_icon.jpg)
+
+
 
 
 ## Bugs
@@ -400,6 +425,10 @@ Fix: The fix was implmented by adding the following card-img-top class in the st
 
 ![Fixed images displayed on cards with equal height.](docs/images/bugs/fixed_images_with_no_equal%20height.JPG)
 </details>
+
+## Technologies Used
+
+[Picture resizer](https://picresize.com/) Picture Resizing Tool
 
 ## Credits
 
