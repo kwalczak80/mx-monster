@@ -61,12 +61,12 @@ body {
 }
 
 .footer-link:hover {
-    color: #36b924 !important;
+    color: #b31212 !important;
     font-weight: 700;
 }
 
 .fa-brands:hover {
-    color: #36b924 !important;
+    color: #b31212 !important;
   }
   
 .fa-brands
@@ -105,7 +105,7 @@ body {
     background: rgba(0, 0, 0, 0.438);
     color: white;
     min-width: 260px;
-    border: 1px solid rgb(179, 18, 18);
+    border: 1px solid #b31212;
 }
 
 .btn-black {

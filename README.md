@@ -290,8 +290,10 @@ I visited the Google fonts website to explore the available font options for my 
 - The [Michroma](https://fonts.google.com/specimen/Michroma?query=michroma) font is used to display text information in the footer links.
 - The [Varela Round](https://fonts.google.com/specimen/Varela+Round?query=varela) font is used to display all other text information.
 
-
 ### Colours
+
+I used [Coolors](https://coolors.co/) to come up with a color scheme. The color palette was intended to create a fairly neutral background so that the photos of the products stand out as much as possible.
+
 
 ### Icons
 
