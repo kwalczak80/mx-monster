@@ -295,12 +295,12 @@ I visited the Google fonts website to explore the available font options for my 
 I used [Coolors](https://coolors.co/) to come up with a color scheme. The color palette was intended to create a fairly neutral background so that the photos of the products stand out as much as possible.
 
 - gradient (#f30606, #b12020, #030303) - the business name displayed on the navigation bar
-- #ffffff - the website and the cards background color
+- #F1F1F1 - the website background color
+- #ffffff - the cards background color
 - #212529 - footer and free delivery banner background color
 - #b31212 - hover effect color
 - #ffac0c - text color on the business opening times card
 - #FFC107 - text color displayed on the home page carousel
-
 
 ### Icons
 
