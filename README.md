@@ -294,6 +294,13 @@ I visited the Google fonts website to explore the available font options for my 
 
 I used [Coolors](https://coolors.co/) to come up with a color scheme. The color palette was intended to create a fairly neutral background so that the photos of the products stand out as much as possible.
 
+- gradient (#f30606, #b12020, #030303) - the business name displayed on the navigation bar
+- #ffffff - the website and the cards background color
+- #212529 - footer and free delivery banner background color
+- #b31212 - hover effect color
+- #ffac0c - text color on the business opening times card
+- #FFC107 - text color displayed on the home page carousel
+
 
 ### Icons
 
@@ -318,9 +325,6 @@ All icons that are used in this project comes from [Font Awsome](https://fontawe
 ### Delete review
 
 ![Delete review](docs/images/icons/delete_review_icon.jpg)
-
-
-
 
 ## Bugs
 
@@ -430,7 +434,8 @@ Fix: The fix was implmented by adding the following card-img-top class in the st
 
 ## Technologies Used
 
-[Picture resizer](https://picresize.com/) Picture Resizing Tool
+[Picture resizer](https://picresize.com/) - picture resizing tool
+[CCS Gradient](https://cssgradient.io/) - gradient generator
 
 ## Credits
 

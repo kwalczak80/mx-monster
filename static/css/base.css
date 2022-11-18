@@ -91,7 +91,7 @@ body {
 
 #logo-font h1 {
     font-size: 50px;
-    background: -webkit-linear-gradient(rgb(243, 6, 6), rgb(177, 32, 32), rgb(3, 3, 3));
+    background: -webkit-linear-gradient(#f30606, #b12020, #030303);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Anton', sans-serif;
