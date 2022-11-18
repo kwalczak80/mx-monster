@@ -278,6 +278,21 @@ Staff model
 | photo || ImageField ||
 | hire_date || DateTimeField | Set default date as now |
 
+## Design Choices
+
+### Home page background
+
+### Fonts
+
+I visited the Google fonts website to explore the available font options for my project. After consideration, three different font types were chosen to be used in different sections of the website.
+
+- The [Anton](https://fonts.google.com/specimen/Anton?query=anton) font is used in the navigation bar and to display the business name.
+- The [Michroma](https://fonts.google.com/specimen/Michroma?query=michroma) font is used to display text information in the footer links.
+- The [Varela Round](https://fonts.google.com/specimen/Varela+Round?query=varela) font is used to display all other text information.
+
+
+### Colours
+
 
 
 ## Bugs
@@ -394,7 +409,7 @@ Throughout the process of building this project, various online sources have bee
 - [W3Schools](https://www.w3schools.com/) - additional source of knowledge.
 - [Udemy](https://www.udemy.com/) - various tutorials related to Django, Javascript and Python.
 - [Business Opening hours card](https://bootsnipp.com/snippets/5K3o7) - to create the business opening hours card with the current day of the week.
-- [Motorcycle Shop](https://www.motorcycleshop.ie/contactabout-1-w.asp) - to create text content on the About page
+- [Motorcycle Shop](https://www.motorcycleshop.ie/contactabout-1-w.asp) - to create the text content on the About page
 
 
 ## Content
