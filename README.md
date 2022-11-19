@@ -519,6 +519,34 @@ If all the **is_published** boxes are deselected the relevant message will be di
 ![FAQ not set to publish](docs/images/existing_features/faq/faq-is-published-deselected.JPG)
 
 ![No FAQ to display](docs/images/existing_features/faq/no-faq-to-display-message.JPG)
+
+### Newsletter
+
+The newsletter link appears on the footer, to make it as visible as possible and encourage the user to sign up for the newsletter.
+Once the user clicks on the **Newsletter** link, the newsletter page will be displayed.
+On this page, the user has two options:
+
+- Subscribe to a newsletter
+- Unsubscribe from a newsletter(if already subscribed)
+
+![Newsletter page](docs/images/existing_features/newsletter/newsletter-page.JPG)
+
+If the user clicks on the **Subscribe** button, they will be redirected to the newsletter subscription page.
+In order to subscribe to a newsletter, the user has to provide their email address and click on the **Subscribe** button.
+The **Back** button will redirect the user back to the main newsletter page.
+
+![Newsletter subscription page](docs/images/existing_features/newsletter/newsletter-subscription-page.JPG)
+
+If the user clicks on the **Unsubscribe** button, they will be redirected to the unsubscription page.
+In order to unsubscribe from a newsletter, the user has to provide their email address and click on the **Unsubscribe** button.
+The **Back** button will redirect the user back to the main newsletter page.
+
+![Newsletter unsubscription page](docs/images/existing_features/newsletter/newsletter-unsubscription-page.JPG)
+
+If the user has subscribed to or unsubscribed from a newsletter, the relevant message will be displayed on the screen.
+See the messages section for more details.
+
+
 ### Footer
 
 The footer is kept very simple as a set of links to other pages and social channels.
