@@ -510,6 +510,15 @@ Once the user clicks on the question the answer will be automatically revealed(a
 
 ![FAQ answer](docs/images/existing_features/faq/faq-answer.JPG)
 
+The business owner can edit the question and set status to published so the question is displayed for the public includng the answer.
+
+![FQA set to publish](docs/images/existing_features/faq/faq-is-published-selected.JPG)
+
+If all the **is_published** boxes are deselected the relevant message will be displayed on the screen.
+
+![FAQ not set to publish](docs/images/existing_features/faq/faq-is-published-deselected.JPG)
+
+![No FAQ to display](docs/images/existing_features/faq/no-faq-to-display-message.JPG)
 ### Footer
 
 The footer is kept very simple as a set of links to other pages and social channels.
