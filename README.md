@@ -546,7 +546,13 @@ The **Back** button will redirect the user back to the main newsletter page.
 If the user has subscribed to or unsubscribed from a newsletter, the relevant message will be displayed on the screen.
 See the messages section for more details.
 
-### Footer
+### Contact page
+
+The contact page contains a form that any user can complete to enable them to contact the business in case of any queries.
+This page also contains information about the business's opening hours and its address.
+The current day of the week on the business's opening hours card is highlighted thanks to a special Java script.
+
+[Contact page](docs/images/existing_features/contact/contact-page.JPG)### Footer
 
 The footer is kept very simple as a set of links to other pages and social channels.
 The following links are presented in the footer:
