@@ -485,17 +485,30 @@ If the user is logged in, the button to **Add Review** will also be visible.
 
 ![Add review button](docs/images/existing_features/product_details_page/add_review_button.JPG)
 
-### Privacy
+### Privacy page
 
 The user can access information about MX Monster's privacy policy from the footer by clicking on the **Privacy** link.
 The privacy document explains how MX Monster handles any customer information gathered in its operations.
 
 ![Privacy policy](docs/images/existing_features/privacy/privacy.JPG)
 
-### Terms
+### Terms page
 
 The user can access information about MX Monster's terms and contitions from the footer by clicking on the **Terms** link.
+The Terms and conditions document set the way in which the product, service or content may be used, in a legally binding way.
 
+![Terms and conditions](docs/images/existing_features/terms/terms.JPG)
+
+### Frequently asked quastions page
+
+The Frequently Asked Questions page can be accessed from the footer by clicking on the **FAQ** link.
+On this page, the user can find answers to the most commonly asked questions.
+
+![Frequently Asked Questions Page](docs/images/existing_features/faq/faq-page.JPG)
+
+Once the user clicks on the question the answer will be automatically revealed(accordion functionality)
+
+![FAQ answer](docs/images/existing_features/faq/faq-answer.JPG)
 
 ### Footer
 
