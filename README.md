@@ -453,7 +453,7 @@ Once the user clicks on the product image, they will be redirected to a page whe
 
 When the user is interested in a specific product and clicks on the product image, they will be redirected to a page where they can find additional information about the product. This page is divided into sections:
 
-#### The image section
+#### The product image section
 
 The product main photo - presents the product image. Once the image is clicked, the product photo will be opened in a new tab.
 
@@ -484,6 +484,18 @@ To read the reviews of the product, the user needs to click on the **Customer Re
 If the user is logged in, the button to **Add Review** will also be visible.
 
 ![Add review button](docs/images/existing_features/product_details_page/add_review_button.JPG)
+
+### Privacy
+
+The user can access information about MX Monster's privacy policy from the footer by clicking on the **Privacy** link.
+The privacy document explains how MX Monster handles any customer information gathered in its operations.
+
+![Privacy policy](docs/images/existing_features/privacy/privacy.JPG)
+
+### Terms
+
+The user can access information about MX Monster's terms and contitions from the footer by clicking on the **Terms** link.
+
 
 ### Footer
 
