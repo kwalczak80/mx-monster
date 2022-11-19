@@ -412,6 +412,10 @@ Depending on whether the user is logged in or not, different options are availab
 
 ![Site admin logged in](docs/images/existing_features/navbar/admin-site-logged-in.JPG)
 
+### Search bar
+
+
+
 ### Products page
 
 When the user clicks on the **Shop now** button on the home page or the **All products** link from the All products dropped down menu in the navigation bar, they will be redirected to the page where they can view all the products that are available for sale.
