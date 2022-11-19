@@ -440,6 +440,13 @@ The user also has the option to select the order in which to view the products l
 
 ![Product view in specific order](docs/images/existing_features/all_products_page/products_sorted_by.JPG)
 
+Once the user clicks on the product image, they will be redirected to a page where additional information about the specific product will be presented.
+
+### Product details page
+
+
+
+
 ### Footer
 
 The footer is kept very simple as a set of links to other pages and social channels.
