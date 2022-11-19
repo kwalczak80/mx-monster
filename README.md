@@ -178,7 +178,8 @@ The data schema was created using [drawsql](https://drawsql.app/)
 
 The following models were created to represent the database model structure for the website:
 
-Order model
+### Order model
+
 | Name | Key | Type | Other Details |
 | -- | -- | -- | -- |
 | order_number | | CharField | max_length=32 |
@@ -199,7 +200,8 @@ Order model
 | original_bag |  | TextField | default='' |
 | stripe_pid |  | CharField | max_length=254 |
 
-OrderLineItem model
+### OrderLineItem model
+
 | Name | Key | Type | Other Details |
 | -- | -- | -- | -- |
 | order | Order | ForeignKey | |
@@ -208,26 +210,30 @@ OrderLineItem model
 | quantity | | IntegerField | default=0 |
 | lineitem_total | | DecimalField | max_digits=6 |
 
-Contact model
+### Contact model
+
 | Name | Key | Type | Other Details |
 | -- | -- | -- | -- |
 | email | | EmailField | |
 | subject | | CharField | max_length=255 |
 | message | | TextField | |
 
-Faq model
+### Faq model
+
 | Name | Key | Type | Other Details |
 | -- | -- | -- | -- |
 | question | | CharField | Max length=254 |
 | answer | | TextField | blank=True |
 
-NewsletterUser model
+### NewsletterUser model
+
 | Name | Key | Type | Other Details |
 | -- | -- | -- | -- |
 | email | | EmailField | |
 | date_added | | DateTimeField | Set default date as now |
 
-Product model
+### Product model
+
 | Name | Key | Type | Other Details |
 | -- | -- | -- | -- |
 | category | Category | ForeignKey | |
@@ -242,13 +248,15 @@ Product model
 | image_url | | URLField | max_length=1024 |
 | image | | ImageField |  |
 
-Category model
+### Category model
+
 | Name | Key | Type | Other Details |
 | -- | -- | -- | -- |
 | name | | CharField | max_length=254 |
 | friendly_name | | CharField | max_length=254 |
 
-UserProfile model
+### UserProfile model
+
 | Name | Key | Type | Other Details |
 | -- | -- | -- | -- |
 | user | | User | OneToOneField |
@@ -260,7 +268,8 @@ UserProfile model
 | default_postcode | | CharField | max_length=20 |
 | default_country | | CountryField | blank_label='Country' |
 
-Review model
+### Review model
+
 | Name | Key | Type | Other Details |
 | -- | -- | -- | -- |
 | user | User | ForeignKey |  |
@@ -268,7 +277,8 @@ Review model
 | description | | TextField | Set default as ''|
 | review_date | | DateTimeField | Set default date as now |
 
-Staff model
+### Staff model
+
 | Name | Key | Type | Other Details |
 | -- | -- | -- | -- |
 | name | | CharField | Max length 100 Set default as '' |
@@ -401,6 +411,13 @@ Depending on whether the user is logged in or not, different options are availab
   - Logout - the user will be redirected to the logout page
 
 ![Site admin logged in](docs/images/existing_features/navbar/admin-site-logged-in.JPG)
+
+### Products page
+
+When the user clicks on the "Shop now" button on the home page or the 'All products' link in the navigation bar, they will be redirected to the page where they can view all the products that are available for sale.
+By default, all the products displayed on this page are ordered by the date they were added to the database (i.e., the latest products added for sale will be displayed first).
+
+
 
 ### Footer
 
