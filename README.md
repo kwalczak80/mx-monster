@@ -328,6 +328,27 @@ All the icons that are used in this project come from the [Font Awsome](https://
 
 ![Delete review](docs/images/icons/delete_review_icon.jpg)
 
+## Features
+
+### Responsive design
+
+The website has been designed using Bootstrap 4 therefore it's fully responsive on all screen sizes.
+
+### Homepage
+
+The home page is a simple set of navigation elements, a background image, and a carousel that displays shop now, contact and newsletter subscription options.
+
+A shop now button directs the user to the “All products” page, where they can easily identify products they would like to purchase. The product list displayed on this page is always ordered by date added, i.e., the latest products added for sale by the shop admin will be displayed at the top of the page.
+
+A contact button directs the user to the page with the contact form that is used to contact the customer service team in case of any queries that the customer may have.
+
+A Subscribe button directs the user to the page where they can subscribe to the newsletter to receive information about new products, special offers, discounts, etc.
+
+A Facebook button directs the user to the shop's Facebook page.
+
+### Navigation menu
+
+
 ## Bugs
 
 <details>
