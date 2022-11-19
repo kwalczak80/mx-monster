@@ -402,7 +402,30 @@ Depending on whether the user is logged in or not, different options are availab
 
 ![Site admin logged in](docs/images/existing_features/navbar/admin-site-logged-in.JPG)
 
+### Footer
 
+The footer is kept very simple as a set of links to other pages and social channels.
+The following links are presented in the footer:
+
+- Privacy - link to the page where the user can read about the privacy policy
+- Terms - link to the page where the user can read about the terms and conditions
+- FAQ - link to the page where the user can find the answers to the most common questions asked by the other users
+- social media channels(Facebook, Instagram, Twitter) - link to the social channels
+- Newsletter - link to the page where the user can subscribe to the newsletter
+- Contact - link to the page with the contact form
+- About - link to the page where the user can read more about the MX Monster business
+
+![Footer layout](docs/images/existing_features/footer/footer.JPG)
+
+The footer layout changes depending on the screen size.
+
+![Footer layout on small screens](docs/images/existing_features/footer/footer-small-screen.JPG)
+
+A hover effect is implemented if the user hovers over the footer links.
+
+![Footer hover effect](docs/images/existing_features/footer/footer-hover-effect.gif)
+
+Please note that the footer is displayed only on selected pages.
 
 ## Bugs
 
