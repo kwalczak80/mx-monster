@@ -381,6 +381,29 @@ The hamburger menu contains the following links:
 
 ![Navbar hamburger menu on small screens](docs/images/existing_features/navbar/navbar-small-screens-hamburger-menu.JPG)
 
+Depending on whether the user is logged in or not, different options are available in the Main account menu.
+
+- For the user that is not logged in or registered, the following options are available:
+  - Register - the user will be redirected to the registration page
+  - Login - the user will be redirected to the login page
+
+![User not logged in](docs/images/existing_features/navbar/my-account-user-not-logged-in-or-registered.JPG)
+
+- For the user that is logged in, the following options are available:
+  - My profile - the user will be redirected to the My profile page where they can update their profile information and view order history
+  - Logout - the user will be redirected to the logout page
+
+![User logged in](docs/images/existing_features/navbar/my-account-user-logged-in.JPG)
+
+- For the admin site user that is logged in, the following options are available:
+  - Product management - the user will be redirected to the page where they can manage products displayed on the page(add, edit or delete)
+  - My profile - the user will be redirected to the My profile page where they can update their profile information and view order history
+  - Logout - the user will be redirected to the logout page
+
+![Site admin logged in](docs/images/existing_features/navbar/admin-site-logged-in.JPG)
+
+
+
 ## Bugs
 
 <details>
