@@ -51,6 +51,9 @@ body {
     color: #ffac0c; 
     }
 
+.banner {
+    background: #212529 !important;
+}    
 /* Footer */
 .footer {
     position: sticky;
