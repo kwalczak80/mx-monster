@@ -306,7 +306,7 @@ I used [Coolors](https://coolors.co/) to come up with a color scheme. The color 
 
 ### Icons
 
-All icons that are used in this project comes from [Font Awsome](https://fontawesome.com/) website.
+All the icons that are used in this project come from the [Font Awsome](https://fontawesome.com/) website.
 
 ### Search
 
