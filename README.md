@@ -349,29 +349,37 @@ A Facebook button directs the user to the shop's Facebook page.
 ### Navigation menu
 
 The following navbar structure is available on the medium and large screens:
-MX Monster - the business name displayed on the navigation bar
-Search window - is used to search the entire shop for a specific product
-My account  - to display information about the user account
-Basket - to display information about the products in the basket
-All products - link to the page with all products for sale
-Riding gear - link to the Riding gear page
-Vehicle equipment - link to the  vehicle equipment page
-Accessories - link to the accessories page
-Special Offers - link to the special offers page
 
+- MX Monster - the business name displayed on the navigation bar
+- Search window - is used to search the entire shop for a specific product
+- My account  - to display information about the user account
+- Basket - to display information about the products in the basket
+- All products - link to the page with all products for sale
+- Riding gear - link to the Riding gear page
+- Vehicle equipment - link to the  vehicle equipment page
+- Accessories - link to the accessories page
+- Special Offers - link to the special offers page
+
+![Navbar on medium and large screens](docs/images/existing_features/navbar/navbar-medium-and-large-screens.JPG)
 
 The following navbar structure is available on the small screens:
-Search window - is used to search the entire shop for a specific product
-My account  - to display information about the user account
-Basket - to display information about the products in the basket
+
+- Search window - is used to search the entire shop for a specific product
+- My account  - to display information about the user account
+- Basket - to display information about the products in the basket
+
+![Navbar on small screens](docs/images/existing_features/navbar/navbar-small-screens.JPG)
 
 The hamburger menu contains the following links:
-Home - link to the home page
-All products - link to the page with all products for sale
-Riding gear - link to the Riding gear page
-Vehicle equipment - link to the  vehicle equipment page
-Accessories - link to the accessories page
-Special Offers - link to the special offers page
+
+- Home - link to the home page
+- All products - link to the page with all products for sale
+- Riding gear - link to the Riding gear page
+- Vehicle equipment - link to the  vehicle equipment page
+- Accessories - link to the accessories page
+- Special Offers - link to the special offers page
+
+![Navbar hamburger menu on small screens](docs/images/existing_features/navbar/navbar-small-screens-hamburger-menu.JPG)
 
 ## Bugs
 
