@@ -414,10 +414,31 @@ Depending on whether the user is logged in or not, different options are availab
 
 ### Products page
 
-When the user clicks on the "Shop now" button on the home page or the 'All products' link in the navigation bar, they will be redirected to the page where they can view all the products that are available for sale.
+When the user clicks on the **Shop now** button on the home page or the **All products** link from the All products dropped down menu in the navigation bar, they will be redirected to the page where they can view all the products that are available for sale.
 By default, all the products displayed on this page are ordered by the date they were added to the database (i.e., the latest products added for sale will be displayed first).
 
+![All products page](docs/images/existing_features/all_products_page/all_products_page.JPG)
 
+From the **All Products** drop-down menu, the user can also choose the option to specify how the products are displayed on the screen:
+
+- by price(by default price from low to high)
+- by rating(by default high to low)
+- by category(by default A-Z)
+
+![All products drop down menu](docs/images/existing_features/all_products_page/all_products_drop_down_menu.JPG)
+
+The user also has the option to select the order in which to view the products listed. They can order:
+
+- by price (low to high)
+- by price (high to low)
+- by rating (low to high)
+- by rating (high to low)
+- by name (A-Z)
+- by name (Z-A)
+- category (A-Z)
+- category (Z-A)
+
+![Product view in specific order](docs/images/existing_features/all_products_page/products_sorted_by.JPG)
 
 ### Footer
 
