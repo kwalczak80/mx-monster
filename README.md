@@ -546,7 +546,6 @@ The **Back** button will redirect the user back to the main newsletter page.
 If the user has subscribed to or unsubscribed from a newsletter, the relevant message will be displayed on the screen.
 See the messages section for more details.
 
-
 ### Footer
 
 The footer is kept very simple as a set of links to other pages and social channels.
