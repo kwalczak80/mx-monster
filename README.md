@@ -305,7 +305,7 @@ I visited the Google fonts website to explore the available font options for my 
 I used [Coolors](https://coolors.co/) to come up with a color scheme. The color palette was intended to create a fairly neutral background so that the photos of the products stand out as much as possible.
 
 - gradient (#f30606, #b12020, #030303) - the business name displayed on the navigation bar
-- #F1F1F1 - the website background color
+- #f1f1f1 - the website background color
 - #ffffff - the cards background color
 - #212529 - footer and free delivery banner background color
 - #b31212 - hover effect color
@@ -450,14 +450,14 @@ The product main photo - once clicked, the product photo will open in a new tab.
 Additional information about the product is presented using Font Awsome icons and text, and it contains:
 
 - The name of the product
-- Price
+- The product price
 - The product category
-- Rating
+- The product rating
 - The product description
 - Option to select the product size. The following size options are available from the drop-down menu (XS, S, M, L, XL). Please note that if the product does not have a size, i.e., the navigation system, the size option will not be visible on the screen.
 - Quantity - to select the number of products the user wants to buy
-- **Keep shopping** button to redirect the user to the all products page
-- **Add to bag** button to add the specific product to the shopping bag
+- The **Keep shopping** button to redirect the user to the all products page
+- The **Add to bag** button to add the specific product to the shopping bag
 
 ![Product details page](docs/images/existing_features/product_details_page/product-details-page.JPG)
 
