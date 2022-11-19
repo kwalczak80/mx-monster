@@ -414,7 +414,10 @@ Depending on whether the user is logged in or not, different options are availab
 
 ### Search bar
 
+![Search bar](docs/images/existing_features/search_bar/search_bar.JPG)
 
+The search bar is part of the header and appears across all pages. This allows the user to easily search for products by typing in the keywords.
+The user can either enter a single keyword to find a product or enter multiple keywords, as this type of search functionality is also supported.
 
 ### Products page
 
@@ -450,8 +453,13 @@ Once the user clicks on the product image, they will be redirected to a page whe
 
 When the user is interested in a specific product and clicks on the product image, they will be redirected to a page where they can find additional information about the product. This page is divided into sections:
 
-The product main photo - once clicked, the product photo will open in a new tab.
-Additional information about the product is presented using Font Awsome icons and text, and it contains:
+#### The image section
+
+The product main photo - presents the product image. Once the image is clicked, the product photo will be opened in a new tab.
+
+### The product infromation section
+
+Additional information about the product is presented by using Font Awsome icons and text. This section contains:
 
 - The name of the product
 - The product price
@@ -464,6 +472,8 @@ Additional information about the product is presented using Font Awsome icons an
 - The **Add to bag** button to add the specific product to the shopping bag
 
 ![Product details page](docs/images/existing_features/product_details_page/product-details-page.JPG)
+
+#### The product reviews section
 
 The user can also read the customer reviews about the product to help them decide if it is worth buying.
 The number (other than zero) inside the customer review brackets indicates that the product has reviews from other customers.
