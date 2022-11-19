@@ -535,8 +535,9 @@ Fix: The fix was implmented by adding the following card-img-top class in the st
 
 ## Technologies Used
 
-[Picture resizer](https://picresize.com/) - picture resizing tool
-[CCS Gradient](https://cssgradient.io/) - gradient generator
+- [Picture resizer](https://picresize.com/) - picture resizing tool
+- [CCS Gradient](https://cssgradient.io/) - gradient generator
+- [EZGIF](https://ezgif.com/) - online GIF maker and image editor
 
 ## Credits
 
