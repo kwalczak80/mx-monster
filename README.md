@@ -505,6 +505,41 @@ The user can also delete the review they created by clicking on the bin icon.
 
 Once the review is deleted, a confirmation message will be displayed on the screen. Please read about the message system below.
 
+### Product management
+
+When the user is logged in as a staff or admin they can select **Product Management** option by clicking on the **My account** link.
+
+![Product management](docs/images/existing_features/product_management/product-management.JPG)
+
+They will be redirected to a new page where they can add a new product for sale.
+
+The panel contains the following fields:
+
+- Category - from the drop-down menu, the user can select the product category. All the categories presented in the database will be listed here.
+- SKU - a number to differentiate products and track inventory levels
+- Product name - this is a mandatory field
+- Product description - this is a mandatory field
+- is available - selected by default. If the "is available" option is selected, that means the product will be visible on the page.
+- has sizes - default - "NO".
+- Price(mandatory field)
+- Stock(mandatory field)
+- Rating
+- Image url
+- **Select image** button - to upload relevant product image
+- **Add product** button - once clicked; a new product will be added to the database(only if all fields are correct)
+
+![Add product page](docs/images/existing_features/product_management/add-product-page.JPG)
+
+When the user is logged in as a staff user or admin, they have the ability to update or delete the selected product as the edit and delete options become available on the product card.
+
+![Edit or delete product options](docs/images/existing_features/product_management/edit-or-delete-product.JPG)
+
+If the **Edit** option is clicked the user will be redirected to a new page where they can edit the product information including the product image.
+
+![Edit product](docs/images/existing_features/product_management/edit-product.JPG)
+
+If the **Delete** option is clicked the product will be deleted from the database.
+
 ### Privacy page
 
 The user can access information about MX Monster's privacy policy from the footer by clicking on the **Privacy** link.
@@ -512,7 +547,7 @@ The privacy document explains how MX Monster handles any customer information ga
 
 ![Privacy policy](docs/images/existing_features/privacy/privacy.JPG)
 
-### Terms page
+### Terms and conditions page
 
 The user can access information about MX Monster's terms and contitions from the footer by clicking on the **Terms** link.
 The Terms and conditions document set the way in which the product, service or content may be used, in a legally binding way.
