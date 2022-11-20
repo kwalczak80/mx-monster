@@ -457,7 +457,7 @@ When the user is interested in a specific product and clicks on the product imag
 
 The product main photo - presents the product image. Once the image is clicked, the product photo will be opened in a new tab.
 
-### The product infromation section
+#### The product infromation section
 
 Additional information about the product is presented by using Font Awsome icons and text. This section contains:
 
@@ -552,7 +552,19 @@ The contact page contains a form that any user can complete to enable them to co
 This page also contains information about the business's opening hours and its address.
 The current day of the week on the business's opening hours card is highlighted thanks to a special Java script.
 
-[Contact page](docs/images/existing_features/contact/contact-page.JPG)### Footer
+![Contact page](docs/images/existing_features/contact/contact-page.JPG)
+
+### About page
+
+On the About page, the user can view information about MX Monster's business. The content in this section can help build customer trust and encourage customers to buy products from the site.
+
+![About page](docs/images/existing_features/about/about-us-page.JPG)
+
+This page also includes a section with contact information for people who are running the business.
+
+![Our team](docs/images/existing_features/about/our-team.JPG)
+
+### Footer
 
 The footer is kept very simple as a set of links to other pages and social channels.
 The following links are presented in the footer:
