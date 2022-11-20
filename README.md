@@ -485,6 +485,26 @@ If the user is logged in, the button to **Add Review** will also be visible.
 
 ![Add review button](docs/images/existing_features/product_details_page/add_review_button.JPG)
 
+The user can add a new review by clicking on the **Add Review** button.
+The user will be redirected to the page where they can add a new review of the product.
+
+![Add review page](docs/images/existing_features/product_details_page/add-review-page.JPG)
+
+The user can also edit or delete existing reviews (CRUD functionality). Please note that logged-in users can only manage reviews they have written.
+When a user clicks the edit icon, they are taken to a page where they can edit the review they previously created.
+Please note that the description section contains the current review description pulled from the database.
+Once the review is updated, a confirmation message will be displayed on the screen. Please read about the message system below.
+
+![Edit review icon](docs/images/existing_features/product_details_page/edit-review.JPG)
+
+![Edit review page](docs/images/existing_features/product_details_page/edit-review-page.JPG)
+
+The user can also delete the review they created by clicking on the bin icon.
+
+![Delete review](docs/images/existing_features/product_details_page/delete-review.JPG)
+
+Once the review is deleted, a confirmation message will be displayed on the screen. Please read about the message system below.
+
 ### Privacy page
 
 The user can access information about MX Monster's privacy policy from the footer by clicking on the **Privacy** link.
