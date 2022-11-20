@@ -694,6 +694,45 @@ A hover effect is implemented if the user hovers over the footer links.
 
 Please note that the footer is displayed only on selected pages.
 
+### Customized Admin (the business owner) panel
+
+The admin panel was adjusted with the following changes:
+
+- the name of the business is now displayed on the top bar
+- the color scheme was slightly changed
+- the color of some buttons was changed
+
+The changes above are only cosmetic, but thanks to that, the panel looks a little bit different than the standard Django panel.
+
+![MX Monster admin panel](docs/images/existing_features/admin-area/admin-panel.JPG)
+
+The Django admin panel is a built-in tool that allows admin users to create, view, update, and delete records. This is a very useful tool to manipulate all the data tables in one place.
+Some examples of how it can be used are shown below.
+
+#### Admin panel - ability to select products that will be displayed on the page
+
+This feature allows the business owner to enable or disable the product's visibility on the website. There is no need to delete the product from the database if, for some reason, the business owner does not want it to be displayed on the website (i.e., the product is sold out or temporarily unavailable).
+
+![Product available for sale](docs/images/existing_features/admin-area/admin-panel-product-available-for-sale.JPG)
+
+![Only two products selected for sale](docs/images/existing_features/admin-area/admin-panel-only-two-products-for-sale.JPG)
+
+![Only two products displayed on the main page](docs/images/existing_features/admin-area/only-two-products-for-sale.JPG)
+
+#### Admin panel - ability to add a new employee
+
+The business owner can add a new employee via the admin panel. All the information about the staff(photo, name, email, etc.) that is displayed on the website(the About page) comes from the database, and it's not hard coded in HTML. Therefore, in the event of any changes(i.e. new employee), the updated information will be automatically displayed on the website.
+
+![Add new employee](docs/images/existing_features/admin-area/add-new-employee.JPG)
+
+#### Admin panel - ability to review orders
+
+![Admin panel orders review](docs/images/existing_features/admin-area/admin-panel-orders-review.JPG)
+
+#### Admin panel - ability to review messages sent by the customers
+
+![Admin panel message review](docs/images/existing_features/admin-area/admin-panel-contact.JPG)
+
 ## Bugs
 
 <details>
