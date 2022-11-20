@@ -647,6 +647,10 @@ Messages are displayed on the screen to provide the user with continuous feedbac
 
 ![Newsletter alredy subscribed by the user message](docs/images/existing_features/messages/message-warning-newsletter-already-subscribed.JPG)
 
+![Email sent message](docs/images/existing_features/messages/message-email-sent.JPG)
+
+![Order confirmation message](docs/images/existing_features/messages/message-order-confirmation.JPG)
+
 ### Error handling
 
 #### 400 page
