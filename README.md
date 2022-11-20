@@ -72,14 +72,14 @@ The primary goal of the website, from a site user’s perspective, is as follows
 
 ### Store Owner
 
-- I want an appealing website with a range of products
-- I want shoppers to be able to read about the business
-- I want shoppers to be able to navigate the site easily and quickly
-- I want to be able easily to log in and log out to access personal information
-- I want to be able to add a new product to the store
-- I want to be able to edit/update a product price, description, images, and other information.
-- I want to be able to delete a product that I no longer wish to sell.
-- I want to be able to view all orders to determine which are completed and which are outstanding
+- As a user, I want an appealing website with a range of products
+- As a user, I want shoppers to be able to read about the business
+- As a user, I want shoppers to be able to navigate the site easily and quickly
+- As a user, I want to be able easily to log in and log out to access personal information
+- As a user, I want to be able to add a new product to the store
+- As a user, I want to be able to edit/update a product price, description, images, and other information.
+- As a user, I want to be able to delete a product that I no longer wish to sell.
+- As a user, I want to be able to view completed orders from the customers.
 
 ### Error Handling
 
@@ -172,7 +172,7 @@ To complement the apps there are:
 
 The data schema was created using [drawsql](https://drawsql.app/)
 
-![Database design](docs/database/database-design.JPG)
+![Database design](docs/database/database-design.png)
 
 ## Models
 
