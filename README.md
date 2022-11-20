@@ -584,6 +584,40 @@ This page also includes a section with contact information for people who are ru
 
 ![Our team](docs/images/existing_features/about/our-team.JPG)
 
+### Authentication
+
+The authentication process for the application is handled by Django allauth and consists of three parts.
+
+#### Sign Up
+
+![Sign up page](docs/images/existing_features/authentication/sign-up-page.JPG)
+
+If the user entries are wrong, the relevant error message will be displayed on the screen, informing what needs to be corrected to complete the registration process.
+
+![Sign up page error message user already exist](docs/images/existing_features/authentication/sign-up-error-message-user-already-exist.JPG)
+
+![Sign up page issue with password](docs/images/existing_features/authentication/sign-up-error-message-password-issue.JPG)
+
+![Sig up page issue with email](docs/images/existing_features/authentication/sign-up-error-message-issue-with-email.JPG)
+#### Sign In
+
+The sign-in form requires only two fields to be entered.
+
+- Username
+- Password
+
+![Sign in page](docs/images/existing_features/authentication/sign-in-page.JPG)
+
+If the user name or password is incorrect, an error message will be shown on the screen.
+
+![Sign in error message](docs/images/existing_features/authentication/sign-in-error-message.JPG)
+
+#### Sign out
+
+If the user decides to log out, they will be redirected to the page to confirm their choice.
+
+![Sign out page](docs/images/existing_features/authentication/sign-out-page.JPG)
+
 ### Footer
 
 The footer is kept very simple as a set of links to other pages and social channels.
