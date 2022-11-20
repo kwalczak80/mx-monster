@@ -599,6 +599,7 @@ If the user entries are wrong, the relevant error message will be displayed on t
 ![Sign up page issue with password](docs/images/existing_features/authentication/sign-up-error-message-password-issue.JPG)
 
 ![Sig up page issue with email](docs/images/existing_features/authentication/sign-up-error-message-issue-with-email.JPG)
+
 #### Sign In
 
 The sign-in form requires only two fields to be entered.
@@ -617,6 +618,28 @@ If the user name or password is incorrect, an error message will be shown on the
 If the user decides to log out, they will be redirected to the page to confirm their choice.
 
 ![Sign out page](docs/images/existing_features/authentication/sign-out-page.JPG)
+
+### Error handling
+
+#### 400 page
+
+This page was created to handle the situation when the server cannot or will not process the request due to something that is perceived to be a client error.
+A relevant message will be displayed on the screen if this situation occurs.
+
+#### 403 page
+
+This page was created to handle the situation when the server understands the request but refuses to authorize it.
+A relevant message will be displayed on the screen if this situation occurs.
+
+#### 404 page
+
+If the page the user is trying to reach is not accessible, the following error message will be displayed on the screen. The user can return to the home page by pressing the home button. There is no need to hit the back button on the browser.
+
+![404 page](docs/images/existing_features/error_handling/page-not-found-message.JPG)
+
+#### 500 page
+
+A 500 server error page was also created to handle internal server errors.
 
 ### Footer
 
