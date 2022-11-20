@@ -619,6 +619,34 @@ If the user decides to log out, they will be redirected to the page to confirm t
 
 ![Sign out page](docs/images/existing_features/authentication/sign-out-page.JPG)
 
+### Messages system to provide feedback to the user
+
+Messages are displayed on the screen to provide the user with continuous feedback on their interactions. Some examples can be seen below:
+
+![Message alert](docs/images/existing_features/messages/message-alert.JPG)
+
+![Email deleted from the database message](docs/images/existing_features/messages/message-email-deleted-from-the-database.JPG)
+
+![Email does not exist message](docs/images/existing_features/messages/message-email-does-not-exist.JPG)
+
+![Search criteria not entered message](docs/images/existing_features/messages/message-error-search-criteria-not-entered.JPG)
+
+![Item added to the bag message](docs/images/existing_features/messages/message-item-added-to-the-bag.JPG)
+
+![Item removed from the bag message](docs/images/existing_features/messages/message-item-removed-from-the-bag.JPG)
+
+![Product info update message](docs/images/existing_features/messages/message-product-updated.JPG)
+
+![Review deleted message](docs/images/existing_features/messages/message-review-deleted.JPG)
+
+![Review updated message](docs/images/existing_features/messages/message-review-updated-successfuly.JPG)
+
+![Sign in message](docs/images/existing_features/messages/message-signed-in.JPG)
+
+![Sign out message](docs/images/existing_features/messages/message-signed-out.JPG)
+
+![Newsletter alredy subscribed by the user message](docs/images/existing_features/messages/message-warning-newsletter-already-subscribed.JPG)
+
 ### Error handling
 
 #### 400 page
