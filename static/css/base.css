@@ -30,7 +30,10 @@ body {
 }
 
 .index-style {
-    padding-top: 15%;
+    padding-top: 10vh;
+}
+.logo-font {
+    text-transform: uppercase;
 }
 
 /* Contact page */
@@ -414,6 +417,6 @@ input[name='q']::placeholder {
         font-size: 2rem;
     }
     .index-style {
-        padding-top: 10%;
+        padding-top: 40vh;
     }
 }
