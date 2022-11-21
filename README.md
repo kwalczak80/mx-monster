@@ -878,6 +878,15 @@ Fix: The fix was implmented by adding the following card-img-top class in the st
 ![Fixed images displayed on cards with equal height.](docs/images/bugs/fixed_images_with_no_equal%20height.JPG)
 </details>
 
+## Accessibility testing
+
+I have tested the pages of the application using [WAVE](https://wave.webaim.org/) to ensure there are no errors. The results can be seen by following the links below.
+
+- 
+- 
+- 
+- 
+
 ## Technologies Used
 
 ### Languages
@@ -929,48 +938,56 @@ Fix: The fix was implmented by adding the following card-img-top class in the st
 ### Programs and Tools
 
 - [Heroku](https://id.heroku.com/login)
-The project is deployed and hosted by Heroku.
+  - The project is deployed and hosted by Heroku.
 - [Balsamiq](https://balsamiq.com/)
-Used to create the website wireframes.
+  - Used to create the website wireframes.
 - [GitHub](https://github.com/)
-GitHub was used to store all the project files written in Gitpod.
+  - GitHub was used to store all the project files written in Gitpod.
 - [Gitpod](https://www.gitpod.io/)
-Gitpod was used as a development environment.
+  - Gitpod was used as a development environment.
 - [AWS](https://aws.amazon.com/)
-To store static files for the project
+  - To store static files for the project
 - [Drawsql](https://drawsql.app/)
-Drawsql was used to design database model for the project.
+  - Drawsql was used to design database model for the project.
 - [W3School](https://www.w3schools.com/)
-For problem solving and code searching.
+  - For problem solving and code searching.
 - [Stack Overflow](https://stackoverflow.com/)
-For problem solving and code searching.
+  - For problem solving and code searching.
 - [Font Awesome](https://fontawesome.com/)
-Font Awesome was used to add icons that represent links to social media.
+  - Font Awesome was used to add icons that represent links to social media.
 - [CI Python Linter](https://pep8ci.herokuapp.com/)
-For checking python convention.
+  - For checking python convention.
 - [Picture resizer](https://picresize.com/)
-Picture resizing tool
+  - Picture resizing tool
 - [CCS Gradient](https://cssgradient.io/)
-Gradient generator
+  - Gradient generator
 - [EZGIF](https://ezgif.com/)
-Online GIF maker and image editor
+  - Online GIF maker and image editor
 
 ## Credits
 
 Throughout the process of building this project, various online sources have been used to help fix bugs & tackle problems, in addition to multiple modules to create the functionality of this website:
 
-- [Stack Overflow](https://stackoverflow.com/) - To find solutions to the issues I encountered while creating this project.
-- [W3Schools](https://www.w3schools.com/) - additional source of knowledge.
-- [Udemy](https://www.udemy.com/) - various tutorials related to Django, Javascript and Python.
-- [Business Opening hours card](https://bootsnipp.com/snippets/5K3o7) - to create the business opening hours card with the current day of the week.
-- [Motorcycle Shop](https://www.motorcycleshop.ie/contactabout-1-w.asp) - to create the text content on the About page
+- [Stack Overflow](https://stackoverflow.com/)
+  - To find solutions to the issues I encountered while creating this project.
+- [W3Schools](https://www.w3schools.com/)
+  - Additional source of knowledge.
+- [Udemy](https://www.udemy.com/)
+  - Various tutorials related to Django, Javascript and Python.
+- [Business Opening hours card](https://bootsnipp.com/snippets/5K3o7)
+  - To create the business opening hours card with the current day of the week.
+- [Motorcycle Shop](https://www.motorcycleshop.ie/contactabout-1-w.asp)
+  - To create the text content on the About page
 
 
 ## Content
 
-- [FC Moto](https://www.fc-moto.de/) - product images
-- [Privacy Policy Generator](https://policymaker.io/privacy-policy/) - to generate the privacy policy for MX Moster store.
-- [Terms and Conditions Generator](https://policymaker.io/terms-and-conditions/) - to generate the terms and conditions for MX store.
+- [FC Moto](https://www.fc-moto.de/) 
+  - Product images
+- [Privacy Policy Generator](https://policymaker.io/privacy-policy/)
+  - To generate the privacy policy for MX Moster store.
+- [Terms and Conditions Generator](https://policymaker.io/terms-and-conditions/)
+  - To generate the terms and conditions for MX store.
 
 
 ## Acknowledgments
