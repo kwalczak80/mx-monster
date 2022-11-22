@@ -292,6 +292,13 @@ The following models were created to represent the database model structure for 
 
 ### Home page background
 
+As the background of the main page, I used a photo of a motorcycle with proper accessories and a motorcyclist wearing clothing. The photo represents the store's theme nicely, in my opinion.
+
+![Home page](docs/images/existing_features/home_page/home-page.JPG)
+
+
+
+
 ### Fonts
 
 I visited the Google fonts website to explore the available font options for my project. After consideration, three different font types were chosen to be used in different sections of the website.
@@ -355,6 +362,8 @@ A contact button directs the user to the page with the contact form that is used
 A Subscribe button directs the user to the page where they can subscribe to the newsletter to receive information about new products, special offers, discounts, etc.
 
 A Facebook button directs the user to the shop's Facebook page.
+
+
 
 ### Navigation menu
 
