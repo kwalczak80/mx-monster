@@ -141,32 +141,32 @@ The information architecture was organized in such a way as to ensure that users
 
 The project is organized into various applications, as constructed using the Django Framework. App details are as follows:
 
-- Bag - this app is for users where they can view, add and remove products that they have added to the bag.
-- Checkout - this app is for users to purchase selected items. Users can see items in the cart and have the option to save delivery information to their profile during the checkout process.
-- Contact - this app is for users to be able to contact MX Monster and recieve acknowledgment.
-- FAQ - this app is for the business owner to manage content of the frequently asked questions page from the admin panel.
-- Home - this app contains information about the MX Monster home page with quick links in the header.
-- Newsletter - this app is for users to subscribe to or unsubscribe from a newsletter.
-- Products - this app contains information related to the products displayed on the website. Users can add items to a shopping cart, filter for items in categories, and view the results of the product search. Clicking on individual items opens a sub-page where users can see detailed product information. The logged-in staff members have the following options:
+- **Bag** - this app is for users where they can view, add and remove products that they have added to the bag.
+- **Checkout** - this app is for users to purchase selected items. Users can see items in the cart and have the option to save delivery information to their profile during the checkout process.
+- **Contact** - this app is for users to be able to contact MX Monster and recieve acknowledgment.
+- **FAQ** - this app is for the business owner to manage content of the frequently asked questions page from the admin panel.
+- **Home** - this app contains information about the MX Monster home page with quick links in the header.
+- **Newsletter** - this app is for users to subscribe to or unsubscribe from a newsletter.
+- **Products** - this app contains information related to the products displayed on the website. Users can add items to a shopping cart, filter for items in categories, and view the results of the product search. Clicking on individual items opens a sub-page where users can see detailed product information. The logged-in staff members have the following options:
   - add a new product for sale,
   - update an existing product,
   - delete product that is no longer for sale
-- Profiles - this app contains information related to the user profiles.
-- Reviews - this app is for users to add their reviews related to the products. Logged-in users can edit or delete their own reviews. The business owner can manage reviews posted by the shoppers in the admin panel.
-- Staff - this app is for the business owner to manage MX Monster staff in the admin panel. Thanks to this app information about the staff members is dynamically displayed on the page. Information about the team is pulled from the database; it is not hard-coded in HTML.
+- **Profiles** - this app contains information related to the user profiles.
+- **Reviews** - this app is for users to add their reviews related to the products. Logged-in users can edit or delete their own reviews. The business owner can manage reviews posted by the shoppers in the admin panel.
+- **Staff** - this app is for the business owner to manage MX Monster staff in the admin panel. Thanks to this app information about the staff members is dynamically displayed on the page. Information about the team is pulled from the database; it is not hard-coded in HTML.
 
 To complement the apps there are:
 
-- Mx Monster: Mx Monster level files - settings.py for project level settings and urls.py to route the website urls.
-- Templates: Containing the base.html, allauth(django authentication). The partial folder contains the navbar and footer HTML.
-- Templates (app level): some of the apps have their own templates directory for HTML to consider portability and reuse.
-- Urls (app level): each app has its own urls.py file to consider portability and reuse.
-- Static: CSS files for the website and admin panel.
-- manage.py: This file is used to start the site and perform functions during development.
-- README.md: Documentation about the project.
-- Requirements.txt: Containing the project dependencies. Note: Environment variable values are not exposed in the source code as they are stored locally in env.py that is not checked in(listed in .gitignore).
-- Procfile: To run the application on Heroku
-- custom_storages.py file - to specify static and media storage location
+- **Mx Monster**: Mx Monster level files - settings.py for project level settings and urls.py to route the website urls.
+- **Templates**: Containing the base.html, allauth(django authentication). The partial folder contains the navbar and footer HTML.
+- **Templates** (app level): some of the apps have their own templates directory for HTML to consider portability and reuse.
+- **Urls (app level)**: each app has its own urls.py file to consider portability and reuse.
+- **Static**: CSS files for the website and admin panel.
+- **manage.py**: This file is used to start the site and perform functions during development.
+- **README.md**: Documentation about the project.
+- **Requirements.txt**: Containing the project dependencies. Note: Environment variable values are not exposed in the source code as they are stored locally in env.py that is not checked in(listed in .gitignore).
+- **Procfile**: To run the application on Heroku
+- **custom_storages.py** file - to specify static and media storage location
 
 ### Database design
 
