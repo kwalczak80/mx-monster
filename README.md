@@ -365,8 +365,6 @@ A Facebook button directs the user to the shop's Facebook page.
 
 ![Home page carousel](docs/images/existing_features/home_page/home-page-carousel.gif)
 
-
-
 ### Navigation menu
 
 The following navbar structure is available on the medium and large screens:
