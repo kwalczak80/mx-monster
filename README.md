@@ -363,6 +363,8 @@ A Subscribe button directs the user to the page where they can subscribe to the 
 
 A Facebook button directs the user to the shop's Facebook page.
 
+![Home page carousel](docs/images/existing_features/home_page/home-page-carousel.gif)
+
 
 
 ### Navigation menu
