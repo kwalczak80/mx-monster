@@ -36,6 +36,12 @@ body {
     text-transform: uppercase;
 }
 
+/* Shopping bag color */
+
+.text-info {
+    color: #b31212 !important
+}
+
 /* Contact page */
 .business-hours {
     background:#212529;
