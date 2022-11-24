@@ -561,11 +561,20 @@ By selecting the order number from the list, the user can view the order history
 
 ### Shopping bag
 
+When the shopping bag is empty, the bag icon is black; when an item is added to the bag, the bag icon turns red to indicate that some products have been added.
 
+![Shopping bag empty](docs/images/existing_features/shopping_bag/shopping-bag-empty.JPG)
 
+![Product added to the shopping bag](docs/images/existing_features/shopping_bag/item-added-to-the-shopping-bag.JPG)
 
+If the user clicks on the bag icon, they will be redirected to the page where they can review the bag content. At this stage, some adjustments to the bag are possible:
 
+- change the product quantities
+- remove the product from  the shopping bag if the product is no longer required
 
+![Shopping bag info](docs/images/existing_features/shopping_bag/shopping-bag-info.JPG)
+
+If the user clicks on the **Secure checkout** button, they will be redirected to the page where they can complete the payment process.
 
 ### Privacy page
 
