@@ -934,14 +934,119 @@ Fix: The fix was implmented by adding the following card-img-top class in the st
 ![Fixed images displayed on cards with equal height.](docs/images/bugs/fixed_images_with_no_equal%20height.JPG)
 </details>
 
-## Accessibility testing
+## Code Validation
+
+### HTML
+
+The HTML code within the application was validated by [W3C Markup Validation Service](https://validator.w3.org/). Pages were put through the validator seperatly, and the results can be found below.
+
+
+### Python
+
+The Python code within the application was validated by [CI Python Linter](https://pep8ci.herokuapp.com/) validation service. Files were put through the validator separately, and the results can be found below.
+
+#### mx_monster app
+
+- settings.py
+- urls.py
+- views.py
+
+#### bag app
+
+- contexts.py
+- urls.py
+- views.py
+
+#### checkout app
+
+- webhooks.py
+- webhooks_handler.py
+- views.py
+- urls.py
+- signals.py
+- models.py
+- forms.py
+- admin.py
+
+#### contact app
+
+- views.py
+- urls.py
+- models.py
+- forms.py
+- admin.py
+
+#### faq app
+
+- views.py
+- urls.py
+- models.py
+- admin.py
+
+#### home app
+
+- views.py
+- urls.py
+
+#### newsletter app
+
+- views.py
+- urls.py
+- models.py
+- forms.py
+- admin.py
+
+#### products app
+
+- widgets.py
+- views.py
+- urls.py
+- models.py
+- forms.py
+- admin.py
+
+#### profiles app
+
+- views.py
+- urls.py
+- models.py
+- forms.py
+
+#### reviews app
+
+- views.py
+- urls.py
+- models.py
+- forms.py
+- admin.py
+
+#### staff app
+
+- views.py
+- models.py
+- admin.py
+
+custom_sparages.py
+
+
+### CSS
+The CSS code within the application was validated by [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/), and the results can be found below.
+
+
+### JS
+The JavaScript and JQuery code within the application was validated by [JSHint](https://jshint.com/), and the results can be found below.
+
+### Color Contrast Accessibility Validator
+The Color [Contrast Accessibility Validator](https://color.a11y.com/) was used to check if there is no contrast issue on the web page.
+
+### Accessibility testing
 
 I have tested the pages of the application using [WAVE](https://wave.webaim.org/) to ensure there are no errors. The results can be seen by following the links below.
 
-- 
-- 
-- 
-- 
+
+### Lighthouse testing
+
+The Lighthouse tool was used to assess the website's performance, accessibility, and SEO. The results are shown below.
 
 ## Technologies Used
 
