@@ -81,7 +81,7 @@ The primary goal of the website, from a site user’s perspective, is as follows
 - As a user, I want to be able to delete a product that I no longer wish to sell.
 - As a user, I want to be able to view completed orders from the customers.
 
-### Error Handling
+## Error Handling
 
 If the page cannot be loaded, the user should be able to return through the website's navigational structure without hitting the back button on their browser.
 
@@ -559,6 +559,8 @@ The form for updating the user's delivery information is displayed on this page.
 
 By selecting the order number from the list, the user can view the order history. If the order is completed, the user will be alerted with a message indicating they are viewing a past order summary.
 
+![User profile page](docs/images/existing_features/user_profile/user-profile-page.JPG)
+
 ### Shopping bag
 
 When the shopping bag is empty, the bag icon is black; when an item is added to the bag, the bag icon turns red to indicate that some products have been added.
@@ -575,6 +577,22 @@ If the user clicks on the bag icon, they will be redirected to the page where th
 ![Shopping bag info](docs/images/existing_features/shopping_bag/shopping-bag-info.JPG)
 
 If the user clicks on the **Secure checkout** button, they will be redirected to the page where they can complete the payment process.
+
+### Checkout page
+
+- The user is prompted to enter their delivery information on a checkout form. that integrates Stripe.
+- A checkbox that the user can confirm allows them to save their delivery information for the next time.
+- An order summary will be shown before the user can complete the checkout process so they can confirm the total cost and view all goods.
+
+![Order submission](docs/images/existing_features/checkout/order-submission.JPG)
+
+To inform the user that their credit card will be charged a specified amount, a message is displayed immediately beneath the button labelled "Complete Order."
+
+![Stripe payment](docs/images/existing_features/checkout/stripe-payment.JPG)
+
+Once the payment process is completed a confirmation message will be displayed on the screen and a confirmation email will also be sent to the user.
+
+![Order confirmation](docs/images/existing_features/checkout/order-confirmation.JPG)
 
 ### Privacy page
 
