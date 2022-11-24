@@ -762,6 +762,8 @@ If the page the user is trying to reach is not accessible, the following error m
 
 A 500 server error page was also created to handle internal server errors.
 
+![500 page](docs/images/existing_features/error_handling/500-error-page-internal-server-error.JPG)
+
 ### Footer
 
 The footer is kept very simple as a set of links to other pages and social channels.
