@@ -549,6 +549,24 @@ If the **Edit** option is clicked the user will be redirected to a new page wher
 
 If the **Delete** option is clicked the product will be deleted from the database.
 
+### User profile page
+
+In order to open the user profile page, the user must first click on the **My Account** link located in the navbar and then click on the **My profile** link.
+
+![My profile link](docs/images/existing_features/user_profile/link-to-my-profile.JPG)
+
+The form for updating the user's delivery information is displayed on this page. If the consumer returns to the checkout page after completing the form, all shipping data will be instantly updated.
+
+By selecting the order number from the list, the user can view the order history. If the order is completed, the user will be alerted with a message indicating they are viewing a past order summary.
+
+### Shopping bag
+
+
+
+
+
+
+
 ### Privacy page
 
 The user can access information about MX Monster's privacy policy from the footer by clicking on the **Privacy** link.
