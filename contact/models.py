@@ -3,7 +3,7 @@ from django.db import models
 
 
 class Contact(models.Model):
-    """ Models for the contact app """
+    """ Model for the contact app """
     email = models.EmailField()
     subject = models.CharField(max_length=255)
     message = models.TextField()

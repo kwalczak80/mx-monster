@@ -3,6 +3,7 @@ from .models import Product, Category
 
 # Register your models here.
 
+
 class ProductAdmin(admin.ModelAdmin):
     """[ProductAdmin]"""
     list_display = (
@@ -15,9 +16,10 @@ class ProductAdmin(admin.ModelAdmin):
         'stock',
         'image',
     )
-    list_editable = ('is_available','stock',)
+    list_editable = ('is_available', 'stock',)
 
     ordering = ('sku',)
+
 
 class CategoryAdmin(admin.ModelAdmin):
     """[CategoryAdmin]"""

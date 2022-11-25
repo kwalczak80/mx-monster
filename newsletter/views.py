@@ -24,10 +24,12 @@ def newsletter_signup(request):
         instance = form.save(commit=False)
         if NewsletterUser.objects.filter(email=instance.email).exists():
             messages.warning(request,
-                             'Sorry, you have already subscribed to our newsletter!')
+                             'Sorry, you have already '
+                             'subscribed to our newsletter!')
         else:
             messages.success(request,
-                             'Congratulations !! You have successfully subscribed to our  newsletter!')
+                             'Congratulations !! You have successfully '
+                             'subscribed to our  newsletter!')
             instance.save()
             subject = "Thank you for Joining our Newsletter"
             from_email = settings.EMAIL_HOST_USER

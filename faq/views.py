@@ -10,4 +10,3 @@ def faq(request):
         'questions': questions
     }
     return render(request, 'faq/faq.html', context)
-
