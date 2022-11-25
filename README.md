@@ -985,25 +985,25 @@ The Python code within the application was validated by [CI Python Linter](https
 
 #### home app
 
-- views.py
-- urls.py
+- [views.py](docs/validation/python/home/views-python-validation.JPG)
+- [urls.py](docs/validation/python/home/urls-python-validation.JPG)
 
 #### newsletter app
 
-- views.py
-- urls.py
-- models.py
-- forms.py
-- admin.py
+- [views.py](docs/validation/python/newsletter/views-python-validation.JPG)
+- [urls.py](docs/validation/python/newsletter/urls-python-validation.JPG)
+- [models.py](docs/validation/python/newsletter/models-python-validation.JPG)
+- [forms.py](docs/validation/python/newsletter/forms-python-validation.JPG)
+- [admin.py](docs/validation/python/newsletter/admin-python-validation.JPG)
 
 #### products app
 
-- widgets.py
-- views.py
-- urls.py
-- models.py
-- forms.py
-- admin.py
+- [widgets.py](docs/validation/python/products/widgets-python-validation.JPG)
+- [views.py](docs/validation/python/products/views-python-validation.JPG)
+- [urls.py](docs/validation/python/products/urls-python-validation.JPG)
+- [models.py](docs/validation/python/products/models-python-validation.JPG)
+- [forms.py](docs/validation/python/products/forms-python-validation.JPG)
+- [admin.py](docs/validation/python/products/admin-python-validation.JPG)
 
 #### profiles app
 
