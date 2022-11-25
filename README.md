@@ -970,18 +970,18 @@ The Python code within the application was validated by [CI Python Linter](https
 
 #### contact app
 
-- views.py
-- urls.py
-- models.py
-- forms.py
-- admin.py
+- [views.py](docs/validation/python/contact/views-python-validation.JPG)
+- [urls.py](docs/validation/python/contact/urls-python-validation.JPG)
+- [models.py](docs/validation/python/contact/models-python-validation.JPG)
+- [forms.py](docs/validation/python/contact/forms-python-validation.JPG)
+- [admin.py](docs/validation/python/contact/admin-python-validation.JPG)
 
 #### faq app
 
-- views.py
-- urls.py
-- models.py
-- admin.py
+- [views.py](docs/validation/python/faq/views-python-validation.JPG)
+- [urls.py](docs/validation/python/faq/urls-python-validation.JPG)
+- [models.py](docs/validation/python/faq/models-python-validation.JPG)
+- [admin.py](docs/validation/python/faq/admin-python-validation.JPG)
 
 #### home app
 
