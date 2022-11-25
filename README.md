@@ -947,15 +947,15 @@ The Python code within the application was validated by [CI Python Linter](https
 
 #### mx_monster app
 
-- settings.py
-- urls.py
-- views.py
+- [settings.py](docs/validation/python/mx_monster/settings-python-validation.JPG)
+- [urls.py](docs/validation/python/mx_monster/urls-python-validation.JPG)
+- [views.py](docs/validation/python/mx_monster/views-python-validation.JPG)
 
 #### bag app
 
-- contexts.py
-- urls.py
-- views.py
+- [contexts.py](docs/validation/python/bag/contexts-python-validation.JPG)
+- [urls.py](docs/validation/python/bag/urls-python-validation.JPG)
+- [views.py](docs/validation/python/bag/views-python-validation.JPG)
 
 #### checkout app
 
