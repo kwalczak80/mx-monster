@@ -1073,6 +1073,25 @@ I have tested the pages of the application using [WAVE](https://wave.webaim.org/
 
 The Lighthouse tool was used to assess the website's performance, accessibility, and SEO. The results are shown below.
 
+## Stripe
+
+
+## Amazon WebServices
+
+## Deployment
+
+### Migrating databases
+
+### Migrating your data
+
+### Connecting ElephantSQL database to Heroku
+
+### Final Deployment
+
+### Forking This Project
+
+### Cloning This Project
+
 ## Technologies Used
 
 ### Languages
