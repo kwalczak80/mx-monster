@@ -105,7 +105,7 @@ body {
     width: 1.5rem;
 }
 
-#logo-font h1 {
+#logo-font h2 {
     font-size: 50px;
     background: -webkit-linear-gradient(#f30606, #b12020, #030303);
     -webkit-background-clip: text;

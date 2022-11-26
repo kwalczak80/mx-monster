@@ -1045,6 +1045,10 @@ The Python code within the application was validated by [CI Python Linter](https
 ### CSS
 The CSS code within the application was validated by [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/), and the results can be found below.
 
+- [CSS Base validation results](docs/validation/css/base-css.JPG)
+- [CSS Admin validation results](docs/validation/css/admin-css.JPG)
+- [CSS Checkout validation results](docs/validation/css/checkout-css.JPG)
+- [CSS Profile validation results](docs/validation/css/profiles-css.JPG)
 
 ### JS
 The JavaScript and JQuery code within the application was validated by [JSHint](https://jshint.com/), and the results can be found below.
