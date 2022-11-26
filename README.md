@@ -1025,7 +1025,9 @@ The Python code within the application was validated by [CI Python Linter](https
 - [models.py](docs/validation/python/staff/models-python-validation.JPG)
 - [admin.py](docs/validation/python/staff/admin-python-validation.JPG)
 
-custom_sparages.py
+#### other files
+
+- [custom_storages.py](docs/validation/python/other/custom-storages-python-validation.JPG)
 
 
 ### CSS
