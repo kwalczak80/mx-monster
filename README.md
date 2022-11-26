@@ -1056,6 +1056,14 @@ The JavaScript and JQuery code within the application was validated by [JSHint](
 ### Color Contrast Accessibility Validator
 The Color [Contrast Accessibility Validator](https://color.a11y.com/) was used to check if there is no contrast issue on the web page.
 
+- [Home page](docs/validation/contrast_validation/home-page-contrast-validation.JPG)
+- [About page](docs/validation/contrast_validation/about-page-contrast-validation.JPG)
+- [Contact page](docs/validation/contrast_validation/contact-page-contrast-validation.JPG)
+- [FAQ page](docs/validation/contrast_validation/faq-page-contrast-validation.JPG)
+- [Newsletter page](docs/validation/contrast_validation/newsletter-page-contrast-validation.JPG)
+- [Privacy page](docs/validation/contrast_validation/privacy-page-contrast-validation.JPG)
+- [Terms page](docs/validation/contrast_validation/terms-page-contrast-validation.JPG)
+
 ### Accessibility testing
 
 I have tested the pages of the application using [WAVE](https://wave.webaim.org/) to ensure there are no errors. The results can be seen by following the links below.
