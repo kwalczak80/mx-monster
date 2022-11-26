@@ -940,6 +940,17 @@ Fix: The fix was implmented by adding the following card-img-top class in the st
 
 The HTML code within the application was validated by [W3C Markup Validation Service](https://validator.w3.org/). Pages were put through the validator seperatly, and the results can be found below.
 
+[Home page]()
+[About page]()
+[Contact page]()
+[Privacy page]()
+[Term page]()
+[FAQ page]()
+[Newsletter page]()
+[Login page]()
+[Sign Up page]()
+[Logout page]()
+
 
 ### Python
 
