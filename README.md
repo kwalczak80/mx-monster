@@ -1007,18 +1007,18 @@ The Python code within the application was validated by [CI Python Linter](https
 
 #### profiles app
 
-- views.py
-- urls.py
-- models.py
-- forms.py
+- [views.py](docs/validation/python/profiles/views-python-validation.JPG)
+- [urls.py](docs/validation/python/profiles/urls-python-validation.JPG)
+- [models.py](docs/validation/python/profiles/models-python-validation.JPG)
+- [forms.py](docs/validation/python/profiles/forms-python-validation.JPG)
 
 #### reviews app
 
-- views.py
-- urls.py
-- models.py
-- forms.py
-- admin.py
+- [views.py](docs/validation/python/reviews/views-python-validation.JPG)
+- [urls.py](docs/validation/python/reviews/urls-python-validation.JPG)
+- [models.py](docs/validation/python/reviews/models-python-validation.JPG)
+- [forms.py](docs/validation/python/reviews/forms-python-validation.JPG)
+- [admin.py](docs/validation/python/reviews/admin-python-validation.JPG)
 
 #### staff app
 
