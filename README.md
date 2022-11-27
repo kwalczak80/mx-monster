@@ -828,6 +828,13 @@ The business owner can add a new employee via the admin panel. All the informati
 
 ![Admin panel message review](docs/images/existing_features/admin-area/admin-panel-contact.JPG)
 
+## SEO - Search Engine Optimization
+
+To improve the Search Engine Optimization (SEO) of the site the keywords were researched using [WordTracker](https://www.wordtracker.com/) to optimize web pages and content to increase ranking in search engines.
+The keyword research was used for both short-tail & long-tail keywords.
+
+![Search Engine Optimization](docs/images/seo/seo.JPG)
+
 ## Bugs
 
 <details>
