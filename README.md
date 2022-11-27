@@ -1243,6 +1243,12 @@ To set up the project to send emails and to use a Google account as an SMTP serv
 
 ### Forking This Project
 
+By forking the GitHub Repository you will be able to make a copy of the original repository on your own GitHub account allowing you to view and/or make changes without affecting the original repository by using the following steps:
+
+- Log in to GitHub and locate the [GitHub Repository](https://github.com/kwalczak80/mx-monster)
+- Find the "Fork" button at the top right of the page
+- You should now have a copy of the original repository in your GitHub account.
+
 ### Cloning This Project
 
 ## Technologies Used
