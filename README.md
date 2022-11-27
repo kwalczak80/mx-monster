@@ -835,6 +835,18 @@ The keyword research was used for both short-tail & long-tail keywords.
 
 ![Search Engine Optimization](docs/images/seo/seo.JPG)
 
+## Marketing
+
+As part of marketing strategies for the MX Monster Store, I decided to use social media, and email marketing. All options are free, but effective for an e-commerce store.
+
+### Facebook Business Page
+
+- A Facebook business page was the chosen platform, to help build relationships and loyalty with customers. This can be achieved by posting frequent updates to the site, promoting the items, and having direct interactions with existing and potential customers. The next steps would include using Twitter, Instagram, and YouTube as social media platforms to target a larger audience.
+
+### Email marketing(Newsletter)
+
+- I've opted to create a custom newsletter model and not use Mailchimp. A newsletter is another free source of marketing, whereby by using email subscriptions, users would receive a newsletter, outlining current items in the store, sales, discounts, and any other information related to the business. This is a straightforward way to increase sales and have customers return by providing discounts.
+
 ## Bugs
 
 <details>
