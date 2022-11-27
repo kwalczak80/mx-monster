@@ -1077,19 +1077,19 @@ The Lighthouse tool was used to assess the website's performance, accessibility,
 
 To set up the project to send emails and to use a Google account as an SMTP server, the following steps are required:
 
-1. Create an email account at google.com, login, navigate to Settings in your gmail account and then click on Other Google Account Settings
-2. Turn on 2-step verification and follow the steps to enable
-3. Once verified and turned on two-step verification, return to the Security section
+- Create an email account at google.com, login, navigate to Settings in your gmail account and then click on Other Google Account Settings
+- Turn on 2-step verification and follow the steps to enable
+- Once verified and turned on two-step verification, return to the Security section
 
  ![sign-in-to-google-section](docs/images/email/sign-in-to-google-section.JPG)
 
-4. Click on app passwords, select Other as the app and give the password a name, for example Django
+- Click on app passwords, select Other as the app and give the password a name, for example Django
  ![gmail-app-password](docs/images/email/gmail-app-password.JPG)
 
-5. Click create and a 16 digit password will be generated, note the password down
-6. In the env.py file, create an environment variable called EMAIL_HOST_PASS with the 16 digit password
-7. In the env.py file, create an environment variable called EMAIL_HOST_USER with the email address of the gmail account
-8. Set and confirm the following values in the settings.py file to successfully send emails
+- Click create and a 16 digit password will be generated, note the password down
+- In the env.py file, create an environment variable called EMAIL_HOST_PASS with the 16 digit password
+- In the env.py file, create an environment variable called EMAIL_HOST_USER with the email address of the gmail account
+- Set and confirm the following values in the settings.py file to successfully send emails
 
  ```django
     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
@@ -1101,30 +1101,30 @@ To set up the project to send emails and to use a Google account as an SMTP serv
     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
  ```
 
-9. You will also need to set the variables EMAIL_HOST_PASS and EMAIL_HOST_USER in your production instance, for example Heroku
+- You will also need to set the variables EMAIL_HOST_PASS and EMAIL_HOST_USER in your production instance, for example Heroku
 
 ## Stripe
 
-1. Register for an account at [stripe.com](https://stripe.com/en-ie)
-2. Click on the Developers section of your account once logged in
-3. Under Developers, click on the API keys section
-4. Note the values for the publishable and secret keys
+- Register for an account at [stripe.com](https://stripe.com/en-ie)
+- Click on the Developers section of your account once logged in
+- Under Developers, click on the API keys section
+- Note the values for the publishable and secret keys
 
   ![Stripe Api keys](docs/images/stripe/api-keys.JPG)
 
-5. In your local environment(env.py) and heroku, create environment variables STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY with the publishable and secret key values
+- In your local environment(env.py) and heroku, create environment variables STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY with the publishable and secret key values
 
   ```django
   os.environ.setdefault('STRIPE_PUBLIC_KEY', 'YOUR_VALUE_GOES_HERE')
   os.environ.setdefault('STRIPE_SECRET_KEY', 'YOUR_VALUE_GOES_HERE')
   ```
 
-6. Back in the Developers section of your stripe account click on Webhooks
-7. Create a webhook with the url of your website /checkout/wh/, for example: [https://mx-monster.herokuapp.com/checkout/wh/](https://mx-monster.herokuapp.com/checkout/wh/)
-8. Select the payment_intent.payment_failed and payment_intent.succeeded as events to send
-9. Note the key created for this webhook
-10. In your local environment(env.py) and heroku, create environment variable `STRIPE_WH_SECRET with the secret values os.environ.setdefault('STRIPE_WH_SECRET', 'YOUR_VALUE_GOES_HERE')`
-11. Test the webhook and note the success/fail attempts for troubleshooting, see events and logs for further testing.
+- Back in the Developers section of your stripe account click on Webhooks
+- Create a webhook with the url of your website /checkout/wh/, for example: [https://mx-monster.herokuapp.com/checkout/wh/](https://mx-monster.herokuapp.com/checkout/wh/)
+- Select the payment_intent.payment_failed and payment_intent.succeeded as events to send
+- Note the key created for this webhook
+- In your local environment(env.py) and heroku, create environment variable `STRIPE_WH_SECRET with the secret values os.environ.setdefault('STRIPE_WH_SECRET', 'YOUR_VALUE_GOES_HERE')`
+- Test the webhook and note the success/fail attempts for troubleshooting, see events and logs for further testing.
 
 ## Amazon WebServices
 
@@ -1342,6 +1342,8 @@ Clone this project by following the steps:
 
 Throughout the process of building this project, various online sources have been used to help fix bugs & tackle problems, in addition to multiple modules to create the functionality of this website:
 
+- [Boutique Ado](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+EA101+2021_T1/courseware/eb05f06e62c64ac89823cc956fcd8191/3adff2bf4a78469db72c5330b1afa836/)
+  - Boutique Ado - from Code Institute
 - [Stack Overflow](https://stackoverflow.com/)
   - To find solutions to the issues I encountered while creating this project.
 - [W3Schools](https://www.w3schools.com/)
