@@ -1091,7 +1091,7 @@ To set up the project to send emails and to use a Google account as an SMTP serv
 7. In the env.py file, create an environment variable called EMAIL_HOST_USER with the email address of the gmail account
 8. Set and confirm the following values in the settings.py file to successfully send emails
 
-```
+```django
   EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
   EMAIL_USE_TLS = True
   EMAIL_PORT = 587
@@ -1104,6 +1104,27 @@ To set up the project to send emails and to use a Google account as an SMTP serv
 9. You will also need to set the variables EMAIL_HOST_PASS and EMAIL_HOST_USER in your production instance, for example Heroku
 
 ## Stripe
+
+1. Register for an account at [stripe.com](https://stripe.com/en-ie)
+2. Click on the Developers section of your account once logged in
+3. Under Developers, click on the API keys section
+4. Note the values for the publishable and secret keys
+
+![Stripe Api keys](docs/images/stripe/api-keys.JPG)
+
+5. In your local environment(env.py) and heroku, create environment variables STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY with the publishable and secret key values
+
+```django
+os.environ.setdefault('STRIPE_PUBLIC_KEY', 'YOUR_VALUE_GOES_HERE')
+os.environ.setdefault('STRIPE_SECRET_KEY', 'YOUR_VALUE_GOES_HERE')
+```
+
+6. Back in the Developers section of your stripe account click on Webhooks
+7. Create a webhook with the url of your website /checkout/wh/, for example: [https://mx-monster.herokuapp.com/checkout/wh/](https://mx-monster.herokuapp.com/checkout/wh/)
+8. Select the payment_intent.payment_failed and payment_intent.succeeded as events to send
+9. Note the key created for this webhook
+10. In your local environment(env.py) and heroku, create environment variable `STRIPE_WH_SECRET with the secret values os.environ.setdefault('STRIPE_WH_SECRET', 'YOUR_VALUE_GOES_HERE')`
+11. Test the webhook and note the success/fail attempts for troubleshooting, see events and logs for further testing.
 
 ## Amazon WebServices
 
