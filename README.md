@@ -1073,8 +1073,37 @@ I have tested the pages of the application using [WAVE](https://wave.webaim.org/
 
 The Lighthouse tool was used to assess the website's performance, accessibility, and SEO. The results are shown below.
 
-## Stripe
+## Google emails
 
+To set up the project to send emails and to use a Google account as an SMTP server, the following steps are required:
+
+1. Create an email account at google.com, login, navigate to Settings in your gmail account and then click on Other Google Account Settings
+2. Turn on 2-step verification and follow the steps to enable
+3. Once verified and turned on two-step verification, return to the Security section
+
+![sign-in-to-google-section](docs/images/email/sign-in-to-google-section.JPG)
+
+4. Click on app passwords, select Other as the app and give the password a name, for example Django
+![gmail-app-password](docs/images/email/gmail-app-password.JPG)
+
+5. Click create and a 16 digit password will be generated, note the password down
+6. In the env.py file, create an environment variable called EMAIL_HOST_PASS with the 16 digit password
+7. In the env.py file, create an environment variable called EMAIL_HOST_USER with the email address of the gmail account
+8. Set and confirm the following values in the settings.py file to successfully send emails
+
+```
+  EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+  EMAIL_USE_TLS = True
+  EMAIL_PORT = 587
+  EMAIL_HOST = 'smtp.gmail.com'
+  EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+  EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
+  DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
+```
+
+9. You will also need to set the variables EMAIL_HOST_PASS and EMAIL_HOST_USER in your production instance, for example Heroku
+
+## Stripe
 
 ## Amazon WebServices
 
