@@ -1251,6 +1251,16 @@ By forking the GitHub Repository you will be able to make a copy of the original
 
 ### Cloning This Project
 
+Clone this project by following the steps:
+
+- Open [GitHub](https://github.com/kwalczak80/mx-monster)
+- You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order to copy the URL
+- Once you click the button the fork will be in your repository
+- Open a new terminal
+- Change the current working directory to the location that you want the cloned directory
+- Type 'git clone' and paste the URL copied in step 3
+- Press 'Enter' and the project is cloned
+
 ## Technologies Used
 
 ### Languages
