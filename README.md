@@ -1236,6 +1236,11 @@ To set up the project to send emails and to use a Google account as an SMTP serv
 
 ### Final Deployment
 
+- Create a Procfile web: gunicorn mx_monster.wsgi:application
+- When development is complete change the debug setting to: DEBUG = os.environ.get('DEBUG')
+- Add os.environ.get('DEBUG') in env.py
+- In Heroku settings, delete the config vars for DISABLE_COLLECTSTATIC = 1
+
 ### Forking This Project
 
 ### Cloning This Project
