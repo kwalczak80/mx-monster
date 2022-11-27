@@ -1081,25 +1081,25 @@ To set up the project to send emails and to use a Google account as an SMTP serv
 2. Turn on 2-step verification and follow the steps to enable
 3. Once verified and turned on two-step verification, return to the Security section
 
-![sign-in-to-google-section](docs/images/email/sign-in-to-google-section.JPG)
+ ![sign-in-to-google-section](docs/images/email/sign-in-to-google-section.JPG)
 
 4. Click on app passwords, select Other as the app and give the password a name, for example Django
-![gmail-app-password](docs/images/email/gmail-app-password.JPG)
+ ![gmail-app-password](docs/images/email/gmail-app-password.JPG)
 
 5. Click create and a 16 digit password will be generated, note the password down
 6. In the env.py file, create an environment variable called EMAIL_HOST_PASS with the 16 digit password
 7. In the env.py file, create an environment variable called EMAIL_HOST_USER with the email address of the gmail account
 8. Set and confirm the following values in the settings.py file to successfully send emails
 
-```django
-  EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-  EMAIL_USE_TLS = True
-  EMAIL_PORT = 587
-  EMAIL_HOST = 'smtp.gmail.com'
-  EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
-  EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
-  DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
-```
+ ```django
+    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+    EMAIL_USE_TLS = True
+    EMAIL_PORT = 587
+    EMAIL_HOST = 'smtp.gmail.com'
+    EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+    EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
+    DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
+ ```
 
 9. You will also need to set the variables EMAIL_HOST_PASS and EMAIL_HOST_USER in your production instance, for example Heroku
 
@@ -1110,14 +1110,14 @@ To set up the project to send emails and to use a Google account as an SMTP serv
 3. Under Developers, click on the API keys section
 4. Note the values for the publishable and secret keys
 
-![Stripe Api keys](docs/images/stripe/api-keys.JPG)
+  ![Stripe Api keys](docs/images/stripe/api-keys.JPG)
 
 5. In your local environment(env.py) and heroku, create environment variables STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY with the publishable and secret key values
 
-```django
-os.environ.setdefault('STRIPE_PUBLIC_KEY', 'YOUR_VALUE_GOES_HERE')
-os.environ.setdefault('STRIPE_SECRET_KEY', 'YOUR_VALUE_GOES_HERE')
-```
+  ```django
+  os.environ.setdefault('STRIPE_PUBLIC_KEY', 'YOUR_VALUE_GOES_HERE')
+  os.environ.setdefault('STRIPE_SECRET_KEY', 'YOUR_VALUE_GOES_HERE')
+  ```
 
 6. Back in the Developers section of your stripe account click on Webhooks
 7. Create a webhook with the url of your website /checkout/wh/, for example: [https://mx-monster.herokuapp.com/checkout/wh/](https://mx-monster.herokuapp.com/checkout/wh/)
@@ -1128,7 +1128,74 @@ os.environ.setdefault('STRIPE_SECRET_KEY', 'YOUR_VALUE_GOES_HERE')
 
 ## Amazon WebServices
 
+- Create an account at aws.amazon.com
+
+- Open the S3 application and create an S3 bucket named "mx-monster"
+
+- Select AWS Region.
+
+![AWS buckets](docs/images/aws/aws-buckets.JPG)
+
+- Uncheck the "Block All Public access setting" & acknowledge that the bucket will be public, it will need to be public in order to allow public access to static files.
+
+![Public access settings](docs/images/aws/public-access-settings.JPG)
+![Permission overview](docs/images/aws/permission-overview.JPG)
+
+- In the Properties section, navigate to the "Static Website Hosting" section and click edit
+- Under the Properties section, turn on "Static Website Hosting", and set the index.html and the error.html values.
+
+![Edit public access hosting](docs/images/aws/edit-static-website-hosting.JPG)
+
+- In the Permissions section, click edit on the CORS configuration and set the below configuration
+
+![CORS](docs/images/aws/cors.JPG)
+
+- In the permissions section, click edit on the bucket policy and generate and set the below configuration(or similar to your settings)
+
+![Bucket policy](docs/images/aws/bucket-policy.JPG)
+
+- Go to the Access Control List and set the List objects permission for everyone under the Public Access section.
+- Open the IAM application to control access to the bucket and set up a user group called
+- Click on Policies, and Create Policy.
+- Click on the JSON tab and import a pre-built Amazon policy called AmazonS3FullAccess:
+- Set the following settings in the JSON tab:
+- Click Review Policy, give it a name and description and click Create Policy.
+- To attach the policy to the group, navigate to Groups, then Permissions, and under Add Permissions, select Attach Policy.
+- To create a user for the group, click Add User, and create one
+- Add the user to the group created, making sure to download the CSV file which contains the user's access credentials.
+- Note the following AWS code in Settings.py. An environment variable called USE_AWS must be set to use these settings, otherwise it will use local storage:
+
+![Django AWS settings](docs/images/aws/django-aws-settings.JPG)
+
 ## Deployment
+
+- This project was developed using a GitPod workspace. The code was committed to Git and pushed to GitHub using the terminal.
+- Log in to [Heroku](https://www.heroku.com/) or create an account
+- On the main page click New and Create New App
+- Note: new app name must be unique
+- Next select your region
+- Click Create App button
+- Click in resources and select Heroku Postgres database
+- Click Reveal Config Vars and add new config "SECRET_KEY"
+- Click Reveal Config Vars and add new config "DISABLE_COLLECTSTATIC = 1"
+- The next page is the project’s Deploy Tab. Click on the Settings Tab and scroll down to Config Vars
+- Next, go to Buildpack section click Add Buildpack select python and Save Changes
+- Scroll to the top of the page and choose the Deploy tab
+- Select Github as the deployment method
+- Confirm you want to connect to GitHub
+- Search for the repository name and click the connect button
+- Scroll to the bottom of the deploy page and select the preferred deployment type
+- Click either Enable Automatic Deploys for automatic deployment when you push updates to Github
+- As Heroku Student Pack no longer includes free access to the Postgres add-on I had to migrate Postgres databases from Heroku to ElephantSQL.
+- Navigate to [ElephantSQL](https://www.elephantsql.com/) and click “Get a managed database today”
+- Select “Try now for FREE” in the TINY TURTLE database plan
+- Select “Log in with GitHub” and authorize ElephantSQL with your selected GitHub account
+- In the Create new team form:
+  - Add a team name
+  - Read and agree to the Terms of Service
+  - Select **Yes** for GDPR
+  - Provide your email address
+  - Click **Create Team**
 
 ### Migrating databases
 
