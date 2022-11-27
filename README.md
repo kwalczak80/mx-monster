@@ -1199,6 +1199,14 @@ To set up the project to send emails and to use a Google account as an SMTP serv
 
 ### Migrating databases
 
+- Log in to ElephantSQL.com to access your dashboard
+- Click “Create New Instance”
+- Set up your plan
+- Select “Select Region” EXAMPLE "EU-West-1 (Ireland)"
+- Then click “Review”
+- Check your details are correct and then click “Create instance”
+- Return to the ElephantSQL dashboard and click on the database instance name for this project
+
 ### Migrating your data
 
 ### Connecting ElephantSQL database to Heroku
