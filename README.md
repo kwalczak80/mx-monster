@@ -955,7 +955,95 @@ Fix: The fix was implmented by adding the following card-img-top class in the st
 ![Fixed images displayed on cards with equal height.](docs/images/bugs/fixed_images_with_no_equal%20height.JPG)
 </details>
 
+## UX Testing
+
+## Manual Testing
+
+Manually testing the MX Monster project was an ongoing process to make sure everything was working as expected. All bugs were fixed on an ongoing basis during the project's creation. After each fix, manual tests were performed to make sure that everything was working as intended and that the fixes did not cause other errors. Manual tests and checks include:
+
+### Navigation bar
+
+- All links navigate to the correct endpoint.
+- Different navigation links are presented on the navigation bar depending on the user authentication.
+- All icons are displayed correctly.
+- Free delivery banner is presented.
+- The shopping bag icon changes the color to red if items are added to the bag(otherwise it is displayed in black color).
+- The search bar is presented and allows the user to enter their search criteria.
+- Responsiveness.
+- Accessibility is correct.
+
+### Footer navigation
+
+- All links navigate to the correct endpoint.
+- The hover effect is working correctly.
+- External links open in a new tab.
+- Accessibility is correct.
+- Responsiveness.
+
+### Home Page
+
+- Text is clear and easily read.
+- The background image is displayed correctly.
+- The carousel is working correctly.
+- All links on the carousel navigate to the correct endpoint.
+- Responsiveness.
+
+### Login and Signup
+
+- The form is clear and intuitive.
+- Form completes its task correctly.
+- Message is displayed to the user on the homepage when signed in or signed up.
+
+### Logout
+
+- The form is clear and intuitive.
+- Form completes its task correctly.
+- Message is displayed to the user on the homepage when signed out.
+
+### The products page
+
+- Responsiveness
+- The image of the product is displayed correctly.
+- The product name and price are displayed correctly.
+- All the font-awesome icons are correctly displayed on the cards.
+- The product category name is presented.
+- The average rating is presented. If the product has no rating, a relevant message is displayed.
+- If the site administrator is logged in, the Edit and Delete options are presented on the card.
+- The footer is displayed at the bottom of the page.
+
+### The Product page
+
+- Responsiveness
+- The image of the product is displayed correctly.
+- The product name and price are displayed correctly.
+- All the font-awesome icons are displayed correctly.
+- The product category name is presented.
+- The average product rating is presented. If the product has no rating, a relevant message is displayed.
+- If the site administrator is logged in, the Edit and Delete options are presented on the card.
+- The product description is presented in a clear and readable manner.
+- If the product has sizes, the Size drop-down menu is presented. If the product has no sizes, the size drop-down menu is hidden.
+- The product Quantity field is visible.
+- The quantity plus and minus buttons operate correctly, allowing the user to increase or decrease the product quantity the want to add to the shopping bag.
+- The website logic controls the number of items the user wants to add to the basket.
+- The **Keep shopping** and **Add to bag** buttons navigate to the correct endpoint.
+- The customer reviews section is presented
+- The **Customer reviews** button works correctly(if the product has reviews once the button is clicked, the reviews will be displayed on the screen)
+- The **Add review** button is visible if the user is signed in.
+- The **Add review** button is hidden if the user is not signed in.
+- The footer is displayed at the bottom of the page.
+
+### The customer reviews section
+
+- Responsiveness
+
+
+
+
+
+
+
 ## Code Validation
+
 
 ### HTML
 
@@ -1093,6 +1181,15 @@ I have tested the pages of the application using [WAVE](https://wave.webaim.org/
 ### Lighthouse testing
 
 The Lighthouse tool was used to assess the website's performance, accessibility, and SEO. The results are shown below.
+
+- [Home page]
+- [Products page]
+- [About page]
+- [Contact page]
+- [FAQ page]
+- [Newsletter page]
+- [Privacy page]
+- [Terms page]
 
 ## Google emails
 
