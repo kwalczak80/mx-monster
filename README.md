@@ -1026,6 +1026,7 @@ Manually testing the MX Monster project was an ongoing process to make sure ever
 - The quantity plus and minus buttons operate correctly, allowing the user to increase or decrease the product quantity the want to add to the shopping bag.
 - The website logic controls the number of items the user wants to add to the basket.
 - The **Keep shopping** and **Add to bag** buttons navigate to the correct endpoint.
+- When the **Add to bag** button is clicked the confirmation message is displayed on the screen that
 - The customer reviews section is presented.
 - The customer reviews accordion functionality works correctly.
 - The **Customer reviews** button works correctly(if the product has reviews once the button is clicked, the reviews will be displayed on the screen)
@@ -1081,8 +1082,24 @@ Manually testing the MX Monster project was an ongoing process to make sure ever
 - The **Back** button works correctly.
 - A confirmation message is displayed on the screen when the user email is deleted from the database(newsletter unsubscribed)
 - An error message is displayed on the screen if the user is trying to unsubscribe from the newsletter but their email address does not exist in the database(already unsubscribed from the newsletter)
+- The footer is displayed at the bottom of the page.
+
+### The Contact page
+
+- Responsiveness
+- The form is clear and intuitive.
+- Form completes its task correctly.
+- The **Submit** button works correctly.
+- A confirmation message is displayed on the screen that the user query has been sent.
+- The current day of the week is correctly highlighted in the business opening hours section
+- The footer is displayed at the bottom of the page and the links are working correctly.
+
+### The About page
 
 
+- Responsiveness
+
+- The footer is displayed at the bottom of the page.
 
 
 
@@ -1097,16 +1114,27 @@ Manually testing the MX Monster project was an ongoing process to make sure ever
 The HTML code within the application was validated by [W3C Markup Validation Service](https://validator.w3.org/). Pages were put through the validator seperatly, and the results can be found below.
 
 [Home page](docs/validation/html/home-page.JPG)
+
 [Products page](docs/validation/html/product-page.JPG)
+
 [Product Page](docs/validation/html/product-page.JPG)
+
 [About page](docs/validation/html/about-page.JPG)
+
 [Contact page](docs/validation/html/contact-page.JPG)
+
 [Privacy page](docs/validation/html/privacy-page.JPG)
+
 [Terms page](docs/validation/html/terms-page.JPG)
+
 [FAQ page](docs/validation/html/faq-page.JPG)
+
 [Newsletter page](docs/validation/html/subscribtion-page.JPG)
+
 [Login page](docs/validation/html/login-page.JPG)
+
 [Sign Up page](docs/validation/html/sign-up-page.JPG)
+
 [Logout page](docs/validation/html/logout-page.JPG)
 
 ### Python
