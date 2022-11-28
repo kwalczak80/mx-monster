@@ -1067,6 +1067,21 @@ Manually testing the MX Monster project was an ongoing process to make sure ever
 - The accordion functionality works correctly.
 - The footer is displayed at the bottom of the page.
 
+### The Newsletter page
+
+- Responsiveness
+- The **Subscribe** and **Unsubscribe** buttons redirect the user to the relevant pages.
+- On the Subscribe page, the user is able to enter their email in order to subscribe to the newsletter.
+- The **Subscribe** button works correctly.
+- The **Back** button works correctly.
+- A confirmation message is displayed on the screen when the user is added to the database(newsletter subscription)
+- An error message is displayed on the screen if the user is trying to subscribe to the newsletter but their email address already exists in the database(already subscribed to the newsletter)
+- The user can unsubscribe from the newsletter by entering their email address on the unsubscribe page.
+- The **Unsubscribe** button works correctly.
+- The **Back** button works correctly.
+- A confirmation message is displayed on the screen when the user email is deleted from the database(newsletter unsubscribed)
+- An error message is displayed on the screen if the user is trying to unsubscribe from the newsletter but their email address does not exist in the database(already unsubscribed from the newsletter)
+
 
 
 
