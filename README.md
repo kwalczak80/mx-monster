@@ -1026,7 +1026,8 @@ Manually testing the MX Monster project was an ongoing process to make sure ever
 - The quantity plus and minus buttons operate correctly, allowing the user to increase or decrease the product quantity the want to add to the shopping bag.
 - The website logic controls the number of items the user wants to add to the basket.
 - The **Keep shopping** and **Add to bag** buttons navigate to the correct endpoint.
-- The customer reviews section is presented
+- The customer reviews section is presented.
+- The customer reviews accordion functionality works correctly.
 - The **Customer reviews** button works correctly(if the product has reviews once the button is clicked, the reviews will be displayed on the screen)
 - The **Add review** button is visible if the user is signed in.
 - The **Add review** button is hidden if the user is not signed in.
@@ -1035,6 +1036,37 @@ Manually testing the MX Monster project was an ongoing process to make sure ever
 ### The customer reviews section
 
 - Responsiveness
+- All the review information is correctly displayed on the screen, which includes:
+  - The review post date
+  - The review description
+  - The user name who added the review
+- If the user is logged in the **Add Your Review** button is visible and, once clicked, redirects the user to the page where they can write their own review.
+- The user is able to edit or delete their review.
+- The icons to edit and delete reviews are presented on the screen(only for the user who created the review).
+- The edit icon redirects the user to the page where they can edit their review.
+- The delete icon, once clicked, deletes the user review.
+
+### The Privacy page
+
+- Responsiveness
+- The description of the privacy policy is presented and readable.
+- All the links on the privacy page are working correctly.
+- The footer is displayed at the bottom of the page.
+
+### The Terms and conditions page
+
+- Responsiveness
+- The description of the terms and conditions is presented and readable.
+- All the links on the terms and conditions page are working correctly.
+- The footer is displayed at the bottom of the page.
+
+### The FAQ page
+
+- Responsiveness
+- The description of the questions and answers is presented and readable.
+- The accordion functionality works correctly.
+- The footer is displayed at the bottom of the page.
+
 
 
 
