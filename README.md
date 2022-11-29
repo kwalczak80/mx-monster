@@ -1147,11 +1147,21 @@ The section with customer reviews is shown.
 ### The Main profile page
 
 - Responsiveness
-- Default Delivery Information is displayed on the screen.
-- The **Update** button works correctly and allows the user to update the delivery information in the database.
-- Order History is presented on the screen with all the user past orders.
-- The link with order number(once clicked) redirects the user to the relevat page where they can review their past order. A relevant message is displayed on the screen information that they reviewing a past order.
+- Default delivery information is displayed on the screen.
+- The **Update** button functions properly, allowing the user to update delivery information in the database.
+- Order history is presented on the screen with all the user's past orders.
+- The link with the order number (once clicked) redirects the user to the relevant page where they can review their past order. A relevant message is displayed on the screen, indicating that they are reviewing a past order.
 - The footer is displayed at the bottom of the page, and the links are working correctly.
+
+### The product management page
+
+- Responsiveness
+- The "Add a Product" form is clear and intuitive.
+- The drop-down menus are working correctly.
+- The form handles all the user entries and provides relevant feedback if something needs to be corrected.
+- The **Select Image** button works correctly and opens a new window where the user can attach the product image.
+- The **Cancel** button redirects the user to the "All Products" page.
+- The **Add Product** button works correctly and allows the user to add a new product to the database.
 
 ## Code Validation
 
