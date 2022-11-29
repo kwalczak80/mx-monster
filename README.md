@@ -64,7 +64,7 @@ The primary goal of the website, from a site user’s perspective, is as follows
 - As a user, I want to filter the products to narrow down the products to the ones wanted
 - As a user, I want to easily login and logout
 - As a user, I want to register for an account
-- As a user, I want to have my payment information saved to speed up the purchase process
+- As a user, I want to have my user details information saved to speed up the purchase process
 - As a user, I want to have an option to recover my password if required
 - As a user, I want to have a secure payment checkout
 - As a user, I want to have an option to quickly search for a product I'm looking for
@@ -956,6 +956,25 @@ Fix: The fix was implmented by adding the following card-img-top class in the st
 </details>
 
 ## UX Testing
+
+| User requirements | Implemented | Tested | Comments
+| ------------ | ----------- | ------ | --------
+| As a user, I want to view a list of all the products to choose items to purchase |Yes|Yes|
+| As a user, I want to see the products grouped in relevant categories to help me to narrow down the product I’m looking for |Yes|Yes|
+| As a user, I want to see individual product details to have a detailed explanation of the product along with the price|Yes|Yes|
+| As a user, I want to have contact information available to make contact with the store in case of any queries or problems|Yes|Yes|
+| As a user, I want to easily select the product(s) I want to purchase |Yes|Yes|
+| As a user, I want to see the items selected for purchase to keep track of my selections |Yes|Yes|
+| As a user, I want to see a running total of the shopping basket to keep track of my spending |Yes|Yes|
+| As a user, I want to select multiple quantities of the same product, to order two or more of the same products |Yes|Yes|
+| As a user, I want to filter the products to narrow down the products to the ones wanted |Yes|Yes|
+| As a user, I want to easily login and logout |Yes|Yes|
+| As a user, I want to register for an account |Yes|Yes|
+| As a user, I want to have my user details information saved to speed up the purchase process |Yes|Yes|
+| As a user, I want to have an option to recover my password if required |Yes|Yes|
+| As a user, I want to have a secure payment checkout |Yes|Yes|
+| As a user, I want to have an option to quickly search for a product I'm looking for |Yes|Yes|
+| As a user, I want to edit the basket content|Yes|Yes|
 
 |Business owner requirements | Implemented | Tested | Comments
 | ------------ | ----------- | ------ | --------
