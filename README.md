@@ -1000,7 +1000,7 @@ Manually testing the MX Monster project was an ongoing process to make sure ever
 - Form completes its task correctly.
 - Message is displayed to the user on the homepage when signed out.
 
-### The products page
+### The Products page
 
 - Responsiveness
 - The image of the product is displayed correctly.
@@ -1090,20 +1090,34 @@ Manually testing the MX Monster project was an ongoing process to make sure ever
 - The form is clear and intuitive.
 - Form completes its task correctly.
 - The **Submit** button works correctly.
-- A confirmation message is displayed on the screen that the user query has been sent.
+- A confirmation message is displayed on the screen indicating that the user's query has been sent.
 - The current day of the week is correctly highlighted in the business opening hours section
-- The footer is displayed at the bottom of the page and the links are working correctly.
+- The footer is displayed at the bottom of the page, and the links are working correctly.
 
 ### The About page
 
+- Responsiveness
+- The text is clear and easily read
+- All the images are displayed correctly
+- All the contact information is correctly pulled from the database and displayed on the screen.
+- The footer is displayed at the bottom of the page, and the links are working correctly.
+
+### The Search field in the navbar
 
 - Responsiveness
+- The form is clear and intuitive.
+- The form returns correct search results.
+- The search results are displayed correctly on the screen.
 
-- The footer is displayed at the bottom of the page.
+### The Shopping bag
 
-
-
-
+- Responsiveness
+- All the product images along with the product name and price are displayed correctly
+- The Quantity field to adjust the number of items in the bag is presented
+- The **Update** and **Delete** buttons are working as expected and allowing the user to update the bag content or delete the product from the bag
+- The information about bag total, delivery cost, and grand total is presented and calculated correctly.
+- The **Keep Shopping** and **Secure Checkout** buttons work correctly and redirect the user to relevant pages.
+- The footer is displayed at the bottom of the page, and the links are working correctly.
 
 
 ## Code Validation
