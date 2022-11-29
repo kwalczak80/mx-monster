@@ -67,7 +67,7 @@
                         {% endif %}
                         {% if product.stock <= 0 %}
                         <h5 class="text-danger pt-4">We are sorry but currently this product is out of stock</h5>
-                        <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-3">
+                        <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-3" aria-label="Keep shopping button">
                             <span class="icon">
                                 <i class="fas fa-chevron-left"></i>
                             </span>
@@ -83,7 +83,7 @@
                                             class="decrement-qty btn btn-black rounded-0 decrement-qty_{{ product.id }}"
                                             data-item_id="{{ product.id }}">
                                             <span class="icon">
-                                                <i class="fas fa-minus"></i>
+                                                <i class="fas fa-minus" aria-label="Decrement quantity button"></i>
                                             </span>
                                         </button>
                                     </div>
@@ -94,7 +94,7 @@
                                             class="increment-qty btn btn-black rounded-0 increment-qty_{{ product.id }}"
                                             data-item_id="{{ product.id }}">
                                             <span class="icon">
-                                                <i class="fas fa-plus"></i>
+                                                <i class="fas fa-plus" aria-label="Add quantity button"></i>
                                             </span>
                                         </button>
                                     </div>
@@ -102,7 +102,7 @@
                             </div>
                         </div>
                         <div class="col{% if s %}-12 mt-2{% endif %}">
-                            <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-5">
+                            <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-5" aria-label="Keep shopping button">
                                 <span class="icon">
                                     <i class="fas fa-chevron-left"></i>
                                 </span>
