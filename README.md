@@ -1138,9 +1138,19 @@ The section with customer reviews is shown.
 ### The Checkout Success page
 
 - Responsiveness
-- The order confirmation(list of items purchased) is displayed on the screen.
+- The order confirmation (list of items purchased) is displayed on the screen.
 - A confirmation message is displayed on the page.
-- A confirmation email is sent to to customer to confirm that the order was succesfully processed.
+- A confirmation email is sent to the customer to confirm that the order was successfully processed.
+- The **Now Checkout Our Latest Deals** button works correctly and redirects the user to the relevant page.
+- The footer is displayed at the bottom of the page, and the links are working correctly.
+
+### The Main profile page
+
+- Responsiveness
+- Default Delivery Information is displayed on the screen.
+- The **Update** button works correctly and allows the user to update the delivery information in the database.
+- Order History is presented on the screen with all the user past orders.
+- The link with order number(once clicked) redirects the user to the relevat page where they can review their past order. A relevant message is displayed on the screen information that they reviewing a past order.
 - The footer is displayed at the bottom of the page, and the links are working correctly.
 
 ## Code Validation
