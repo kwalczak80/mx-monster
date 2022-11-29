@@ -957,6 +957,10 @@ Fix: The fix was implmented by adding the following card-img-top class in the st
 
 ## UX Testing
 
+| Error handling| Implemented | Tested | Comments
+| ------------ | ----------- | ------ | --------
+|If the page cannot be loaded, the user should be able to return through the website's navigational structure without hitting the back button on their browser|Yes|Yes|The customized 404 page will be displayed if the page that the user requested is not available. The customized 500 page will be displayed to flag the issue with the server. In addition other error pages can be displayed depending on what error was detected.
+
 ## Manual Testing
 
 Manually testing the MX Monster project was an ongoing process to make sure everything was working as expected. All bugs were fixed on an ongoing basis during the project's creation. After each fix, manual tests were performed to make sure that everything was working as intended and that the fixes did not cause other errors. Manual tests and checks include:
