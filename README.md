@@ -1314,14 +1314,14 @@ I have tested the pages of the application using [WAVE](https://wave.webaim.org/
 
 The Lighthouse tool was used to assess the website's performance, accessibility, and SEO. The results are shown below.
 
-- [Home page]
-- [Products page]
-- [About page]
-- [Contact page]
-- [FAQ page]
-- [Newsletter page]
-- [Privacy page]
-- [Terms page]
+- [Home page](docs/images/lighthouse/home-page.JPG)
+- [Products page](docs/images/lighthouse/products-page.JPG)
+- [About page](docs/images/lighthouse/about-us-page.JPG)
+- [Contact page](docs/images/lighthouse/contact-page.JPG)
+- [FAQ page](docs/images/lighthouse/faq-page.JPG)
+- [Newsletter page](docs/images/lighthouse/newsletter-page.JPG)
+- [Privacy page](docs/images/lighthouse/privacy-page.JPG)
+- [Terms page](docs/images/lighthouse/terms-and-conditions-page.JPG)
 
 ## Google emails
 
