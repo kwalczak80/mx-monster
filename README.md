@@ -1022,13 +1022,13 @@ Manually testing the MX Monster project was an ongoing process to make sure ever
 - If the site administrator is logged in, the Edit and Delete options are presented on the card.
 - The product description is presented in a clear and readable manner.
 - If the product has sizes, the Size drop-down menu is presented. If the product has no sizes, the size drop-down menu is hidden.
-- The product Quantity field is visible.
+- The product quantity field is visible.
 - The quantity plus and minus buttons operate correctly, allowing the user to increase or decrease the product quantity the want to add to the shopping bag.
 - The website logic controls the number of items the user wants to add to the basket.
 - The **Keep shopping** and **Add to bag** buttons navigate to the correct endpoint.
-- When the **Add to bag** button is clicked the confirmation message is displayed on the screen that
-- The customer reviews section is presented.
-- The customer reviews accordion functionality works correctly.
+- When the **Add to bag** button is clicked the confirmation message is displayed on the screen informing that the item was added to the shopping bag
+The section with customer reviews is shown.
+- The "customer reviews" accordion works correctly.
 - The **Customer reviews** button works correctly(if the product has reviews once the button is clicked, the reviews will be displayed on the screen)
 - The **Add review** button is visible if the user is signed in.
 - The **Add review** button is hidden if the user is not signed in.
@@ -1119,6 +1119,29 @@ Manually testing the MX Monster project was an ongoing process to make sure ever
 - The **Keep Shopping** and **Secure Checkout** buttons work correctly and redirect the user to relevant pages.
 - The footer is displayed at the bottom of the page, and the links are working correctly.
 
+### The Checkout page
+
+- Responsiveness
+- The form to enter delivery details is clear and intuitive, and it's displayed correctly.
+- The form delivery fields are auto-populated if the user is logged in.
+- All incorrect user entries are handled correctly by the form.
+- The "Country" drop-down menu on the form is showing all available options.
+- The "Save this delivery information to my profile" option works as expected.
+- The order summary is correctly displayed on the page and all the details are correct(the product image, name, price, delivery cost, etc.)
+- The card payment field is presented on the screen, and the user is able to enter the card details.
+- The information about how much the card will be charged is displayed on the screen.
+- The Stripe payment system handles all the payments correctly.
+- A relevant error message is displayed on the screen if the user enters incorrect card details.
+- The **Adjust Bag** and **Complete Order** buttons work correctly and redirect the user to the relevant pages.
+- The footer is displayed at the bottom of the page, and the links are working correctly.
+
+### The Checkout Success page
+
+- Responsiveness
+- The order confirmation(list of items purchased) is displayed on the screen.
+- A confirmation message is displayed on the page.
+- A confirmation email is sent to to customer to confirm that the order was succesfully processed.
+- The footer is displayed at the bottom of the page, and the links are working correctly.
 
 ## Code Validation
 
