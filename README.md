@@ -957,9 +957,20 @@ Fix: The fix was implmented by adding the following card-img-top class in the st
 
 ## UX Testing
 
+|Business owner requirements | Implemented | Tested | Comments
+| ------------ | ----------- | ------ | --------
+| As a user, I want an appealing website with a range of products |Yes|Yes|Complete
+| As a user, I want shoppers to be able to read about the business |Yes|Yes| Complete
+| As a user, I want shoppers to be able to navigate the site easily and quickly |Yes|Yes| Complete
+| As a user, I want to be able easily to log in and log out to access personal information |Yes|Yes| Complete
+| As a user, I want to be able to add a new product to the store|Yes|Yes| Complete
+| As a user, I want to be able to edit/update a product price, description, images, and other information.|Yes|Yes| Complete
+| As a user, I want to be able to delete a product that I no longer wish to sell. |Yes|Yes| Complete
+| As a user, I want to be able to view completed orders from the customers.|Yes|Yes| Complete
+
 | Error handling| Implemented | Tested | Comments
 | ------------ | ----------- | ------ | --------
-|If the page cannot be loaded, the user should be able to return through the website's navigational structure without hitting the back button on their browser|Yes|Yes|The customized 404 page will be displayed if the page that the user requested is not available. The customized 500 page will be displayed to flag the issue with the server. In addition other error pages can be displayed depending on what error was detected.
+|The customized 404 page will be displayed if the page that the user requested is not available.  In addition, other error pages can be displayed depending on what error was detected. See the features section for more details.
 
 ## Manual Testing
 
