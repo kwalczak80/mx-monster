@@ -21,7 +21,8 @@ def add_review(request, product_id):
             Review.objects.create(user=user, product=get_object_or_404(Product,
                                   pk=product_id), description=description)
             messages.success(request, 'Thank you. Your review \
-                                       has been added successfully.')
+                                       has been added successfully \
+                                       and is awaiting approval.')
             return redirect(reverse('product_detail', args=[product_id]))
         else:
             messages.error(request, 'Please try again.')
