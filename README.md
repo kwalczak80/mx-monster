@@ -959,22 +959,22 @@ Fix: The fix was implmented by adding the following card-img-top class in the st
 
 | User requirements | Implemented | Tested | Comments
 | ------------ | ----------- | ------ | --------
-| As a user, I want to view a list of all the products to choose items to purchase |Yes|Yes|
-| As a user, I want to see the products grouped in relevant categories to help me to narrow down the product I’m looking for |Yes|Yes|
-| As a user, I want to see individual product details to have a detailed explanation of the product along with the price|Yes|Yes|
-| As a user, I want to have contact information available to make contact with the store in case of any queries or problems|Yes|Yes|
-| As a user, I want to easily select the product(s) I want to purchase |Yes|Yes|
-| As a user, I want to see the items selected for purchase to keep track of my selections |Yes|Yes|
-| As a user, I want to see a running total of the shopping basket to keep track of my spending |Yes|Yes|
-| As a user, I want to select multiple quantities of the same product, to order two or more of the same products |Yes|Yes|
-| As a user, I want to filter the products to narrow down the products to the ones wanted |Yes|Yes|
-| As a user, I want to easily login and logout |Yes|Yes|
-| As a user, I want to register for an account |Yes|Yes|
-| As a user, I want to have my user details information saved to speed up the purchase process |Yes|Yes|
-| As a user, I want to have an option to recover my password if required |Yes|Yes|
-| As a user, I want to have a secure payment checkout |Yes|Yes|
-| As a user, I want to have an option to quickly search for a product I'm looking for |Yes|Yes|
-| As a user, I want to edit the basket content|Yes|Yes|
+| As a user, I want to view a list of all the products to choose items to purchase |Yes|Yes| On the All Products page, the user can view a list of all products available for sale.
+| As a user, I want to see the products grouped in relevant categories to help me to narrow down the product I’m looking for |Yes|Yes| In the navigation bar, the user can find links to products divided into individual categories. The description of the categories is very clear, which helps a lot in navigating the store's website. When the user clicks on a selected category, only products from that category will be displayed on the screen.
+| As a user, I want to see individual product details to have a detailed explanation of the product along with the price|Yes|Yes| When the user clicks on the image of the selected product, a new page will be opened where detailed information about the product will be displayed.
+| As a user, I want to have contact information available to make contact with the store in case of any queries or problems|Yes|Yes| The contact page contains a form that any user can complete to enable them to contact the business.
+| As a user, I want to easily select the product(s) I want to purchase |Yes|Yes| The **Add to bag** button allows the user to quickly add the selected product to the bag.
+| As a user, I want to see the items selected for purchase to keep track of my selections |Yes|Yes| When the user clicks on the shopping bag icon(located in the top right corner), they will be redirected to the bag page, where they can review all the products added to the bag.
+| As a user, I want to see a running total of the shopping basket to keep track of my spending |Yes|Yes| The basket is visible in the navbar at all times and updated accordingly.
+| As a user, I want to select multiple quantities of the same product, to order two or more of the same products |Yes|Yes| The user can choose the product quantity on the product details page or adjust the quantity on the shopping bag page.
+| As a user, I want to filter the products to narrow down the products to the ones wanted |Yes|Yes| The user has the option to filter the products by price, rating, name, or category. In addition, price and rating can be sorted from low to high or from high to low. The product name or category can be sorted from A-Z or Z-A.
+| As a user, I want to easily login and logout |Yes|Yes| The user has the option to log in to their account.
+| As a user, I want to register for an account |Yes|Yes| The user has the option to create a new account or log in to the one they already have.
+| As a user, I want to have my user details information saved to speed up the purchase process |Yes|Yes| If the user is logged in, their details are automatically populated in the shipping details form on the checkout page.
+| As a user, I want to have an option to recover my password if required |Yes|Yes| The user can recover their password by clicking the **Forgot Password?** link on the sign-in page.
+| As a user, I want to have a secure payment checkout |Yes|Yes| The payment process is handeled by Stripe therfore the cardholder data is stored securely.
+| As a user, I want to have an option to quickly search for a product I'm looking for |Yes|Yes| The search bar located in the navbar allows the user to easily search for products by typing in keywords. The user can either enter a single keyword to find a product or enter multiple keywords, as this type of search functionality is also supported.
+| As a user, I want to edit the basket content|Yes|Yes| On the bag page, the user can either update the quantity of the product they want to buy or delete the product from the basket if it is no longer wanted.
 
 |Business owner requirements | Implemented | Tested | Comments
 | ------------ | ----------- | ------ | --------
@@ -989,7 +989,7 @@ Fix: The fix was implmented by adding the following card-img-top class in the st
 
 | Error handling| Implemented | Tested | Comments
 | ------------ | ----------- | ------ | --------
-|The customized 404 page will be displayed if the page that the user requested is not available.  In addition, other error pages can be displayed depending on what error was detected. See the features section for more details.
+|If the page cannot be loaded, the user should be able to return through the website's navigational structure without hitting the back button on their browser.| Yes | Yes | The customized 404 page will be displayed if the page that the user requested is not available.  In addition, other error pages can be displayed depending on what error was detected. See the features section for more details.
 
 ## Manual Testing
 
