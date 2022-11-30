@@ -9,5 +9,7 @@ class ReviewAdmin(admin.ModelAdmin):
     list_display = (
         'product',
         'user',
-        'review_date'
+        'review_date',
+        'is_published',
     )
+    list_editable = ('is_published',)
