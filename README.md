@@ -726,6 +726,8 @@ Messages are displayed on the screen to provide the user with continuous feedbac
 
 ![Product info update message](docs/images/existing_features/messages/message-product-updated.JPG)
 
+![Review added](docs/images/existing_features/messages/message-review-added.JPG)
+
 ![Review deleted message](docs/images/existing_features/messages/message-review-deleted.JPG)
 
 ![Review updated message](docs/images/existing_features/messages/message-review-updated-successfuly.JPG)
@@ -827,6 +829,19 @@ The business owner can add a new employee via the admin panel. All the informati
 #### Admin panel - ability to review messages sent by the customers
 
 ![Admin panel message review](docs/images/existing_features/admin-area/admin-panel-contact.JPG)
+
+### Admin panel - ability to approve product reviews
+
+The registeed user can add the product review, however it will be displayed on the page upon the businnes approval.
+All new reviews are not published by default.
+
+![Reviews not published](docs/images/existing_features/reviews/reviews-not-published.JPG)
+
+![Reviews not published product page](docs/images/existing_features/reviews/reviews-not-published-product-page.JPG)
+
+![Revies published](docs/images/existing_features/reviews/reviews-published.JPG)
+
+![Reviews published product page](docs/images/existing_features/reviews/reviews-published-product-page.JPG)
 
 ## SEO - Search Engine Optimization
 
