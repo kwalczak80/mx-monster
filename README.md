@@ -297,6 +297,7 @@ The following models were created to represent the database model structure for 
 | product | Product | ForeignKey | |
 | description | | TextField | Set default as ''|
 | review_date | | DateTimeField | Set default date as now |
+| is_published | | Boolean | default=False |
 
 ### Staff model
 
