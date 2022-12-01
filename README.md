@@ -97,38 +97,59 @@ Github issues were used to create the User stories and group them according to M
 - [Products page](docs/wireframes/desktop/products-page-desktop.png)
 - [Product view](docs/wireframes/desktop/product-view-page-desktop.png)
 - [Shopping bag](docs/wireframes/desktop/shopping-bag-page-desktop.png)
+- [Checkout page](docs/wireframes/desktop/checkout-page-desktop.png)
+- [Order confirmation page](docs/wireframes/desktop/order-confirmation-page-desktop.png)
 - [Sign Up page](docs/wireframes/desktop/sign-up-page-desktop.png)
-- [Sign In page](docs/wireframes/desktop/sign-in-page-desktop.png)
-- [Contact page](docs/wireframes/desktop/contact-page-desktop.png)
+- [Sign In page](docs/wireframes/desktop/sign-in-desktop.png)
+- [User profile](docs/wireframes/desktop/user-profile-page-desktop.png)
+- [Privacy Page](docs/wireframes/desktop/privacy-page-desktop.png)
+- [Terms and Conditions page](docs/wireframes/desktop/terms-page-desktop.png)
+- [FAQ page](docs/wireframes/desktop/faq-page-desktop.png)
 - [Newsletter page](docs/wireframes/desktop/newsletter-page-desktop.png)
 - [Newsletter Subscribe](docs/wireframes/desktop/newsletter-subscribe-page-desktop.png)
 - [Newsletter Unsubscribe](docs/wireframes/desktop/newsletter-unsubscribe-page-desktop.png)
+- [Contact page](docs/wireframes/desktop/contact-page-desktop.png)
+- [About page](docs/wireframes/desktop/about-page-desktop.png)
 
 ## Wireframes-Tablet
 
-- [Home page](docs/wireframes/tablet/home-page-tablet.png)
-- [Products page](docs/wireframes/tablet/products-page-tablet.png)
-- [Product view](docs/wireframes/tablet/product-view-page-tablet.png)
-- [Shopping bag](docs/wireframes/tablet/shopping-bag-page-tablet.png)
-- [Sign Up page](docs/wireframes/tablet/sign-up-page-tablet.png)
-- [Sign In page](docs/wireframes/tablet/sign-in-page-tablet.png)
-- [Contact page](docs/wireframes/tablet/contact-page-tablet.png)
-- [Newsletter page](docs/wireframes/tablet/newsletter-page-tablet.png)
-- [Newsletter Subscribe](docs/wireframes/tablet/newsletter-subscribe-page-tablet.png)
-- [Newsletter Unsubscribe](docs/wireframes/tablet/newsletter-unsubscribe-page-tablet.png)
+- [Home page]
+- [Products page]
+- [Product view]
+- [Shopping bag]
+- [Checkout page]
+- [Order confirmation page]
+- [Sign Up page]
+- [Sign In page]
+- [User profile]
+- [Privacy Page]
+- [Terms and Conditions page]
+- [FAQ page]
+- [Newsletter page]
+- [Newsletter Subscribe]
+- [Newsletter Unsubscribe]
+- [Contact page]
+- [About page]
 
 ## Wireframes-Mobile
 
-- [Home page](docs/wireframes/mobile/home-page-mobile.png)
-- [Products page](docs/wireframes/mobile/products-page-mobile.png)
-- [Product view](docs/wireframes/mobile/product-view-page-mobile.png)
-- [Shopping bag](docs/wireframes/mobile/shopping-bag-page-mobile.png)
-- [Sign Up page](docs/wireframes/mobile/sign-up-page-mobile.png)
-- [Sign In page](docs/wireframes/mobile/sign-in-page-mobile.png)
-- [Contact page](docs/wireframes/mobile/contact-page-mobile.png)
-- [Newsletter page](docs/wireframes/mobile/newsletter-page-mobile.png)
-- [Newsletter Subscribe](docs/wireframes/mobile/newsletter-subscribe-page-mobile.png)
-- [Newsletter Unsubscribe](docs/wireframes/mobile/newsletter-unsubscribe-page-mobile.png)
+- [Home page]
+- [Products page]
+- [Product view]
+- [Shopping bag]
+- [Checkout page]
+- [Order confirmation page]
+- [Sign Up page]
+- [Sign In page]
+- [User profile]
+- [Privacy Page]
+- [Terms and Conditions page]
+- [FAQ page]
+- [Newsletter page]
+- [Newsletter Subscribe]
+- [Newsletter Unsubscribe]
+- [Contact page]
+- [About page]
 
 ## Site Map
 
