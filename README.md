@@ -113,23 +113,23 @@ Github issues were used to create the User stories and group them according to M
 
 ## Wireframes-Tablet
 
-- [Home page]
-- [Products page]
-- [Product view]
-- [Shopping bag]
-- [Checkout page]
-- [Order confirmation page]
-- [Sign Up page]
-- [Sign In page]
-- [User profile]
-- [Privacy Page]
-- [Terms and Conditions page]
-- [FAQ page]
-- [Newsletter page]
-- [Newsletter Subscribe]
-- [Newsletter Unsubscribe]
-- [Contact page]
-- [About page]
+- [Home page](docs/wireframes/tablet/home-page-tablet.png)
+- [Products page](docs/wireframes/tablet/products-page-tablet.png)
+- [Product view](docs/wireframes/tablet/product-view-page-tablet.png)
+- [Shopping bag](docs/wireframes/tablet/shopping-bag-page-tablet.png)
+- [Checkout page](docs/wireframes/tablet/checkout-page-tablet.png)
+- [Order confirmation page](docs/wireframes/tablet/order-confirmation-page-tablet.png)
+- [Sign Up page](docs/wireframes/tablet/sign-up-page-tablet.png)
+- [Sign In page](docs/wireframes/tablet/sign-in-page-tablet.png)
+- [User profile](docs/wireframes/tablet/user-profile-page-tablet.png)
+- [Privacy Page](docs/wireframes/tablet/privacy-page-tablet.png)
+- [Terms and Conditions page](docs/wireframes/tablet/terms-page-tablet.png)
+- [FAQ page](docs/wireframes/tablet/faq-page-tablet.png)
+- [Newsletter page](docs/wireframes/tablet/newsletter-page-tablet.png)
+- [Newsletter Subscribe](docs/wireframes/tablet/newsletter-subscribe-page-tablet.png)
+- [Newsletter Unsubscribe](docs/wireframes/tablet/newsletter-unsubscribe-page-tablet.png)
+- [Contact page](docs/wireframes/tablet/contact-page-tablet.png)
+- [About page](docs/wireframes/tablet/about-page-tablet.png)
 
 ## Wireframes-Mobile
 
