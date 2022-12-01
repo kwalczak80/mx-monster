@@ -133,23 +133,23 @@ Github issues were used to create the User stories and group them according to M
 
 ## Wireframes-Mobile
 
-- [Home page]
-- [Products page]
-- [Product view]
-- [Shopping bag]
-- [Checkout page]
-- [Order confirmation page]
-- [Sign Up page]
-- [Sign In page]
-- [User profile]
-- [Privacy Page]
-- [Terms and Conditions page]
-- [FAQ page]
-- [Newsletter page]
-- [Newsletter Subscribe]
-- [Newsletter Unsubscribe]
-- [Contact page]
-- [About page]
+- [Home page](docs/wireframes/mobile/home-page-mobile.png)
+- [Products page](docs/wireframes/mobile/products-page-mobile.png)
+- [Product view](docs/wireframes/mobile/product-view-page-mobile.png)
+- [Shopping bag](docs/wireframes/mobile/shopping-bag-page-mobile.png)
+- [Checkout page](docs/wireframes/mobile/checkout-page-mobile.png)
+- [Order confirmation page](docs/wireframes/mobile/order-confirmation-page-mobile.png)
+- [Sign Up page](docs/wireframes/mobile/sign-up-page-mobile.png)
+- [Sign In page](docs/wireframes/mobile/sign-in-page-mobile.png)
+- [User profile](docs/wireframes/mobile/user-profile-page-mobile.png)
+- [Privacy Page](docs/wireframes/mobile/policy-page-mobile.png)
+- [Terms and Conditions page](docs/wireframes/mobile/terms-page-mobile.png)
+- [FAQ page](docs/wireframes/mobile/faq-page-mobile.png)
+- [Newsletter page](docs/wireframes/mobile/newsletter-page-mobile.png)
+- [Newsletter Subscribe](docs/wireframes/mobile/newsletter-subscribe-page-mobile.png)
+- [Newsletter Unsubscribe](docs/wireframes/mobile/newsletter-unsubscribe-page-mobile.png)
+- [Contact page](docs/wireframes/mobile/contact-page-mobile.png)
+- [About page](docs/wireframes/mobile/about-page-mobile.png)
 
 ## Site Map
 
