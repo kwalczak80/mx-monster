@@ -133,46 +133,6 @@
         </div>
     </div>
 </div>
-<!--
-<div class="row mt-3">
-    <div class="col-md-12">
-        {% if products.has_other_pages %}
-        <ul class="pagination justify-content-center">
-            {% if products.has_previous %}
-            <li class="page-item">
-                <a href="?page={{products.previous_page_number}}" class="page-link"
-                    aria-label="Previous page">&laquo;</a>
-            </li>
-            {% else %}
-            <li class="page-item disabled">
-                <a class="page-link" aria-label="Previous page disabled">&laquo;</a>
-            </li>
-            {% endif %}
-            {% for i in products.paginator.page_range %}
-            {% if products.number == i %}
-            <li class="page-item active">
-                <a class="page-link" aria-label="Page number">{{i}}</a>
-            </li>
-            {% else %}
-            <li class="page-item">
-                <a href="?page={{i}}" class="page-link" aria-label="Page number">{{i}}</a>
-            </li>
-            {% endif %}
-            {% endfor %}
-            {% if products.has_next %}
-            <li class="page-item">
-                <a href="?page={{products.next_page_number}}" class="page-link" aria-label="Next page">&raquo;</a>
-            </li>
-            {% else %}
-            <li class="page-item disabled">
-                <a class="page-link" aria-label="Next Page disabled">&raquo;</a>
-            </li>
-            {% endif %}
-        </ul>
-        {% endif %}
-    </div>
-</div>
--->
 <div class="btt-button shadow-sm rounded-0 border border-black">
     <a class="btt-link d-flex h-100">
         <i class="fas fa-arrow-up text-black mx-auto my-auto"></i>

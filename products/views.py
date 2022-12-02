@@ -7,7 +7,6 @@ from reviews.forms import ReviewForm
 from reviews.models import Review
 from .models import Product, Category
 from .forms import ProductForm
-from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 
 def all_products(request):
@@ -15,9 +14,6 @@ def all_products(request):
 
     products = Product.objects.all().filter(is_available=True)
     # products = Product.objects.order_by('-name').filter(is_available=True)
-    paginator = Paginator(products, 12)
-    page = request.GET.get('page')
-    paged_products = paginator.get_page(page)
     query = None
     categories = None
     sort = None
@@ -54,14 +50,11 @@ def all_products(request):
                 Q(name__icontains=query) | Q(description__icontains=query)
             )
             products = products.filter(queries)
-        paginator = Paginator(products, 12)
-        page = request.GET.get('page')
-        paged_products = paginator.get_page(page)
 
     current_sorting = f'{sort}_{direction}'
 
     context = {
-        'products': paged_products,
+        'products': products,
         'search_term': query,
         'current_categories': categories,
         'current_sorting': current_sorting,
