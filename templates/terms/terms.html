@@ -24,7 +24,8 @@
             <p>Your agreement with us includes these Terms and our Privacy Policy (“Agreements”). You acknowledge that
                 you have read and understood Agreements, and agree to be bound of them.</p>
             <p>If you do not agree with (or cannot comply with) Agreements, then you may not use the Service, but please
-                let us know by emailing at <b>support@mxmonster.shop.com</b> so we can try to find a solution. These Terms
+                let us know by emailing at <b>support@mxmonster.shop.com</b> so we can try to find a solution. These
+                Terms
                 apply to all visitors, users and others who wish to access or use Service.</p>
             <p>2. <b>Communications</b></p>
             <p>By using our Service, you agree to subscribe to newsletters, marketing or promotional materials and other
@@ -271,8 +272,21 @@
                     href="https://policymaker.io/terms-and-conditions/">Terms of Service</a> were created for
                 <b>https://mx-monster.herokuapp.com/</b> by <a href="https://policymaker.io">PolicyMaker.io</a> on
                 2022-11-07.</p>
-            </div>
         </div>
     </div>
+</div>
+<div class="btt-button shadow-sm rounded-0 border border-black">
+    <a class="btt-link d-flex h-100">
+        <i class="fas fa-arrow-up text-black mx-auto my-auto"></i>
+    </a>
+</div>
 {% include 'partials/_footer.html' %}
+{% endblock %}
+{% block postloadjs %}
+{{ block.super }}
+<script>
+    $('.btt-link').click(function (e) {
+        window.scrollTo(0, 0)
+    })
+</script>
 {% endblock %}

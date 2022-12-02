@@ -318,9 +318,6 @@ As the background of the main page, I used a photo of a motorcycle with proper a
 
 ![Home page](docs/images/existing_features/home_page/home-page.JPG)
 
-
-
-
 ### Fonts
 
 I visited the Google fonts website to explore the available font options for my project. After consideration, three different font types were chosen to be used in different sections of the website.
@@ -503,6 +500,10 @@ Additional information about the product is presented by using Font Awsome icons
 - The **Add to bag** button to add the specific product to the shopping bag
 
 ![Product details page](docs/images/existing_features/product_details_page/product-details-page.JPG)
+
+If the product is out of stock then the **Add to bag** button and the product quantity field are hidden.
+
+![Product out of stock](docs/images/existing_features/product_details_page/product-out-of-stock.JPG)
 
 #### The product reviews section
 

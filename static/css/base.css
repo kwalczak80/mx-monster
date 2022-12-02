@@ -77,7 +77,7 @@ body {
 .footer {
     position: sticky;
     top: 100%;
-    background: #212529 !important;   
+    background: #212529 !important;
 }
 
 .footer-link {
@@ -141,7 +141,7 @@ body {
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
+    color: #000000 !important; /* use important to override link colors for <a> elements */
     border: 1px solid black;
 }
 
@@ -435,4 +435,11 @@ input[name='q']::placeholder {
     .index-style {
         padding-top: 40vh;
     }
+    .footer-link {
+        font-size: 10px;
+    }
+    .fa-brands
+  { 
+    font-size: 10px;
+  }
 }
