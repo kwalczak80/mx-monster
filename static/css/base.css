@@ -42,6 +42,16 @@ body {
     color: #b31212 !important
 }
 
+/* Star rating and category tags */
+
+.fa-tag {
+    color: #158f31 !important;
+}
+
+.fa-star {
+    color: rgb(212, 212, 65) !important;
+}
+
 /* Contact page */
 .business-hours {
     background:#212529;

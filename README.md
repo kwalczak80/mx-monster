@@ -1236,7 +1236,6 @@ The section with customer reviews is shown.
 
 ## Code Validation
 
-
 ### HTML
 
 The HTML code within the application was validated by [W3C Markup Validation Service](https://validator.w3.org/). Pages were put through the validator seperatly, and the results can be found below.
@@ -1353,8 +1352,8 @@ The Python code within the application was validated by [CI Python Linter](https
 
 - [custom_storages.py](docs/validation/python/other/custom-storages-python-validation.JPG)
 
-
 ### CSS
+
 The CSS code within the application was validated by [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/), and the results can be found below.
 
 - [CSS Base validation results](docs/validation/css/base-css.JPG)
@@ -1363,9 +1362,11 @@ The CSS code within the application was validated by [W3C CSS Validation Service
 - [CSS Profile validation results](docs/validation/css/profiles-css.JPG)
 
 ### JS
+
 The JavaScript and JQuery code within the application was validated by [JSHint](https://jshint.com/), and the results can be found below.
 
 ### Color Contrast Accessibility Validator
+
 The Color [Contrast Accessibility Validator](https://color.a11y.com/) was used to check if there is no contrast issue on the web page.
 
 - [Home page](docs/validation/contrast_validation/home-page-contrast-validation.JPG)
