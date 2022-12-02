@@ -1380,6 +1380,14 @@ The Color [Contrast Accessibility Validator](https://color.a11y.com/) was used t
 
 I have tested the pages of the application using [WAVE](https://wave.webaim.org/) to ensure there are no errors. The results can be seen by following the links below.
 
+[Home page]
+[Products page]
+[Product page]
+[Privacy page]
+[Terms page]
+[Newsletter page]
+[FAQ page]
+[Contact page]
 
 ### Lighthouse testing
 
