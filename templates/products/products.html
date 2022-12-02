@@ -133,7 +133,7 @@
         </div>
     </div>
 </div>
-<!-- Pagination -->
+<!--
 <div class="row mt-3">
     <div class="col-md-12">
         {% if products.has_other_pages %}
@@ -172,25 +172,22 @@
         {% endif %}
     </div>
 </div>
-<!--
+-->
 <div class="btt-button shadow-sm rounded-0 border border-black">
     <a class="btt-link d-flex h-100">
         <i class="fas fa-arrow-up text-black mx-auto my-auto"></i>
     </a>
 </div>
--->
 {% include 'partials/_footer.html' %}
 {% endblock %}
 <!-- {% include 'partials/_footer.html' %} -->
 {% block postloadjs %}
 {{ block.super }}
-<!--
 <script>
     $('.btt-link').click(function (e) {
         window.scrollTo(0, 0)
     })
 </script>
--->
 <script>
     $('#sort-selector').change(function () {
         var selector = $(this);
