@@ -58,6 +58,10 @@ body {
     color: rgb(204, 204, 39) !important;
 }
 
+.text-update {
+    color: #158f31;
+}
+
 /* Contact page */
 .business-hours {
     background:#212529;
