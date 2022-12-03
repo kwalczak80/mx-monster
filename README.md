@@ -993,6 +993,14 @@ Fix: The fix was implmented by adding the following card-img-top class in the st
 ![Fixed images displayed on cards with equal height.](docs/images/bugs/fixed_images_with_no_equal%20height.JPG)
 </details>
 
+<details>
+<summary>The user was able to enter negative product quantity or enter more items than available in stock. This was possible after the HTML code manipulation.</summary>
+
+![Negative product quantity in the bag](docs/images/bugs/negative-quantity-in-the-bag.JPG)
+
+Fix : Quantity validation was implemented in the python code. See more details in the section below.
+</details>
+
 ## UX Testing
 
 | User requirements | Implemented | Tested | Comments
