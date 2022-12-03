@@ -998,7 +998,7 @@ Fix: The fix was implmented by adding the following card-img-top class in the st
 
 ![Negative product quantity in the bag](docs/images/bugs/negative-quantity-in-the-bag.JPG)
 
-Fix : Quantity validation was implemented in the python code. See more details in the section below.
+Fix : The product quantity validation entered by the user was implemented in the python code. See more details in the section below.
 </details>
 
 ## UX Testing
