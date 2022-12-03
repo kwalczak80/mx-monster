@@ -33,6 +33,11 @@ class Product(models.Model):
                                  null=True, blank=True)
     image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
+    image_1 = models.ImageField(null=True, blank=True)
+    image_2 = models.ImageField(null=True, blank=True)
+    image_3 = models.ImageField(null=True, blank=True)
+    image_4 = models.ImageField(null=True, blank=True)
+    image_5 = models.ImageField(null=True, blank=True)
 
     def __str__(self):
         return self.name
