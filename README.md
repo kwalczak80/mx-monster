@@ -1001,6 +1001,37 @@ Fix: The fix was implmented by adding the following card-img-top class in the st
 Fix : The product quantity validation entered by the user was implemented in the python code. See more details in the section below.
 </details>
 
+## Product quantity validation
+
+During testing of the MX Monster Store functionality, I discovered a critical bug that allows the user to bypass the minimum and maximum values ​​when entering the product quantity that can be added to the basket. This could be done by removing or adjusting the min and max values.
+
+![HTML code manipulation](docs/images/quantity_validation/html-code-manipulation.JPG)
+
+After removing min and max values, I was able to enter negative product quantities as well as quantities that exceeded the product stock value.
+
+![Negative product quantity added to the bag](docs/images/quantity_validation/quantity-negative-number-of-items-added-to-the-bag.JPG)
+
+![Negative product quantity bag view](docs/images/quantity_validation/quantity-negative-number-of%20item-bag-view.JPG)
+
+![Product quantity more that available in stock](docs/images/quantity_validation/quantity-more-than-available-in-stock-added-to-basket.JPG)
+
+![Product quantity more that available added to the basket](docs/images/quantity_validation/quantity-more-than-available-in-stock-added-to-basket-confirmation.JPG)
+
+![Product quantity more that available bag view](docs/images/quantity_validation/quantity-more-than-available-in-stock-added-to-basket-bag-view.JPG)
+
+After the implementation of the product quantity validation, the relevant message will be displayed on the screen if the user enters a product quantity that exceeds the product stock.
+Even if the HTML code is manipulated (max value), the product quantity validation will handle all exceptions.
+
+![Product quantity error message](docs/images/quantity_validation/quantity-error-message.JPG)
+
+The minimum value is set to "1" in the HTML code, so the user cannot enter a negative quantity.
+
+![Negative product quantity product page](docs/images/quantity_validation/quantity-error-message-product-page.JPG)
+
+However, if the HTML code is manipulated (the minimum value is deleted or changed), a relevant message will be displayed on the screen as the product quantity validation will handle this exception.
+
+![Negative product quantity handeled by validation code](docs/images/quantity_validation/negative-quantity-error-message.JPG)
+
 ## UX Testing
 
 | User requirements | Implemented | Tested | Comments
