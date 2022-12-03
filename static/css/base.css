@@ -42,10 +42,16 @@ body {
     color: #b31212 !important
 }
 
-/* Star rating and category tags */
+/* Star rating and category tag */
 
 .fa-tag {
     color: #158f31 !important;
+}
+
+/* Available pieces tag */
+
+.fa-warehouse {
+    color: #6b38af !important;
 }
 
 .fa-star {
