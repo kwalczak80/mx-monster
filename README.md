@@ -1445,6 +1445,10 @@ The CSS code within the application was validated by [W3C CSS Validation Service
 
 The JavaScript and JQuery code within the application was validated by [JSHint](https://jshint.com/), and the results can be found below.
 
+- [Country field file validation results](docs/validation/js/countryfield-js-validation-results.JPG)
+- [Script file validation results](docs/validation/js/script-js-file-validation-results.JPG)
+- [Stripe elements file validation results](docs/validation/js/stripe-elements-js-file-validation-results.JPG)
+
 ### Color Contrast Accessibility Validator
 
 The Color [Contrast Accessibility Validator](https://color.a11y.com/) was used to check if there is no contrast issue on the web page.
