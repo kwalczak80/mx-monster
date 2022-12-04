@@ -268,6 +268,11 @@ The following models were created to represent the database model structure for 
 | rating | | DecimalField | max_digits=6, decimal_places=2 |
 | image_url | | URLField | max_length=1024 |
 | image | | ImageField |  |
+| image_1 | | ImageField |  |
+| image_2 | | ImageField |  |
+| image_3 | | ImageField |  |
+| image_4 | | ImageField |  |
+| image_5 | | ImageField |  |
 
 ### Category model
 
