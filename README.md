@@ -489,6 +489,7 @@ When the user is interested in a specific product and clicks on the product imag
 #### The product image section
 
 The product main photo - presents the product image. Once the image is clicked, the product photo will be opened in a new tab.
+Photos - additional photos of the product are presented as thumbnails. Clicking on any of the thumbnail images will launch the lightbox gallery, so the user will be able to view all the photos in detail (please read about thumbnails below).
 
 #### The product infromation section
 
@@ -509,6 +510,19 @@ Additional information about the product is presented by using Font Awsome icons
 If the product is out of stock then the **Add to bag** button and the product quantity field are hidden.
 
 ![Product out of stock](docs/images/existing_features/product_details_page/product-out-of-stock.JPG)
+
+#### Thumbnails
+
+When the user clicks on the product image on the all products page, they will be redirected to the page to view more details about the product they are interested in.
+
+![Product details page with thumbnails](docs/images/existing_features/thumbnails/product-details-page-with-thumbnails.JPG)
+
+On this page, additional product images will be available to view as thumbnails below the main product picture. Once clicked on the thumbnail, it will enlarge and the user will be able to scroll through all available images. The user can use the keyboard's left or right keys or arrow keys presented on the screen to scroll through all available images. The images presentation can be closed by clicking on the X button(upper right-hand corner) or outside the presentation area.
+Please note that in the images below the X button is not visible due to a white background.
+
+![Lightbox gallery example 1](docs/images/existing_features/thumbnails/lightbox-presentation-image1.JPG)
+
+![Lightbox gallery example 2](docs/images/existing_features/thumbnails/lightbox-presentation-image2.JPG)
 
 #### The product reviews section
 
