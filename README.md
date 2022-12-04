@@ -1,5 +1,7 @@
 # MX Monster
 
+[View the live project here.](https://mx-monster.herokuapp.com/)
+
 ## Project Overview
 
 The MX Monster is a B2C e-commerce website for people interested in buying motorcycle clothing and accessories for their motorbikes.
@@ -7,6 +9,8 @@ The site provides a smooth online shopping experience for customers. The site pr
 The website allows users to use a search engine to find the most suitable product and, with just one click, add it to the shopping trolley.
 The site is accessible across all devices using different browsers.
 This website is fictional and was built for educational purposes only. No orders will be fulfilled.
+
+![Responsiveness](docs/images/responsiveness/responsiveness.JPG)
 
 ## Primary Goal
 
