@@ -1001,6 +1001,28 @@ Fix: The fix was implmented by adding the following card-img-top class in the st
 Fix : The product quantity validation entered by the user was implemented in the python code. See more details in the section below.
 </details>
 
+<details>
+<summary>Following the implementation of the lightbox gallery functionality, the product details page is unable to be displayed.</summary>
+
+This issue occurred on all the pages where the product has no thumbnail images.
+
+![Product details page not displayed](docs/images/bugs/unable_to_display_product_page_with_no_thumbnail_images.JPG)
+
+Fix : Add if statement to check if the thumbnail image(s) exist in the database.
+
+``` Django
+{% if product.image_1 %}
+<div class="col-md-2">
+    <a href="{{ product.image_1.url }}" data-toggle="lightbox" data-gallery="img-gallery"
+        aria-label="Product photo 1" data-height="560" data-width="560">
+        <img src="{{ product.image_1.url }}" alt="Product photo 1" class="img-fluid mb-1">
+    </a>
+</div>
+{% endif %}
+```
+
+</details>
+
 ## Product quantity validation
 
 During testing of the MX Monster Store functionality, I discovered a critical bug that allows the user to bypass the minimum and maximum values ​​when entering the product quantity that can be added to the basket. This could be done by removing or adjusting the min and max values.
