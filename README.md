@@ -518,7 +518,6 @@ When the user clicks on the product image on the all products page, they will be
 ![Product details page with thumbnails](docs/images/existing_features/thumbnails/product-details-page-with-thumbnails.JPG)
 
 On this page, additional product images will be available to view as thumbnails below the main product picture. Once clicked on the thumbnail, it will enlarge and the user will be able to scroll through all available images. The user can use the keyboard's left or right keys or arrow keys presented on the screen to scroll through all available images. The images presentation can be closed by clicking on the X button(upper right-hand corner) or outside the presentation area.
-Please note that in the images below the X button is not visible due to a white background.
 
 ![Lightbox gallery example 1](docs/images/existing_features/thumbnails/lightbox-presentation-image1.JPG)
 
