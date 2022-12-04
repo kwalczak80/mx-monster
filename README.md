@@ -373,6 +373,10 @@ All the icons that are used in this project come from the [Font Awsome](https://
 
 ![Delete review](docs/images/icons/delete_review_icon.jpg)
 
+### Product in-stock icon
+
+![Product in-stock icon](docs/images/icons/product-in-stock%20icon.JPG)
+
 ## Features
 
 ### Responsive design
