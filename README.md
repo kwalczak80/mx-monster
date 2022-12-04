@@ -375,7 +375,7 @@ All the icons that are used in this project come from the [Font Awsome](https://
 
 ### Product in-stock icon
 
-![Product in-stock icon](docs/images/icons/product-in-stock%20icon.JPG)
+![Product in-stock icon](docs/images/icons/product-in-stock-icon.jpg)
 
 ## Features
 
