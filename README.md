@@ -1080,6 +1080,18 @@ However, if the HTML code is manipulated (the minimum value is deleted or change
 
 ![Negative product quantity handeled by validation code](docs/images/quantity_validation/negative-quantity-error-message.JPG)
 
+## The bag quantity adjustment
+
+During testing of the MX Monster Store functionality, I discovered that the user was able to adjust the bag with quantities exceeding the product stock.
+
+![Product stock](docs/images/bag_adjustment/adjust-bag-product-stock.JPG)
+
+![Adjust the bag with no quantity validation](docs/images/bag_adjustment/adjust-bag-no-quantity-validation-error.JPG)
+
+After the implementation of quantity validation, a relevant message will be displayed on the screen if the user enters a product quantity that exceeds the product stock.
+
+![Adjust the bag with quantity validation](docs/images/bag_adjustment/adjust-bag-with-quantity-validation.JPG)
+
 ## UX Testing
 
 | User requirements | Implemented | Tested | Comments
