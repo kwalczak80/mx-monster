@@ -608,7 +608,13 @@ The form for updating the user's delivery information is displayed on this page.
 
 By selecting the order number from the list, the user can view the order history. If the order is completed, the user will be alerted with a message indicating they are viewing a past order summary.
 
+The user can also track the current order status. Three status options are available: "Confirmed," "Shipped," and "Cancelled." Once an order is finished, the default state is "Confirmed." The user sees the updated status immediately after it has been changed by the business owner.
+
 ![User profile page](docs/images/existing_features/user_profile/user-profile-page.JPG)
+
+The order status can be  changed in the admin panel.
+
+![Admin order status change](docs/images/existing_features/user_profile/admin-order-status-change.JPG)
 
 ### Shopping bag
 
