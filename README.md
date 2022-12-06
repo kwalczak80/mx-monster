@@ -1062,6 +1062,10 @@ Fix : Add if statement to check if the thumbnail image(s) exist in the database.
 
 </details>
 
+## Unfixed bugs
+
+No known unfixed bugs present at the time of submission
+
 ## Product quantity validation
 
 During testing of the MX Monster Store functionality, I discovered a critical bug that allows the user to bypass the minimum and maximum values ​​when entering the product quantity that can be added to the basket. This could be done by removing or adjusting the min and max values.
@@ -1346,6 +1350,10 @@ The section with customer reviews is shown.
 - The **Select Image** button works correctly and opens a new window where the user can attach the product image.
 - The **Cancel** button redirects the user to the "All Products" page.
 - The **Add Product** button works correctly and allows the user to add a new product to the database.
+
+## Automated tests
+
+Automated tests have not been created due to time constrains of the project.
 
 ## Code Validation
 
@@ -1747,8 +1755,8 @@ Clone this project by following the steps:
 
 - Sqlite
   - This database was used in local development.
-- PostgreSQL
-  - The site is deployed on Heroku using a Postgress database.
+- ElephantSQL
+  - The site is deployed on Heroku using an ElephantSQL database.
 
 ### Frameworks
 
@@ -1803,17 +1811,17 @@ Throughout the process of building this project, various online sources have bee
 - [Motorcycle Shop](https://www.motorcycleshop.ie/contactabout-1-w.asp)
   - To create the text content on the About page
 
-
 ## Content
 
-- [FC Moto](https://www.fc-moto.de/) 
+- [FC Moto](https://www.fc-moto.de/)
   - Product images
 - [Privacy Policy Generator](https://policymaker.io/privacy-policy/)
   - To generate the privacy policy for MX Moster store.
 - [Terms and Conditions Generator](https://policymaker.io/terms-and-conditions/)
   - To generate the terms and conditions for MX store.
 
-
 ## Acknowledgments
 
-- My Mentor [Simen Eventyret](https://github.com/Eventyret) mentor for continuous helpful feedback.
+- My Mentor [Simen Daehlin](https://github.com/Eventyret) for continuous helpful feedback.
+- [Code Institute's](https://codeinstitute.net/ie/) Slack community for their support.
+- All family members and friends who helped test this application.
