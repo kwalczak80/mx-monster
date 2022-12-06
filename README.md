@@ -898,6 +898,13 @@ All new reviews are not published by default.
 
 ![Reviews published product page](docs/images/existing_features/reviews/reviews-published-product-page.JPG)
 
+## Features to be implemented
+
+- Notifying the user by email when the order status is changed, e.g. from confirmed to shipped
+- An administration panel for managing the entire store (rather than the Django panel). From this panel, the user could manage products, orders, staff, user queries, newsletters, etc.
+- Additional options for the product i.e. color
+- A tab with a size chart so that the user can make sure that they are buying the product in the right size.
+
 ## SEO - Search Engine Optimization
 
 To improve the Search Engine Optimization (SEO) of the site the keywords were researched using [WordTracker](https://www.wordtracker.com/) to optimize web pages and content to increase ranking in search engines.
