@@ -38,6 +38,7 @@ class Product(models.Model):
     image_3 = models.ImageField(null=True, blank=True)
     image_4 = models.ImageField(null=True, blank=True)
     image_5 = models.ImageField(null=True, blank=True)
+    date = models.DateField(auto_now=True)
 
     def __str__(self):
         return self.name
