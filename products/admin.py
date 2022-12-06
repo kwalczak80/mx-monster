@@ -15,6 +15,7 @@ class ProductAdmin(admin.ModelAdmin):
         'is_available',
         'stock',
         'image',
+        'date',
     )
     list_editable = ('is_available', 'stock',)
 
