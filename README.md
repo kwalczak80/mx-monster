@@ -278,6 +278,7 @@ The following models were created to represent the database model structure for 
 | image_3 | | ImageField |  |
 | image_4 | | ImageField |  |
 | image_5 | | ImageField |  |
+| date | | DateTimeField | auto_now=True |
 
 ### Category model
 
