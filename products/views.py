@@ -13,7 +13,6 @@ def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
     products = Product.objects.order_by('-date').filter(is_available=True)
-    # products = Product.objects.order_by('-name').filter(is_available=True)
     query = None
     categories = None
     sort = None
