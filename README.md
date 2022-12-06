@@ -12,6 +12,8 @@ This website is fictional and was built for educational purposes only. No orders
 
 ![Responsiveness](docs/images/responsiveness/responsiveness.JPG)
 
+## Table of contents
+
 ## Primary Goal
 
 The primary goal of the website, from the site owner’s perspective, is as follows:
@@ -1064,6 +1066,16 @@ Fix : Add if statement to check if the thumbnail image(s) exist in the database.
 
 </details>
 
+<details>
+<summary>Issue to migrate updated model</summary>
+
+This issue occured when I was trying migrate an updated model.
+
+![The model migration issue](docs/images/bugs/model-migration-issue.png)
+
+Fix : The command python3 manage.py migrate --fake fixed the issue. The solution was found on the Stack Overflow website and on how to reset migrations website(by Vitor Freitas)
+
+</details>
 ## Unfixed bugs
 
 No known unfixed bugs present at the time of submission
