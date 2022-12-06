@@ -73,6 +73,7 @@ The primary goal of the website, from a site user’s perspective, is as follows
 - As a user, I want to have a secure payment checkout
 - As a user, I want to have an option to quickly search for a product I'm looking for
 - As a user, I want to edit the basket content
+- As a user, I want to be able to view all orders to determine which are completed and which are outstanding
 
 ### Store Owner
 
@@ -1129,6 +1130,7 @@ After the implementation of quantity validation, a relevant message will be disp
 | As a user, I want to have a secure payment checkout |Yes|Yes| The payment process is handeled by Stripe therfore the cardholder data is stored securely.
 | As a user, I want to have an option to quickly search for a product I'm looking for |Yes|Yes| The search bar located in the navbar allows the user to easily search for products by typing in keywords. The user can either enter a single keyword to find a product or enter multiple keywords, as this type of search functionality is also supported.
 | As a user, I want to edit the basket content|Yes|Yes| On the bag page, the user can either update the quantity of the product they want to buy or delete the product from the basket if it is no longer wanted.
+| As a user, I want to be able to view all orders to determine which are completed and which are outstanding |Yes|Yes| The user can view their orders and check the current status of the order on the My profile page. Once an order is finished (payment was successful), the default state is set to "Confirmed." The user can see the updated status immediately after it has been changed by the business owner, i.e., from confirmed to shipped.
 
 |Business owner requirements | Implemented | Tested | Comments
 | ------------ | ----------- | ------ | --------
