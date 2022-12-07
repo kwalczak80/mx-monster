@@ -187,11 +187,15 @@ The primary goal of the website, from a site user’s perspective, is as follows
 - To be able to edit, add and remove products from the basket
 - To be able to use a secure payment method
 
+[Back to Top](#table-of-contents)
+
 ## Target Audience
 
 - Shopper looking to buy a motorcycle clothing
 - Shopper looking to buy an aftermarket motorcycle equipment
 - Shopper looking to buy motorcycle accessories
+
+[Back to Top](#table-of-contents)
 
 ## User Requirements and Expectations
 
@@ -204,6 +208,8 @@ The primary goal of the website, from a site user’s perspective, is as follows
 - The total purchase price is displayed on the screen
 - Secure payment method
 - CRUD functionality for products
+
+[Back to Top](#table-of-contents)
 
 ## User Experience UX
 
@@ -227,6 +233,8 @@ The primary goal of the website, from a site user’s perspective, is as follows
 - As a user, I want to edit the basket content
 - As a user, I want to be able to view all orders to determine which are completed and which are outstanding
 
+[Back to Top](#table-of-contents)
+
 ### Store Owner
 
 - As a user, I want an appealing website with a range of products
@@ -238,15 +246,21 @@ The primary goal of the website, from a site user’s perspective, is as follows
 - As a user, I want to be able to delete a product that I no longer wish to sell.
 - As a user, I want to be able to view completed orders from the customers.
 
+[Back to Top](#table-of-contents)
+
 ## Error Handling
 
 If the page cannot be loaded, the user should be able to return through the website's navigational structure without hitting the back button on their browser.
+
+[Back to Top](#table-of-contents)
 
 ## Agile Methodology
 
 ![Kanban Agile image](docs/images/agile/kanban-agile.JPG)
 
 Github issues were used to create the User stories and group them according to MoSCoW prioritization technique. Link to the project with live issues can be found [HERE](https://github.com/users/kwalczak80/projects/8/views/1)
+
+[Back to Top](#table-of-contents)
 
 ## Wireframes-Desktop
 
@@ -268,6 +282,8 @@ Github issues were used to create the User stories and group them according to M
 - [Contact page](docs/wireframes/desktop/contact-page-desktop.png)
 - [About page](docs/wireframes/desktop/about-page-desktop.png)
 
+[Back to Top](#table-of-contents)
+
 ## Wireframes-Tablet
 
 - [Home page](docs/wireframes/tablet/home-page-tablet.png)
@@ -287,6 +303,8 @@ Github issues were used to create the User stories and group them according to M
 - [Newsletter Unsubscribe](docs/wireframes/tablet/newsletter-unsubscribe-page-tablet.png)
 - [Contact page](docs/wireframes/tablet/contact-page-tablet.png)
 - [About page](docs/wireframes/tablet/about-page-tablet.png)
+
+[Back to Top](#table-of-contents)
 
 ## Wireframes-Mobile
 
@@ -308,10 +326,14 @@ Github issues were used to create the User stories and group them according to M
 - [Contact page](docs/wireframes/mobile/contact-page-mobile.png)
 - [About page](docs/wireframes/mobile/about-page-mobile.png)
 
+[Back to Top](#table-of-contents)
+
 ## Site Map
 
 The information architecture was organized in such a way as to ensure that users can navigate through the site easily.
 ![Site Map](docs/images/site_map/site-map.png)
+
+[Back to Top](#table-of-contents)
 
 ## Structure
 
@@ -346,11 +368,15 @@ To complement the apps there are:
 - **Procfile**: To run the application on Heroku
 - **custom_storages.py** file - to specify static and media storage location
 
+[Back to Top](#table-of-contents)
+
 ### Database design
 
 The data schema was created using [drawsql](https://drawsql.app/)
 
 ![Database design](docs/database/database-design.png)
+
+[Back to Top](#table-of-contents)
 
 ## Models
 
@@ -378,6 +404,8 @@ The following models were created to represent the database model structure for 
 | original_bag |  | TextField | default='' |
 | stripe_pid |  | CharField | max_length=254 |
 
+[Back to Top](#table-of-contents)
+
 ### OrderLineItem model
 
 | Name | Key | Type | Other Details |
@@ -388,6 +416,8 @@ The following models were created to represent the database model structure for 
 | quantity | | IntegerField | default=0 |
 | lineitem_total | | DecimalField | max_digits=6 |
 
+[Back to Top](#table-of-contents)
+
 ### Contact model
 
 | Name | Key | Type | Other Details |
@@ -396,6 +426,8 @@ The following models were created to represent the database model structure for 
 | subject | | CharField | max_length=255 |
 | message | | TextField | |
 
+[Back to Top](#table-of-contents)
+
 ### Faq model
 
 | Name | Key | Type | Other Details |
@@ -403,12 +435,16 @@ The following models were created to represent the database model structure for 
 | question | | CharField | Max length=254 |
 | answer | | TextField | blank=True |
 
+[Back to Top](#table-of-contents)
+
 ### NewsletterUser model
 
 | Name | Key | Type | Other Details |
 | -- | -- | -- | -- |
 | email | | EmailField | |
 | date_added | | DateTimeField | Set default date as now |
+
+[Back to Top](#table-of-contents)
 
 ### Product model
 
@@ -432,12 +468,16 @@ The following models were created to represent the database model structure for 
 | image_5 | | ImageField |  |
 | date | | DateTimeField | auto_now=True |
 
+[Back to Top](#table-of-contents)
+
 ### Category model
 
 | Name | Key | Type | Other Details |
 | -- | -- | -- | -- |
 | name | | CharField | max_length=254 |
 | friendly_name | | CharField | max_length=254 |
+
+[Back to Top](#table-of-contents)
 
 ### UserProfile model
 
@@ -452,6 +492,8 @@ The following models were created to represent the database model structure for 
 | default_postcode | | CharField | max_length=20 |
 | default_country | | CountryField | blank_label='Country' |
 
+[Back to Top](#table-of-contents)
+
 ### Review model
 
 | Name | Key | Type | Other Details |
@@ -461,6 +503,8 @@ The following models were created to represent the database model structure for 
 | description | | TextField | Set default as ''|
 | review_date | | DateTimeField | Set default date as now |
 | is_published | | Boolean | default=False |
+
+[Back to Top](#table-of-contents)
 
 ### Staff model
 
@@ -473,6 +517,8 @@ The following models were created to represent the database model structure for 
 | photo || ImageField ||
 | hire_date || DateTimeField | Set default date as now |
 
+[Back to Top](#table-of-contents)
+
 ## Design Choices
 
 ### Home page background
@@ -481,6 +527,8 @@ As the background of the main page, I used a photo of a motorcycle with proper a
 
 ![Home page](docs/images/existing_features/home_page/home-page.JPG)
 
+[Back to Top](#table-of-contents)
+
 ### Fonts
 
 I visited the Google fonts website to explore the available font options for my project. After consideration, three different font types were chosen to be used in different sections of the website.
@@ -488,6 +536,8 @@ I visited the Google fonts website to explore the available font options for my 
 - The [Anton](https://fonts.google.com/specimen/Anton?query=anton) font is used in the navigation bar and to display the business name.
 - The [Michroma](https://fonts.google.com/specimen/Michroma?query=michroma) font is used to display text information in the footer links.
 - The [Varela Round](https://fonts.google.com/specimen/Varela+Round?query=varela) font is used to display all other text information.
+
+[Back to Top](#table-of-contents)
 
 ### Colours
 
@@ -502,6 +552,8 @@ I used [Coolors](https://coolors.co/) to come up with a color scheme. The color 
 - #FFC107 - text color displayed on the home page carousel
 
 ![Colors](docs/images/colors/website_colors.JPG)
+
+[Back to Top](#table-of-contents)
 
 ### Icons
 
@@ -531,11 +583,15 @@ All the icons that are used in this project come from the [Font Awsome](https://
 
 ![Product in-stock icon](docs/images/icons/product-in-stock-icon.jpg)
 
+[Back to Top](#table-of-contents)
+
 ## Features
 
 ### Responsive design
 
 The website has been designed using Bootstrap 4 therefore it's fully responsive on all screen sizes.
+
+[Back to Top](#table-of-contents)
 
 ### Homepage
 
@@ -550,6 +606,8 @@ A **Subscribe** button directs the user to the page where they can subscribe to 
 A **Facebook** button directs the user to the shop's Facebook page.
 
 ![Home page carousel](docs/images/existing_features/home_page/home-page-carousel.gif)
+
+[Back to Top](#table-of-contents)
 
 ### Navigation menu
 
@@ -607,12 +665,16 @@ Depending on whether the user is logged in or not, different options are availab
 
 ![Site admin logged in](docs/images/existing_features/navbar/admin-site-logged-in.JPG)
 
+[Back to Top](#table-of-contents)
+
 ### Search bar
 
 ![Search bar](docs/images/existing_features/search_bar/search_bar.JPG)
 
 The search bar is part of the header and appears across all pages. This allows the user to easily search for products by typing in the keywords.
 The user can either enter a single keyword to find a product or enter multiple keywords, as this type of search functionality is also supported.
+
+[Back to Top](#table-of-contents)
 
 ### Products page
 
@@ -644,14 +706,20 @@ The user also has the option to select the order in which to view the products l
 
 Once the user clicks on the product image, they will be redirected to a page where additional information about the specific product will be presented.
 
+[Back to Top](#table-of-contents)
+
 ### Product details page
 
 When the user is interested in a specific product and clicks on the product image, they will be redirected to a page where they can find additional information about the product. This page is divided into sections:
+
+[Back to Top](#table-of-contents)
 
 #### The product image section
 
 The product main photo - presents the product image. Once the image is clicked, the product photo will be opened in a new tab.
 Photos - additional photos of the product are presented as thumbnails. Clicking on any of the thumbnail images will launch the lightbox gallery, so the user will be able to view all the photos in detail (please read about thumbnails below).
+
+[Back to Top](#table-of-contents)
 
 #### The product infromation section
 
@@ -673,6 +741,8 @@ If the product is out of stock then the **Add to bag** button and the product qu
 
 ![Product out of stock](docs/images/existing_features/product_details_page/product-out-of-stock.JPG)
 
+[Back to Top](#table-of-contents)
+
 #### Thumbnails
 
 When the user clicks on the product image on the all products page, they will be redirected to the page to view more details about the product they are interested in.
@@ -684,6 +754,8 @@ On this page, additional product images will be available to view as thumbnails 
 ![Lightbox gallery example 1](docs/images/existing_features/thumbnails/lightbox-presentation-image1.JPG)
 
 ![Lightbox gallery example 2](docs/images/existing_features/thumbnails/lightbox-presentation-image2.JPG)
+
+[Back to Top](#table-of-contents)
 
 #### The product reviews section
 
@@ -716,6 +788,8 @@ The user can also delete the review they created by clicking on the bin icon.
 ![Delete review](docs/images/existing_features/product_details_page/delete-review.JPG)
 
 Once the review is deleted, a confirmation message will be displayed on the screen. Please read about the message system below.
+
+[Back to Top](#table-of-contents)
 
 ### Product management
 
@@ -752,6 +826,8 @@ If the **Edit** option is clicked the user will be redirected to a new page wher
 
 If the **Delete** option is clicked the product will be deleted from the database.
 
+[Back to Top](#table-of-contents)
+
 ### User profile page
 
 In order to open the user profile page, the user must first click on the **My Account** link located in the navbar and then click on the **My profile** link.
@@ -770,6 +846,8 @@ The order status can be  changed in the admin panel.
 
 ![Admin order status change](docs/images/existing_features/user_profile/admin-order-status-change.JPG)
 
+[Back to Top](#table-of-contents)
+
 ### Shopping bag
 
 When the shopping bag is empty, the bag icon is black; when an item is added to the bag, the bag icon turns red to indicate that some products have been added.
@@ -787,6 +865,8 @@ If the user clicks on the bag icon, they will be redirected to the page where th
 
 If the user clicks on the **Secure checkout** button, they will be redirected to the page where they can complete the payment process.
 
+[Back to Top](#table-of-contents)
+
 ### Checkout page
 
 - The user is prompted to enter their delivery information on a checkout form. that integrates Stripe.
@@ -803,6 +883,8 @@ Once the payment process is completed a confirmation message will be displayed o
 
 ![Order confirmation](docs/images/existing_features/checkout/order-confirmation.JPG)
 
+[Back to Top](#table-of-contents)
+
 ### Privacy page
 
 The user can access information about MX Monster's privacy policy from the footer by clicking on the **Privacy** link.
@@ -810,12 +892,16 @@ The privacy document explains how MX Monster handles any customer information ga
 
 ![Privacy policy](docs/images/existing_features/privacy/privacy.JPG)
 
+[Back to Top](#table-of-contents)
+
 ### Terms and conditions page
 
 The user can access information about MX Monster's terms and contitions from the footer by clicking on the **Terms** link.
 The Terms and conditions document set the way in which the product, service or content may be used, in a legally binding way.
 
 ![Terms and conditions](docs/images/existing_features/terms/terms.JPG)
+
+[Back to Top](#table-of-contents)
 
 ### Frequently asked quastions page
 
@@ -837,6 +923,8 @@ If all the **is_published** boxes are deselected the relevant message will be di
 ![FAQ not set to publish](docs/images/existing_features/faq/faq-is-published-deselected.JPG)
 
 ![No FAQ to display](docs/images/existing_features/faq/no-faq-to-display-message.JPG)
+
+[Back to Top](#table-of-contents)
 
 ### Newsletter
 
@@ -864,6 +952,8 @@ The **Back** button will redirect the user back to the main newsletter page.
 If the user has subscribed to or unsubscribed from a newsletter, the relevant message will be displayed on the screen.
 See the messages section for more details.
 
+[Back to Top](#table-of-contents)
+
 ### Contact page
 
 The contact page contains a form that any user can complete to enable them to contact the business in case of any queries.
@@ -871,6 +961,8 @@ This page also contains information about the business's opening hours and its a
 The current day of the week on the business's opening hours card is highlighted thanks to a special Java script.
 
 ![Contact page](docs/images/existing_features/contact/contact-page.JPG)
+
+[Back to Top](#table-of-contents)
 
 ### About page
 
@@ -882,9 +974,13 @@ This page also includes a section with contact information for people who are ru
 
 ![Our team](docs/images/existing_features/about/our-team.JPG)
 
+[Back to Top](#table-of-contents)
+
 ### Authentication
 
 The authentication process for the application is handled by Django allauth and consists of three parts.
+
+[Back to Top](#table-of-contents)
 
 #### Sign Up
 
@@ -897,6 +993,8 @@ If the user entries are wrong, the relevant error message will be displayed on t
 ![Sign up page issue with password](docs/images/existing_features/authentication/sign-up-error-message-password-issue.JPG)
 
 ![Sig up page issue with email](docs/images/existing_features/authentication/sign-up-error-message-issue-with-email.JPG)
+
+[Back to Top](#table-of-contents)
 
 #### Sign In
 
@@ -911,11 +1009,15 @@ If the user name or password is incorrect, an error message will be shown on the
 
 ![Sign in error message](docs/images/existing_features/authentication/sign-in-error-message.JPG)
 
+[Back to Top](#table-of-contents)
+
 #### Sign out
 
 If the user decides to log out, they will be redirected to the page to confirm their choice.
 
 ![Sign out page](docs/images/existing_features/authentication/sign-out-page.JPG)
+
+[Back to Top](#table-of-contents)
 
 ### Messages system to provide feedback to the user
 
@@ -951,6 +1053,8 @@ Messages are displayed on the screen to provide the user with continuous feedbac
 
 ![Order confirmation message](docs/images/existing_features/messages/message-order-confirmation.JPG)
 
+[Back to Top](#table-of-contents)
+
 ### Error handling
 
 #### 400 page
@@ -974,6 +1078,8 @@ If the page the user is trying to reach is not accessible, the following error m
 A 500 server error page was also created to handle internal server errors.
 
 ![500 page](docs/images/existing_features/error_handling/500-error-page-internal-server-error.JPG)
+
+[Back to Top](#table-of-contents)
 
 ### Footer
 
@@ -1000,6 +1106,8 @@ A hover effect is implemented if the user hovers over the footer links.
 
 Please note that the footer is displayed only on selected pages.
 
+[Back to Top](#table-of-contents)
+
 ### Customized Admin (the business owner) panel
 
 The admin panel was adjusted with the following changes:
@@ -1015,6 +1123,8 @@ The changes above are only cosmetic, but thanks to that, the panel looks a littl
 The Django admin panel is a built-in tool that allows admin users to create, view, update, and delete records. This is a very useful tool to manipulate all the data tables in one place.
 Some examples of how it can be used are shown below.
 
+[Back to Top](#table-of-contents)
+
 #### Admin panel - ability to select products that will be displayed on the page
 
 This feature allows the business owner to enable or disable the product's visibility on the website. There is no need to delete the product from the database if, for some reason, the business owner does not want it to be displayed on the website (i.e., the product is sold out or temporarily unavailable).
@@ -1025,19 +1135,27 @@ This feature allows the business owner to enable or disable the product's visibi
 
 ![Only two products displayed on the main page](docs/images/existing_features/admin-area/only-two-products-for-sale.JPG)
 
+[Back to Top](#table-of-contents)
+
 #### Admin panel - ability to add a new employee
 
 The business owner can add a new employee via the admin panel. All the information about the staff(photo, name, email, etc.) that is displayed on the website(the About page) comes from the database, and it's not hard coded in HTML. Therefore, in the event of any changes(i.e. new employee), the updated information will be automatically displayed on the website.
 
 ![Add new employee](docs/images/existing_features/admin-area/add-new-employee.JPG)
 
+[Back to Top](#table-of-contents)
+
 #### Admin panel - ability to review orders
 
 ![Admin panel orders review](docs/images/existing_features/admin-area/admin-panel-orders-review.JPG)
 
+[Back to Top](#table-of-contents)
+
 #### Admin panel - ability to review messages sent by the customers
 
 ![Admin panel message review](docs/images/existing_features/admin-area/admin-panel-contact.JPG)
+
+[Back to Top](#table-of-contents)
 
 #### Admin panel - ability to approve product reviews
 
@@ -1052,6 +1170,8 @@ All new reviews are not published by default.
 
 ![Reviews published product page](docs/images/existing_features/reviews/reviews-published-product-page.JPG)
 
+[Back to Top](#table-of-contents)
+
 ## Features to be implemented
 
 - Notifying the user by email when the order status is changed, e.g. from confirmed to shipped
@@ -1060,12 +1180,16 @@ All new reviews are not published by default.
 - A tab with a size chart so that the user can make sure that they are buying the product in the right size.
 - Allow the user to rate the product
 
+[Back to Top](#table-of-contents)
+
 ## SEO - Search Engine Optimization
 
 To improve the Search Engine Optimization (SEO) of the site the keywords were researched using [WordTracker](https://www.wordtracker.com/) to optimize web pages and content to increase ranking in search engines.
 The keyword research was used for both short-tail & long-tail keywords.
 
 ![Search Engine Optimization](docs/images/seo/seo.JPG)
+
+[Back to Top](#table-of-contents)
 
 ## Marketing
 
@@ -1077,9 +1201,13 @@ As part of marketing strategies for the MX Monster Store, I decided to use socia
 
 Facebook site can be viewed [here](https://www.facebook.com/profile.php?id=100088407152747)
 
+[Back to Top](#table-of-contents)
+
 ### Email marketing Newsletter
 
 - I've opted to create a custom newsletter model and not use Mailchimp. A newsletter is another free source of marketing, whereby by using email subscriptions, users would receive a newsletter, outlining current items in the store, sales, discounts, and any other information related to the business. This is a straightforward way to increase sales and have customers return by providing discounts.
+
+[Back to Top](#table-of-contents)
 
 ## Bugs
 
@@ -1228,9 +1356,13 @@ Fix : The command python3 manage.py migrate --fake fixed the issue. The solution
 
 </details>
 
+[Back to Top](#table-of-contents)
+
 ## Unfixed bugs
 
 No known unfixed bugs present at the time of submission
+
+[Back to Top](#table-of-contents)
 
 ## Product quantity validation
 
@@ -1263,6 +1395,8 @@ However, if the HTML code is manipulated (the minimum value is deleted or change
 
 ![Negative product quantity handeled by validation code](docs/images/quantity_validation/negative-quantity-error-message.JPG)
 
+[Back to Top](#table-of-contents)
+
 ## The bag quantity adjustment
 
 During testing of the MX Monster Store functionality, I discovered that the user was able to adjust the bag with quantities exceeding the product stock.
@@ -1274,6 +1408,8 @@ During testing of the MX Monster Store functionality, I discovered that the user
 After the implementation of quantity validation, a relevant message will be displayed on the screen if the user enters a product quantity that exceeds the product stock.
 
 ![Adjust the bag with quantity validation](docs/images/bag_adjustment/adjust-bag-with-quantity-validation.JPG)
+
+[Back to Top](#table-of-contents)
 
 ## UX Testing
 
@@ -1312,9 +1448,13 @@ After the implementation of quantity validation, a relevant message will be disp
 | ------------ | ----------- | ------ | --------
 |If the page cannot be loaded, the user should be able to return through the website's navigational structure without hitting the back button on their browser.| Yes | Yes | The customized 404 page will be displayed if the page that the user requested is not available.  In addition, other error pages can be displayed depending on what error was detected. See the features section for more details.
 
+[Back to Top](#table-of-contents)
+
 ## Manual Testing
 
 Manually testing the MX Monster project was an ongoing process to make sure everything was working as expected. All bugs were fixed on an ongoing basis during the project's creation. After each fix, manual tests were performed to make sure that everything was working as intended and that the fixes did not cause other errors. Manual tests and checks include:
+
+[Back to Top](#table-of-contents)
 
 ### Navigation bar
 
@@ -1327,6 +1467,8 @@ Manually testing the MX Monster project was an ongoing process to make sure ever
 - Responsiveness.
 - Accessibility is correct.
 
+[Back to Top](#table-of-contents)
+
 ### Footer navigation
 
 - All links navigate to the correct endpoint.
@@ -1334,6 +1476,8 @@ Manually testing the MX Monster project was an ongoing process to make sure ever
 - External links open in a new tab.
 - Accessibility is correct.
 - Responsiveness.
+
+[Back to Top](#table-of-contents)
 
 ### Home Page
 
@@ -1343,17 +1487,23 @@ Manually testing the MX Monster project was an ongoing process to make sure ever
 - All links on the carousel navigate to the correct endpoint.
 - Responsiveness.
 
+[Back to Top](#table-of-contents)
+
 ### Login and Signup
 
 - The form is clear and intuitive.
 - Form completes its task correctly.
 - Message is displayed to the user on the homepage when signed in or signed up.
 
+[Back to Top](#table-of-contents)
+
 ### Logout
 
 - The form is clear and intuitive.
 - Form completes its task correctly.
 - Message is displayed to the user on the homepage when signed out.
+
+[Back to Top](#table-of-contents)
 
 ### The Products page
 
@@ -1365,6 +1515,8 @@ Manually testing the MX Monster project was an ongoing process to make sure ever
 - The average rating is presented. If the product has no rating, a relevant message is displayed.
 - If the site administrator is logged in, the Edit and Delete options are presented on the card.
 - The footer is displayed at the bottom of the page.
+
+[Back to Top](#table-of-contents)
 
 ### The Product page
 
@@ -1389,6 +1541,8 @@ The section with customer reviews is shown.
 - The **Add review** button is hidden if the user is not signed in.
 - The footer is displayed at the bottom of the page.
 
+[Back to Top](#table-of-contents)
+
 ### The customer reviews section
 
 - Responsiveness
@@ -1402,12 +1556,16 @@ The section with customer reviews is shown.
 - The edit icon redirects the user to the page where they can edit their review.
 - The delete icon, once clicked, deletes the user review.
 
+[Back to Top](#table-of-contents)
+
 ### The Privacy page
 
 - Responsiveness
 - The description of the privacy policy is presented and readable.
 - All the links on the privacy page are working correctly.
 - The footer is displayed at the bottom of the page.
+
+[Back to Top](#table-of-contents)
 
 ### The Terms and conditions page
 
@@ -1416,12 +1574,16 @@ The section with customer reviews is shown.
 - All the links on the terms and conditions page are working correctly.
 - The footer is displayed at the bottom of the page.
 
+[Back to Top](#table-of-contents)
+
 ### The FAQ page
 
 - Responsiveness
 - The description of the questions and answers is presented and readable.
 - The accordion functionality works correctly.
 - The footer is displayed at the bottom of the page.
+
+[Back to Top](#table-of-contents)
 
 ### The Newsletter page
 
@@ -1439,6 +1601,8 @@ The section with customer reviews is shown.
 - An error message is displayed on the screen if the user is trying to unsubscribe from the newsletter but their email address does not exist in the database(already unsubscribed from the newsletter)
 - The footer is displayed at the bottom of the page.
 
+[Back to Top](#table-of-contents)
+
 ### The Contact page
 
 - Responsiveness
@@ -1449,6 +1613,8 @@ The section with customer reviews is shown.
 - The current day of the week is correctly highlighted in the business opening hours section
 - The footer is displayed at the bottom of the page, and the links are working correctly.
 
+[Back to Top](#table-of-contents)
+
 ### The About page
 
 - Responsiveness
@@ -1457,12 +1623,16 @@ The section with customer reviews is shown.
 - All the contact information is correctly pulled from the database and displayed on the screen.
 - The footer is displayed at the bottom of the page, and the links are working correctly.
 
+[Back to Top](#table-of-contents)
+
 ### The Search field in the navbar
 
 - Responsiveness
 - The form is clear and intuitive.
 - The form returns correct search results.
 - The search results are displayed correctly on the screen.
+
+[Back to Top](#table-of-contents)
 
 ### The Shopping bag
 
@@ -1473,6 +1643,8 @@ The section with customer reviews is shown.
 - The information about bag total, delivery cost, and grand total is presented and calculated correctly.
 - The **Keep Shopping** and **Secure Checkout** buttons work correctly and redirect the user to relevant pages.
 - The footer is displayed at the bottom of the page, and the links are working correctly.
+
+[Back to Top](#table-of-contents)
 
 ### The Checkout page
 
@@ -1490,6 +1662,8 @@ The section with customer reviews is shown.
 - The **Adjust Bag** and **Complete Order** buttons work correctly and redirect the user to the relevant pages.
 - The footer is displayed at the bottom of the page, and the links are working correctly.
 
+[Back to Top](#table-of-contents)
+
 ### The Checkout Success page
 
 - Responsiveness
@@ -1499,6 +1673,8 @@ The section with customer reviews is shown.
 - The **Now Checkout Our Latest Deals** button works correctly and redirects the user to the relevant page.
 - The footer is displayed at the bottom of the page, and the links are working correctly.
 
+[Back to Top](#table-of-contents)
+
 ### The Main profile page
 
 - Responsiveness
@@ -1507,6 +1683,8 @@ The section with customer reviews is shown.
 - Order history is presented on the screen with all the user's past orders.
 - The link with the order number (once clicked) redirects the user to the relevant page where they can review their past order. A relevant message is displayed on the screen, indicating that they are reviewing a past order.
 - The footer is displayed at the bottom of the page, and the links are working correctly.
+
+[Back to Top](#table-of-contents)
 
 ### The product management page
 
@@ -1518,9 +1696,13 @@ The section with customer reviews is shown.
 - The **Cancel** button redirects the user to the "All Products" page.
 - The **Add Product** button works correctly and allows the user to add a new product to the database.
 
+[Back to Top](#table-of-contents)
+
 ## Automated tests
 
 Automated tests have not been created due to time constrains of the project.
+
+[Back to Top](#table-of-contents)
 
 ## Code Validation
 
@@ -1552,6 +1734,8 @@ The HTML code within the application was validated by [W3C Markup Validation Ser
 
 [Logout page](docs/validation/html/logout-page.JPG)
 
+[Back to Top](#table-of-contents)
+
 ### Python
 
 The Python code within the application was validated by [CI Python Linter](https://pep8ci.herokuapp.com/) validation service. Files were put through the validator separately, and the results can be found below.
@@ -1562,11 +1746,15 @@ The Python code within the application was validated by [CI Python Linter](https
 - [urls.py](docs/validation/python/mx_monster/urls-python-validation.JPG)
 - [views.py](docs/validation/python/mx_monster/views-python-validation.JPG)
 
+[Back to Top](#table-of-contents)
+
 #### bag app
 
 - [contexts.py](docs/validation/python/bag/contexts-python-validation.JPG)
 - [urls.py](docs/validation/python/bag/urls-python-validation.JPG)
 - [views.py](docs/validation/python/bag/views-python-validation.JPG)
+
+[Back to Top](#table-of-contents)
 
 #### checkout app
 
@@ -1579,6 +1767,8 @@ The Python code within the application was validated by [CI Python Linter](https
 - [forms.py](docs/validation/python/checkout/forms-python-validation.JPG)
 - [admin.py](docs/validation/python/checkout/admin-python-validation.JPG)
 
+[Back to Top](#table-of-contents)
+
 #### contact app
 
 - [views.py](docs/validation/python/contact/views-python-validation.JPG)
@@ -1587,6 +1777,8 @@ The Python code within the application was validated by [CI Python Linter](https
 - [forms.py](docs/validation/python/contact/forms-python-validation.JPG)
 - [admin.py](docs/validation/python/contact/admin-python-validation.JPG)
 
+[Back to Top](#table-of-contents)
+
 #### faq app
 
 - [views.py](docs/validation/python/faq/views-python-validation.JPG)
@@ -1594,10 +1786,14 @@ The Python code within the application was validated by [CI Python Linter](https
 - [models.py](docs/validation/python/faq/models-python-validation.JPG)
 - [admin.py](docs/validation/python/faq/admin-python-validation.JPG)
 
+[Back to Top](#table-of-contents)
+
 #### home app
 
 - [views.py](docs/validation/python/home/views-python-validation.JPG)
 - [urls.py](docs/validation/python/home/urls-python-validation.JPG)
+
+[Back to Top](#table-of-contents)
 
 #### newsletter app
 
@@ -1606,6 +1802,8 @@ The Python code within the application was validated by [CI Python Linter](https
 - [models.py](docs/validation/python/newsletter/models-python-validation.JPG)
 - [forms.py](docs/validation/python/newsletter/forms-python-validation.JPG)
 - [admin.py](docs/validation/python/newsletter/admin-python-validation.JPG)
+
+[Back to Top](#table-of-contents)
 
 #### products app
 
@@ -1616,12 +1814,16 @@ The Python code within the application was validated by [CI Python Linter](https
 - [forms.py](docs/validation/python/products/forms-python-validation.JPG)
 - [admin.py](docs/validation/python/products/admin-python-validation.JPG)
 
+[Back to Top](#table-of-contents)
+
 #### profiles app
 
 - [views.py](docs/validation/python/profiles/views-python-validation.JPG)
 - [urls.py](docs/validation/python/profiles/urls-python-validation.JPG)
 - [models.py](docs/validation/python/profiles/models-python-validation.JPG)
 - [forms.py](docs/validation/python/profiles/forms-python-validation.JPG)
+
+[Back to Top](#table-of-contents)
 
 #### reviews app
 
@@ -1631,14 +1833,20 @@ The Python code within the application was validated by [CI Python Linter](https
 - [forms.py](docs/validation/python/reviews/forms-python-validation.JPG)
 - [admin.py](docs/validation/python/reviews/admin-python-validation.JPG)
 
+[Back to Top](#table-of-contents)
+
 #### staff app
 
 - [models.py](docs/validation/python/staff/models-python-validation.JPG)
 - [admin.py](docs/validation/python/staff/admin-python-validation.JPG)
 
+[Back to Top](#table-of-contents)
+
 #### other files
 
 - [custom_storages.py](docs/validation/python/other/custom-storages-python-validation.JPG)
+
+[Back to Top](#table-of-contents)
 
 ### CSS
 
@@ -1649,6 +1857,8 @@ The CSS code within the application was validated by [W3C CSS Validation Service
 - [CSS Checkout validation results](docs/validation/css/checkout-css.JPG)
 - [CSS Profile validation results](docs/validation/css/profiles-css.JPG)
 
+[Back to Top](#table-of-contents)
+
 ### JS
 
 The JavaScript and JQuery code within the application was validated by [JSHint](https://jshint.com/), and the results can be found below.
@@ -1656,6 +1866,8 @@ The JavaScript and JQuery code within the application was validated by [JSHint](
 - [Country field file validation results](docs/validation/js/countryfield-js-validation-results.JPG)
 - [Script file validation results](docs/validation/js/script-js-file-validation-results.JPG)
 - [Stripe elements file validation results](docs/validation/js/stripe-elements-js-file-validation-results.JPG)
+
+[Back to Top](#table-of-contents)
 
 ### Color Contrast Accessibility Validator
 
@@ -1669,19 +1881,23 @@ The Color [Contrast Accessibility Validator](https://color.a11y.com/) was used t
 - [Privacy page](docs/validation/contrast_validation/privacy-page-contrast-validation.JPG)
 - [Terms page](docs/validation/contrast_validation/terms-page-contrast-validation.JPG)
 
+[Back to Top](#table-of-contents)
+
 ### Accessibility testing
 
 I have tested the pages of the application using [WAVE](https://wave.webaim.org/) to ensure there are no errors. The results can be seen by following the links below.
 
--[Home page](docs/validation/accessibility/home-page-accessibility-validation.JPG)
--[Products page](docs/validation/accessibility/products-page-accessibility-validation.JPG)
--[Product page](docs/validation/accessibility/product-details-accessibility-validation.JPG)
--[Privacy page](docs/validation/accessibility/privacy-page-accessibility-validation.JPG)
--[Terms page](docs/validation/accessibility/terms-page-accessibility-validation.JPG)
--[Newsletter page](docs/validation/accessibility/newsletter-page-accessibility-validation.JPG)
--[FAQ page](docs/validation/accessibility/faq-page-accessibility-validation.JPG)
--[Contact page](docs/validation/accessibility/contact-page-accessibility-validation.JPG)
--[About page](docs/validation/accessibility/about-page-accessibility-validation.JPG)
+- [Home page](docs/validation/accessibility/home-page-accessibility-validation.JPG)
+- [Products page](docs/validation/accessibility/products-page-accessibility-validation.JPG)
+- [Product page](docs/validation/accessibility/product-details-accessibility-validation.JPG)
+- [Privacy page](docs/validation/accessibility/privacy-page-accessibility-validation.JPG)
+- [Terms page](docs/validation/accessibility/terms-page-accessibility-validation.JPG)
+- [Newsletter page](docs/validation/accessibility/newsletter-page-accessibility-validation.JPG)
+- [FAQ page](docs/validation/accessibility/faq-page-accessibility-validation.JPG)
+- [Contact page](docs/validation/accessibility/contact-page-accessibility-validation.JPG)
+- [About page](docs/validation/accessibility/about-page-accessibility-validation.JPG)
+
+[Back to Top](#table-of-contents)
 
 ### Lighthouse testing
 
@@ -1695,6 +1911,8 @@ The Lighthouse tool was used to assess the website's performance, accessibility,
 - [Newsletter page](docs/images/lighthouse/newsletter-page.JPG)
 - [Privacy page](docs/images/lighthouse/privacy-page.JPG)
 - [Terms page](docs/images/lighthouse/terms-and-conditions-page.JPG)
+
+[Back to Top](#table-of-contents)
 
 ## Google emails
 
@@ -1726,6 +1944,8 @@ To set up the project to send emails and to use a Google account as an SMTP serv
 
 - You will also need to set the variables EMAIL_HOST_PASS and EMAIL_HOST_USER in your production instance, for example Heroku
 
+[Back to Top](#table-of-contents)
+
 ## Stripe
 
 - Register for an account at [stripe.com](https://stripe.com/en-ie)
@@ -1748,6 +1968,8 @@ To set up the project to send emails and to use a Google account as an SMTP serv
 - Note the key created for this webhook
 - In your local environment(env.py) and heroku, create environment variable `STRIPE_WH_SECRET with the secret values os.environ.setdefault('STRIPE_WH_SECRET', 'YOUR_VALUE_GOES_HERE')`
 - Test the webhook and note the success/fail attempts for troubleshooting, see events and logs for further testing.
+
+[Back to Top](#table-of-contents)
 
 ## Amazon WebServices
 
@@ -1790,6 +2012,8 @@ To set up the project to send emails and to use a Google account as an SMTP serv
 
 ![Django AWS settings](docs/images/aws/django-aws-settings.JPG)
 
+[Back to Top](#table-of-contents)
+
 ## Deployment
 
 - This project was developed using a GitPod workspace. The code was committed to Git and pushed to GitHub using the terminal.
@@ -1820,6 +2044,8 @@ To set up the project to send emails and to use a Google account as an SMTP serv
   - Provide your email address
   - Click **Create Team**
 
+[Back to Top](#table-of-contents)
+
 ### Migrating databases
 
 - Log in to ElephantSQL.com to access your dashboard
@@ -1829,6 +2055,8 @@ To set up the project to send emails and to use a Google account as an SMTP serv
 - Then click **Review**
 - Check your details are correct and then click **Create instance**
 - Return to the ElephantSQL dashboard and click on the database instance name for this project
+
+[Back to Top](#table-of-contents)
 
 ### Migrating your data
 
@@ -1847,6 +2075,8 @@ To set up the project to send emails and to use a Google account as an SMTP serv
 - Select a table name you recognise, and then click **Execute**
 - You should see your data displayed relating to the table you selected
 
+[Back to Top](#table-of-contents)
+
 ### Connecting ElephantSQL database to Heroku
 
 - In the Heroku Dashboard for your project, open the Resources tab
@@ -1857,12 +2087,16 @@ To set up the project to send emails and to use a Google account as an SMTP serv
 - Add a new config var called DATABASE_URL and paste in the value for your ElephantSQL database, and click Add to save it.
 - Check the Activity tab to confirm
 
+[Back to Top](#table-of-contents)
+
 ### Final Deployment
 
 - Create a Procfile web: gunicorn mx_monster.wsgi:application
 - When development is complete change the debug setting to: DEBUG = os.environ.get('DEBUG')
 - Add os.environ.get('DEBUG') in env.py
 - In Heroku settings, delete the config vars for DISABLE_COLLECTSTATIC = 1
+
+[Back to Top](#table-of-contents)
 
 ### Forking This Project
 
@@ -1871,6 +2105,8 @@ By forking the GitHub Repository you will be able to make a copy of the original
 - Log in to GitHub and locate the [GitHub Repository](https://github.com/kwalczak80/mx-monster)
 - Find the "Fork" button at the top right of the page
 - You should now have a copy of the original repository in your GitHub account.
+
+[Back to Top](#table-of-contents)
 
 ### Cloning This Project
 
@@ -1884,6 +2120,8 @@ Clone this project by following the steps:
 - Type 'git clone' and paste the URL copied in step 3
 - Press 'Enter' and the project is cloned
 
+[Back to Top](#table-of-contents)
+
 ## Technologies Used
 
 ### Languages
@@ -1894,6 +2132,8 @@ Clone this project by following the steps:
 - [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
 - [Jinja](https://jinja.palletsprojects.com/en/3.0.x/templates/)
 - [Markdown](https://en.wikipedia.org/wiki/Markdown)
+
+[Back to Top](#table-of-contents)
 
 ### Python Libraries
 
@@ -1918,6 +2158,8 @@ Clone this project by following the steps:
 - sqlparse==0.4.3
 - stripe==4.2.0
 
+[Back to Top](#table-of-contents)
+
 ### Database
 
 - Sqlite
@@ -1925,12 +2167,16 @@ Clone this project by following the steps:
 - ElephantSQL
   - The site is deployed on Heroku using an ElephantSQL database.
 
+[Back to Top](#table-of-contents)
+
 ### Frameworks
 
 - Django
   - The project uses Django as the main framework.
 - Boostrap 4
   - Used for general site layout.
+
+[Back to Top](#table-of-contents)
 
 ### Programs and Tools
 
@@ -1961,6 +2207,8 @@ Clone this project by following the steps:
 - [EZGIF](https://ezgif.com/)
   - Online GIF maker and image editor
 
+[Back to Top](#table-of-contents)
+
 ## Credits
 
 Throughout the process of building this project, various online sources have been used to help fix bugs & tackle problems, in addition to multiple modules to create the functionality of this website:
@@ -1978,6 +2226,8 @@ Throughout the process of building this project, various online sources have bee
 - [Motorcycle Shop](https://www.motorcycleshop.ie/contactabout-1-w.asp)
   - To create the text content on the About page
 
+[Back to Top](#table-of-contents)
+
 ## Content
 
 - [FC Moto](https://www.fc-moto.de/)
@@ -1987,8 +2237,12 @@ Throughout the process of building this project, various online sources have bee
 - [Terms and Conditions Generator](https://policymaker.io/terms-and-conditions/)
   - To generate the terms and conditions for MX store.
 
+[Back to Top](#table-of-contents)
+
 ## Acknowledgments
 
 - My Mentor [Simen Daehlin](https://github.com/Eventyret) for continuous helpful feedback.
 - [Code Institute's](https://codeinstitute.net/ie/) Slack community for their support.
 - All family members and friends who helped test this application.
+
+[Back to Top](#table-of-contents)
