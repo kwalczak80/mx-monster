@@ -91,7 +91,7 @@ This website is fictional and was built for educational purposes only. No orders
       - [Admin panel - ability to add a new employee](#admin-panel---ability-to-add-a-new-employee)
       - [Admin panel - ability to review orders](#admin-panel---ability-to-review-orders)
       - [Admin panel - ability to review messages sent by the customers](#admin-panel---ability-to-review-messages-sent-by-the-customers)
-    - [Admin panel - ability to approve product reviews](#admin-panel---ability-to-approve-product-reviews)
+      - [Admin panel - ability to approve product reviews](#admin-panel---ability-to-approve-product-reviews)
   - [Features to be implemented](#features-to-be-implemented)
   - [SEO - Search Engine Optimization](#seo---search-engine-optimization)
   - [Marketing](#marketing)
@@ -311,7 +311,7 @@ Github issues were used to create the User stories and group them according to M
 ## Site Map
 
 The information architecture was organized in such a way as to ensure that users can navigate through the site easily.
-![Site Map](docs/images/site_map/site-map.jpg)
+![Site Map](docs/images/site_map/site-map.png)
 
 ## Structure
 
@@ -541,13 +541,13 @@ The website has been designed using Bootstrap 4 therefore it's fully responsive 
 
 The home page is a simple set of navigation elements, a background image, and a carousel that displays shop now, contact and newsletter subscription options.
 
-A shop now button directs the user to the “All products” page, where they can easily identify products they would like to purchase. The product list displayed on this page is always ordered by date added, i.e., the latest products added for sale by the shop admin will be displayed at the top of the page.
+A **Shop Now** button directs the user to the “All products” page, where they can easily identify products they would like to purchase. The product list displayed on this page is always ordered by date added, i.e., the latest products added for sale by the shop admin will be displayed at the top of the page.
 
-A contact button directs the user to the page with the contact form that is used to contact the customer service team in case of any queries that the customer may have.
+A **Contact** button directs the user to the page with the contact form that is used to contact the customer service team in case of any queries that the customer may have.
 
-A Subscribe button directs the user to the page where they can subscribe to the newsletter to receive information about new products, special offers, discounts, etc.
+A **Subscribe** button directs the user to the page where they can subscribe to the newsletter to receive information about new products, special offers, discounts, etc.
 
-A Facebook button directs the user to the shop's Facebook page.
+A **Facebook** button directs the user to the shop's Facebook page.
 
 ![Home page carousel](docs/images/existing_features/home_page/home-page-carousel.gif)
 
@@ -1039,7 +1039,7 @@ The business owner can add a new employee via the admin panel. All the informati
 
 ![Admin panel message review](docs/images/existing_features/admin-area/admin-panel-contact.JPG)
 
-### Admin panel - ability to approve product reviews
+#### Admin panel - ability to approve product reviews
 
 The registeed user can add the product review, however it will be displayed on the page upon the businnes approval.
 All new reviews are not published by default.
@@ -1058,6 +1058,7 @@ All new reviews are not published by default.
 - An administration panel for managing the entire store (rather than the Django panel). From this panel, the user could manage products, orders, staff, user queries, newsletters, etc.
 - Additional options for the product i.e. color
 - A tab with a size chart so that the user can make sure that they are buying the product in the right size.
+- Allow the user to rate the product
 
 ## SEO - Search Engine Optimization
 
@@ -1175,13 +1176,13 @@ Fix: Add the following code within the if request.GET statement:
 
 Fix: The fix was implmented by adding the following card-img-top class in the style.css file
 
-'''
+```Django
 .card-img-top {
     width: 100%;
     height: 15vw;
     object-fit: contain;
 }
-'''
+```
 
 ![Fixed images displayed on cards with equal height.](docs/images/bugs/fixed_images_with_no_equal%20height.JPG)
 </details>
