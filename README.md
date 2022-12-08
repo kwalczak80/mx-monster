@@ -101,6 +101,7 @@ This website is fictional and was built for educational purposes only. No orders
   - [Unfixed bugs](#unfixed-bugs)
   - [Product quantity validation](#product-quantity-validation)
   - [The bag quantity adjustment](#the-bag-quantity-adjustment)
+  - [Security issue](#security-issue)
   - [UX Testing](#ux-testing)
   - [Manual Testing](#manual-testing)
     - [Navigation bar](#navigation-bar)
@@ -1297,11 +1298,11 @@ All products were displayed on the screen, regardless of which category was sele
 
 Fix: Add the following code within the if request.GET statement:
 
-`paginator = Paginator(products, 12)`
-
-`page = request.GET.get('page')`
-
-`paged_products = paginator.get_page(page)`
+```Django
+paginator = Paginator(products, 12)
+page = request.GET.get('page')
+paged_products = paginator.get_page(page)
+```
 
 ![Fixed issue to display products in the selected category](docs/images/bugs/fixed_issue_with_product_category.JPG)
 
@@ -1420,6 +1421,15 @@ After the implementation of quantity validation, a relevant message will be disp
 ![Adjust the bag with quantity validation](docs/images/bag_adjustment/adjust-bag-with-quantity-validation.JPG)
 
 [Back to Top](#table-of-contents)
+
+## Security issue
+
+During my review of the project files, I noticed that the db.json file was exposed to the public. This file was generated to transfer data to the ElephantSQL database, and it contained some information that should not be visible to anyone. Having this file and the Django secret key (if accidentally exposed) could cause a serious data leak. After consultation with my mentor, the following steps were taken to mitigate the risk:
+
+- delete the db.json file
+- generate a new Django secret key
+- update env.py with a new secret key
+- update Heroku config vars with a new secret key
 
 ## UX Testing
 
@@ -1942,7 +1952,7 @@ To set up the project to send emails and to use a Google account as an SMTP serv
 - In the env.py file, create an environment variable called EMAIL_HOST_USER with the email address of the gmail account
 - Set and confirm the following values in the settings.py file to successfully send emails
 
- ```django
+ ```Django
     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
     EMAIL_USE_TLS = True
     EMAIL_PORT = 587
