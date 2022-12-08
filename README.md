@@ -670,7 +670,7 @@ Depending on whether the user is logged in or not, different options are availab
 
 ### Search bar
 
-![Search bar](docs/images/existing_features/search_bar/search_bar.JPG)
+![Search bar](docs/images/existing_features/search_bar/search-bar.JPG)
 
 The search bar is part of the header and appears across all pages. This allows the user to easily search for products by typing in the keywords.
 The user can either enter a single keyword to find a product or enter multiple keywords, as this type of search functionality is also supported.
@@ -682,7 +682,7 @@ The user can either enter a single keyword to find a product or enter multiple k
 When the user clicks on the **Shop now** button on the home page or the **All products** link from the All products dropped down menu in the navigation bar, they will be redirected to the page where they can view all the products that are available for sale.
 By default, all the products displayed on this page are ordered by the date they were added to the database (i.e., the latest products added for sale will be displayed first).
 
-![All products page](docs/images/existing_features/all_products_page/all_products_page.JPG)
+![All products page](docs/images/existing_features/all_products_page/all-products-page.JPG)
 
 From the **All Products** drop-down menu, the user can also choose the option to specify how the products are displayed on the screen:
 
@@ -690,7 +690,7 @@ From the **All Products** drop-down menu, the user can also choose the option to
 - by rating(by default high to low)
 - by category(by default A-Z)
 
-![All products drop down menu](docs/images/existing_features/all_products_page/all_products_drop_down_menu.JPG)
+![All products drop down menu](docs/images/existing_features/all_products_page/all_products-drop-down-menu.JPG)
 
 The user also has the option to select the order in which to view the products listed. They can order:
 
@@ -703,7 +703,7 @@ The user also has the option to select the order in which to view the products l
 - category (A-Z)
 - category (Z-A)
 
-![Product view in specific order](docs/images/existing_features/all_products_page/products_sorted_by.JPG)
+![Product view in specific order](docs/images/existing_features/all_products_page/products-sorted-by.JPG)
 
 Once the user clicks on the product image, they will be redirected to a page where additional information about the specific product will be presented.
 
@@ -768,7 +768,7 @@ To read the reviews of the product, the user needs to click on the **Customer Re
 
 If the user is logged in, the button to **Add Review** will also be visible.
 
-![Add review button](docs/images/existing_features/product_details_page/add_review_button.JPG)
+![Add review button](docs/images/existing_features/product_details_page/add-review-button.JPG)
 
 The user can add a new review by clicking on the **Add Review** button.
 The user will be redirected to the page where they can add a new review of the product.
@@ -812,7 +812,10 @@ The panel contains the following fields:
 - Stock(mandatory field)
 - Rating
 - Image url
+- Current image of the product
+- Check box to delete the current product image
 - **Select image** button - to upload relevant product image
+- **Choose file** buttons - to select thumbnail images(optional)
 - **Add product** button - once clicked; a new product will be added to the database(only if all fields are correct)
 
 ![Add product page](docs/images/existing_features/product_management/add-product-page.JPG)
