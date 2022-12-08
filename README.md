@@ -818,6 +818,8 @@ The panel contains the following fields:
 - **Choose file** buttons - to select thumbnail images(optional)
 - **Add product** button - once clicked; a new product will be added to the database(only if all fields are correct)
 
+If the store owner decides to edit the product, an alert message will appear in the upper right corner of the screen indicating that the user is in edit product information mode.
+
 ![Add product page](docs/images/existing_features/product_management/add-product-page.JPG)
 
 When the user is logged in as a staff user or admin, they have the ability to update or delete the selected product as the edit and delete options become available on the product card.
@@ -887,6 +889,10 @@ Once the payment process is completed a confirmation message will be displayed o
 
 ![Order confirmation](docs/images/existing_features/checkout/order-confirmation.JPG)
 
+Order details are also emailed to the user as an order confirmation.
+
+![Order confirmation email](docs/images/existing_features/checkout/order-confirmation-email.JPG)
+
 [Back to Top](#table-of-contents)
 
 ### Privacy page
@@ -894,7 +900,7 @@ Once the payment process is completed a confirmation message will be displayed o
 The user can access information about MX Monster's privacy policy from the footer by clicking on the **Privacy** link.
 The privacy document explains how MX Monster handles any customer information gathered in its operations.
 
-![Privacy policy](docs/images/existing_features/privacy/privacy.JPG)
+![Privacy policy](docs/images/existing_features/privacy/privacy-page.JPG)
 
 [Back to Top](#table-of-contents)
 
@@ -903,7 +909,7 @@ The privacy document explains how MX Monster handles any customer information ga
 The user can access information about MX Monster's terms and contitions from the footer by clicking on the **Terms** link.
 The Terms and conditions document set the way in which the product, service or content may be used, in a legally binding way.
 
-![Terms and conditions](docs/images/existing_features/terms/terms.JPG)
+![Terms and conditions](docs/images/existing_features/terms/terms-and-conditions-page.JPG)
 
 [Back to Top](#table-of-contents)
 
