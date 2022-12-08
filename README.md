@@ -403,6 +403,7 @@ The following models were created to represent the database model structure for 
 | grand_total |  | DecimalField | max_digits=10 |
 | original_bag |  | TextField | default='' |
 | stripe_pid |  | CharField | max_length=254 |
+| order_status |  | CharField | default='CONFIRMED' |
 
 [Back to Top](#table-of-contents)
 
