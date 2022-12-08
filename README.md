@@ -2216,6 +2216,8 @@ Clone this project by following the steps:
   - Gradient generator
 - [EZGIF](https://ezgif.com/)
   - Online GIF maker and image editor
+- [Django Secret Key Generator](https://miniwebtool.com/django-secret-key-generator/)
+  - Online tool to generate a sectet key for Django
 
 [Back to Top](#table-of-contents)
 
@@ -2252,7 +2254,7 @@ Throughout the process of building this project, various online sources have bee
 ## Acknowledgments
 
 - My Mentor [Simen Daehlin](https://github.com/Eventyret) for continuous helpful feedback.
-- [Code Institute's](https://codeinstitute.net/ie/) Slack community for their support. Special ta
+- [Code Institute's](https://codeinstitute.net/ie/) Slack community for their support. Special thanks to Joanna Gorska from Code Institute.
 - All family members and friends who helped test this application.
 
 [Back to Top](#table-of-contents)
