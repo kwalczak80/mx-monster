@@ -1362,7 +1362,7 @@ This issue occured when I was trying migrate an updated model.
 
 ![The model migration issue](docs/images/bugs/model-migration-issue.png)
 
-Fix : The command python3 manage.py migrate --fake fixed the issue. The solution was found on the Stack Overflow website and on how to reset migrations website(by Vitor Freitas)
+Fix : The command python3 manage.py migrate --fake fixed the issue. The solution was found on the [Stack Overflow](https://stackoverflow.com/questions/29253399/how-to-reset-migrations-in-django-1-7) website as well as on [how to reset migrations](https://simpleisbetterthancomplex.com/tutorial/2016/07/26/how-to-reset-migrations.html) website(by Vitor Freitas)
 
 </details>
 
@@ -2252,7 +2252,7 @@ Throughout the process of building this project, various online sources have bee
 ## Acknowledgments
 
 - My Mentor [Simen Daehlin](https://github.com/Eventyret) for continuous helpful feedback.
-- [Code Institute's](https://codeinstitute.net/ie/) Slack community for their support.
+- [Code Institute's](https://codeinstitute.net/ie/) Slack community for their support. Special ta
 - All family members and friends who helped test this application.
 
 [Back to Top](#table-of-contents)
