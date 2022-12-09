@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background: url('/media/africa-twin-background.jpg') no-repeat center center;
+    background: url('/media/africa-twin-background.jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: 'Varela Round', sans-serif;
     height: calc(100vh - 164px);
@@ -30,7 +30,7 @@ body {
 }
 
 .index-style {
-    padding-top: 10vh;
+    padding-top: 25vh;
 }
 .logo-font {
     text-transform: uppercase;
@@ -48,7 +48,7 @@ body {
     color: #158f31 !important;
 }
 
-/* Available pieces tag */
+/* Product in stock tag */
 
 .fa-warehouse {
     color: #6b38af !important;
@@ -436,6 +436,7 @@ input[name='q']::placeholder {
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
     }
+
 }
 
 @media (max-width: 425px) {
@@ -443,7 +444,7 @@ input[name='q']::placeholder {
         font-size: 2rem;
     }
     .index-style {
-        padding-top: 40vh;
+        padding-top: 25vh;
     }
     .footer-link {
         font-size: 10px;
@@ -452,4 +453,28 @@ input[name='q']::placeholder {
   { 
     font-size: 10px;
   }
+}
+
+@media (max-height: 600px) {
+    .index-style {
+        padding-top: 15vh;
+    }
+    .display-4.logo-font {
+        font-size: 2.5rem;
+    }
+    .shop-now-button {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-height: 480px) {
+    .index-style {
+        padding-top: 15vh;
+    }
+    .display-4.logo-font {
+        font-size: 1.5rem;
+    }
+    .shop-now-button {
+        font-size: 1rem;
+    }
 }
