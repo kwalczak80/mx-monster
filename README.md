@@ -1197,6 +1197,7 @@ All new reviews are not published by default.
 
 To improve the Search Engine Optimization (SEO) of the site the keywords were researched using [WordTracker](https://www.wordtracker.com/) to optimize web pages and content to increase ranking in search engines.
 The keyword research was used for both short-tail & long-tail keywords.
+These tags have been used in the main HTML head and throughout the project to name images, in product description and on the about page.
 
 ![Search Engine Optimization](docs/images/seo/seo.JPG)
 
