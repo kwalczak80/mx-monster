@@ -103,28 +103,29 @@ This website is fictional and was built for educational purposes only. No orders
   - [The bag quantity adjustment](#the-bag-quantity-adjustment)
   - [Security issue](#security-issue)
   - [UX Testing](#ux-testing)
-  - [Manual Testing](#testing)
-    - [Navigation bar](#testing)
-    - [Footer navigation](#testing)
-    - [Home Page](#testing)
-    - [Login and Signup](#testing)
-    - [Logout](#testing)
-    - [The Products page](#testing)
-    - [The Product page](#testing)
-    - [The customer reviews section](#testing)
-    - [The Privacy page](#testing)
-    - [The Terms and conditions page](#testing)
-    - [The FAQ page](#testing)
-    - [The Newsletter page](#testing)
-    - [The Contact page](#testing)
-    - [The About page](#testing)
-    - [The Search field in the navbar](#testing)
-    - [The Shopping bag](#testing)
-    - [The Checkout page](#testing)
-    - [The Checkout Success page](#testing)
-    - [The Main profile page](#testing)
-    - [The product management page](#testing)
-  - [Automated tests](#testing)
+  - [Testing](#testing)
+    - [Manual Testing](#testing)
+      - [Navigation bar](#testing)
+      - [Footer navigation](#testing)
+      - [Home Page](#testing)
+      - [Login and Signup](#testing)
+      - [Logout](#testing)
+      - [The Products page](#testing)
+      - [The Product page](#testing)
+      - [The customer reviews section](#testing)
+      - [The Privacy page](#testing)
+      - [The Terms and conditions page](#testing)
+      - [The FAQ page](#testing)
+      - [The Newsletter page](#testing)
+      - [The Contact page](#testing)
+      - [The About page](#testing)
+      - [The Search field in the navbar](#testing)
+      - [The Shopping bag](#testing)
+      - [The Checkout page](#testing)
+      - [The Checkout Success page](#testing)
+      - [The Main profile page](#testing)
+      - [The product management page](#testing)
+    - [Automated tests](#testing)
   - [Code Validation](#code-validation)
     - [HTML](#html)
     - [Python](#python)
@@ -1190,6 +1191,7 @@ All new reviews are not published by default.
 - Additional options for the product i.e. color
 - A tab with a size chart so that the user can make sure that they are buying the product in the right size.
 - Allow the user to rate the product
+- Paypal payment system
 
 [Back to Top](#table-of-contents)
 
@@ -1487,6 +1489,8 @@ During my review of the project files, I noticed that the db.json file was expos
 ## Testing
 
 All tests [here](READMETESTING.md) in the test file.
+
+[Back to Top](#table-of-contents)
 
 ## Code Validation
 
