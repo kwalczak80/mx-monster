@@ -147,11 +147,11 @@ body {
 
 .btn-black {
     background: #212529;
-    color: white;
+    color: #ffffff;
 }
 
 .btn-outline-black {
-    background: white;
+    background: #ffffff;
     color: #000000 !important; /* use important to override link colors for <a> elements */
     border: 1px solid black;
 }
@@ -159,8 +159,8 @@ body {
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    background: black;
-    color: white !important;
+    background: #000000;
+    color: #ffffff !important;
 }
 
 .shop-now-button:hover,
@@ -170,7 +170,7 @@ body {
 .btn-black:active,
 .btn-black:focus {
     background: rgb(243, 6, 6);
-    color: white;
+    color: #ffffff;
 }
 
 .text-black {
