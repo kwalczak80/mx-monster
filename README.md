@@ -1379,6 +1379,8 @@ Fix : Remove the table class and update the code in the profile.html file
 
 [Order history displayed correctly on small screens](docs/images/bugs/order-history-responsiveness-fix.JPG)
 
+</details>
+
 [Back to Top](#table-of-contents)
 
 ## Unfixed bugs
