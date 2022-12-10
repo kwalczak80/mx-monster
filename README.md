@@ -1713,6 +1713,7 @@ The section with customer reviews is shown.
 - Default delivery information is displayed on the screen.
 - The **Update** button functions properly, allowing the user to update delivery information in the database.
 - Order history is presented on the screen with all the user's past orders.
+- The order status is presented and displayed correctly.
 - The link with the order number (once clicked) redirects the user to the relevant page where they can review their past order. A relevant message is displayed on the screen, indicating that they are reviewing a past order.
 - The footer is displayed at the bottom of the page, and the links are working correctly.
 
