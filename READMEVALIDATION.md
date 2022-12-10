@@ -5,55 +5,43 @@
 ## Table of contents
 
 - [Code Validation](#code-validation)
-- [HTML](#html)
-- [Python](#python)
-  - [mx_monster app](#mx-monster-app)
-  - [bag app](#bag-app)
-  - [checkout app](#checkout-app)
-  - [contact app](#contact-app)
-  - [faq app](#faq-app)
-  - [home app](#home-app)
-  - [newsletter app](#newsletter-app)
-  - [products app](#products-app)
-  - [profiles app](#profiles-app)
-  - [reviews app](#reviews-app)
-  - [staff app](#staff-app)
-  - [other files](#other-files)
-- [CSS](#css)
-- [JS](#js)
-- [Color Contrast Accessibility Validation](#color-contrast-accessibility-validator)
-- [Accessibility Validation](#accessibility-testing)
-- [Lighthouse Validation](#lighthouse-testing)
+  - [HTML](#html)
+  - [Python](#python)
+    - [mx_monster app](#mx-monster-app)
+    - [bag app](#bag-app)
+    - [checkout app](#checkout-app)
+    - [contact app](#contact-app)
+    - [faq app](#faq-app)
+    - [home app](#home-app)
+    - [newsletter app](#newsletter-app)
+    - [products app](#products-app)
+    - [profiles app](#profiles-app)
+    - [reviews app](#reviews-app)
+    - [staff app](#staff-app)
+    - [other files](#other-files)
+  - [CSS](#css)
+  - [JS](#js)
+  - [Color Contrast Accessibility Validation](#color-contrast-accessibility-validator)
+  - [Accessibility Validation](#accessibility-testing)
+  - [Lighthouse Validation](#lighthouse-testing)
 
 ### HTML
 
 The HTML code within the application was validated by [W3C Markup Validation Service](https://validator.w3.org/). Pages were put through the validator seperatly, and the results can be found below.
 
-[Home page](docs/validation/html/home-page.JPG)
-
-[Products page](docs/validation/html/product-page.JPG)
-
-[Product Page](docs/validation/html/product-page.JPG)
-
-[About page](docs/validation/html/about-page.JPG)
-
-[Contact page](docs/validation/html/contact-page.JPG)
-
-[Privacy page](docs/validation/html/privacy-page.JPG)
-
-[Terms page](docs/validation/html/terms-page.JPG)
-
-[FAQ page](docs/validation/html/faq-page.JPG)
-
-[Newsletter page](docs/validation/html/subscribtion-page.JPG)
-
-[Login page](docs/validation/html/login-page.JPG)
-
-[Sign Up page](docs/validation/html/sign-up-page.JPG)
-
-[Logout page](docs/validation/html/logout-page.JPG)
-
-[Back to Top](#table-of-contents)
+- [Home page](docs/validation/html/home-page.JPG)
+- [Products page](docs/validation/html/product-page.JPG)
+- [Product Page](docs/validation/html/product-page.JPG)
+- [About page](docs/validation/html/about-page.JPG)
+- [Contact page](docs/validation/html/contact-page.JPG)
+- [Privacy page](docs/validation/html/privacy-page.JPG)
+- [Terms page](docs/validation/html/terms-page.JPG)
+- [FAQ page](docs/validation/html/faq-page.JPG)
+- [Newsletter page](docs/validation/html/subscribtion-page.JPG)
+- [Login page](docs/validation/html/login-page.JPG)
+- [Sign Up page](docs/validation/html/sign-up-page.JPG)
+- [Logout page](docs/validation/html/logout-page.JPG)
+- [Back to Top](#table-of-contents)
 
 ### Python
 
