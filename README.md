@@ -1368,6 +1368,17 @@ Fix : The command python3 manage.py migrate --fake fixed the issue. The solution
 
 </details>
 
+<details>
+<summary>Issue with the order history table responsiveness</summary>
+
+The order history text was not easy to read on small screens.
+
+![Issue when displaying order history on small screens](docs/images/bugs/order-history-table-responsiveness-issue.JPG)
+
+Fix : Remove the table class and update the code in the profile.html file
+
+[Order history displayed correctly on small screens](docs/images/bugs/order-history-responsiveness-fix.JPG)
+
 [Back to Top](#table-of-contents)
 
 ## Unfixed bugs
