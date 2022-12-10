@@ -1,6 +1,6 @@
 # Testing
 
-## [Back to  Main Readme file](README.md)
+## [Back to the Main Readme file](README.md)
 
 ## Table of contents
 
