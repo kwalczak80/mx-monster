@@ -286,6 +286,11 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
+.scroll {
+    height:25rem;
+    overflow-y: auto;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
