@@ -235,6 +235,7 @@ The section with customer reviews is shown.
 - The card payment field is presented on the screen, and the user is able to enter the card details.
 - The information about how much the card will be charged is displayed on the screen.
 - The Stripe payment system handles all the payments correctly.
+- The product stock is decremented after a successful purchase.
 - A relevant error message is displayed on the screen if the user enters incorrect card details.
 - The **Adjust Bag** and **Complete Order** buttons work correctly and redirect the user to the relevant pages.
 - The footer is displayed at the bottom of the page, and the links are working correctly.
