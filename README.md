@@ -226,11 +226,11 @@ The primary goal of the website, from a site user’s perspective, is as follows
 - As a user, I want to see the items selected for purchase to keep track of my selections
 - As a user, I want to see a running total of the shopping basket to keep track of my spending
 - As a user, I want to select multiple quantities of the same product, to order two or more of the same products
-- As a user, I want to filter the products to narrow down the products to the ones wanted
+- As a user, I want to filter the products to narrow down the products to the ones want
 - As a user, I want to easily login and logout
 - As a user, I want to register for an account
 - As a user, I want to have my user details information saved to speed up the purchase process
-- As a user, I want to have an option to recover my password if required
+- As a user, I want to have the option to recover my password if required
 - As a user, I want to have a secure payment checkout
 - As a user, I want to have an option to quickly search for a product I'm looking for
 - As a user, I want to edit the basket content
@@ -367,6 +367,7 @@ To complement the apps there are:
 - **Static**: CSS files for the website and admin panel.
 - **manage.py**: This file is used to start the site and perform functions during development.
 - **README.md**: Documentation about the project.
+- **TESTING.md**: Documentation that contains all the tests and validation reports.
 - **Requirements.txt**: Containing the project dependencies. Note: Environment variable values are not exposed in the source code as they are stored locally in env.py that is not checked in(listed in .gitignore).
 - **Procfile**: To run the application on Heroku
 - **custom_storages.py** file - to specify static and media storage location
@@ -599,15 +600,15 @@ The website has been designed using Bootstrap 4 therefore it's fully responsive 
 
 ### Homepage
 
-The home page is a simple set of navigation elements, a background image, and a carousel that displays shop now, contact and newsletter subscription options.
+The home page is a simple set of navigation elements, the background image, and a carousel that displays shop now, contact, newsletter subscription and Facebook page options.
 
-A **Shop Now** button directs the user to the “All products” page, where they can easily identify products they would like to purchase. The product list displayed on this page is always ordered by date added, i.e., the latest products added for sale by the shop admin will be displayed at the top of the page.
+The **Shop Now** button redirects the user to the “All products” page, where they can easily identify products they would like to purchase. The product list displayed on this page is always ordered by the date added, i.e., the latest products added for sale by the shop admin will be displayed at the top of the page.
 
-A **Contact** button directs the user to the page with the contact form that is used to contact the customer service team in case of any queries that the customer may have.
+The **Contact** button redirects the user to the page with the contact form that is used to contact the customer service team in case of any queries that the customer may have.
 
-A **Subscribe** button directs the user to the page where they can subscribe to the newsletter to receive information about new products, special offers, discounts, etc.
+The **Subscribe** button redirects the user to the page where they can subscribe to the newsletter to receive information about new products, special offers, discounts, etc.
 
-A **Facebook** button directs the user to the shop's Facebook page.
+The **Facebook** button redirects the user to the shop's Facebook page.
 
 ![Home page carousel](docs/images/existing_features/home_page/home-page-carousel.gif)
 
@@ -622,10 +623,10 @@ The following navbar structure is available on the medium and large screens:
 - My account  - to display information about the user account
 - Basket - to display information about the products in the basket
 - All products - link to the page with all products for sale
-- Riding gear - link to the Riding gear page
-- Vehicle equipment - link to the  vehicle equipment page
-- Accessories - link to the accessories page
-- Special Offers - link to the special offers page
+- Riding gear - link to the Riding gear category page
+- Vehicle equipment - link to the  vehicle equipment category page
+- Accessories - link to the accessories category page
+- Special Offers - link to the special offers category page
 
 ![Navbar on medium and large screens](docs/images/existing_features/navbar/navbar-medium-and-large-screens.JPG)
 
@@ -641,10 +642,10 @@ The hamburger menu contains the following links:
 
 - Home - link to the home page
 - All products - link to the page with all products for sale
-- Riding gear - link to the Riding gear page
-- Vehicle equipment - link to the  vehicle equipment page
-- Accessories - link to the accessories page
-- Special Offers - link to the special offers page
+- Riding gear - link to the Riding category gear page
+- Vehicle equipment - link to the  vehicle equipment category page
+- Accessories - link to the accessories category page
+- Special Offers - link to the special offers category page
 
 ![Navbar hamburger menu on small screens](docs/images/existing_features/navbar/navbar-small-screens-hamburger-menu.JPG)
 
@@ -716,14 +717,10 @@ Once the user clicks on the product image, they will be redirected to a page whe
 
 When the user is interested in a specific product and clicks on the product image, they will be redirected to a page where they can find additional information about the product. This page is divided into sections:
 
-[Back to Top](#table-of-contents)
-
 #### The product image section
 
 The product main photo - presents the product image. Once the image is clicked, the product photo will be opened in a new tab.
 Photos - additional photos of the product are presented as thumbnails. Clicking on any of the thumbnail images will launch the lightbox gallery, so the user will be able to view all the photos in detail (please read about thumbnails below).
-
-[Back to Top](#table-of-contents)
 
 #### The product infromation section
 
