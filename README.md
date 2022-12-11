@@ -23,7 +23,7 @@ This website is fictional and was built for educational purposes only. No orders
   - [User Experience (UX)](#user-experience-ux)
     - [Shopper](#shopper)
     - [Store Owner](#store-owner)
-   [Error Handling](#error-handling)
+  - [Error Handling](#error-handling)
   - [Agile Methodology](#agile-methodology)
   - [Wireframes-Desktop](#wireframes-desktop)
   - [Wireframes-Tablet](#wireframes-tablet)
@@ -48,12 +48,6 @@ This website is fictional and was built for educational purposes only. No orders
     - [Fonts](#fonts)
     - [Colours](#colours)
     - [Icons](#icons)
-    - [Search](#search)
-    - [My account](#my-account)
-    - [Bag shopping cart](#bag-shopping-cart)
-    - [Edit review](#edit-review)
-    - [Delete review](#delete-review)
-    - [Product in-stock icon](#product-in-stock-icon)
   - [Features](#features)
     - [Responsive design](#responsive-design)
     - [Homepage](#homepage)
@@ -81,7 +75,7 @@ This website is fictional and was built for educational purposes only. No orders
       - [Sign In](#sign-in)
       - [Sign out](#sign-out)
     - [Messages system to provide feedback to the user](#messages-system-to-provide-feedback-to-the-user)
-    - [Error handling](#error-handling)
+    - [Error handling pages](#error-handling-pages)
       - [400 page](#400-page)
       - [403 page](#403-page)
       - [404 page](#404-page)
@@ -564,27 +558,27 @@ I used [Coolors](https://coolors.co/) to come up with a color scheme. The color 
 
 All the icons that are used in this project come from the [Font Awsome](https://fontawesome.com/) website.
 
-### Search
+Search icon
 
 ![Search](docs/images/icons/search_icon.jpg)
 
-### My account
+My account icon
 
 ![My account](docs/images/icons/user_icon.jpg)
 
-### Bag shopping cart
+Bag shopping cart icon
 
 ![Bag shopping cart](docs/images/icons/shopping_cart_icon.jpg)
 
-### Edit review
+Edit review icon
 
 ![Edit review](docs/images/icons/edit_review_icon.jpg)
 
-### Delete review
+Delete review icon
 
 ![Delete review](docs/images/icons/delete_review_icon.jpg)
 
-### Product in-stock icon
+Product in-stock icon
 
 ![Product in-stock icon](docs/images/icons/product-in-stock-icon.jpg)
 
@@ -1073,7 +1067,7 @@ Messages are displayed on the screen to provide the user with continuous feedbac
 
 [Back to Top](#table-of-contents)
 
-### Error handling
+### Error handling pages
 
 #### 400 page
 
@@ -1757,9 +1751,9 @@ Clone this project by following the steps:
 
 ### Frameworks
 
-- Django
+- [Django](https://www.djangoproject.com/)
   - The project uses Django as the main framework.
-- Boostrap 4
+- [Boostrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
   - Used for general site layout.
 
 [Back to Top](#table-of-contents)
@@ -1826,6 +1820,8 @@ Throughout the process of building this project, various online sources have bee
   - To generate the privacy policy for MX Moster store.
 - [Terms and Conditions Generator](https://policymaker.io/terms-and-conditions/)
   - To generate the terms and conditions for MX store.
+- [Home page background image](https://www.m50honda.ie/product/crf1100a-africa-twin-adventure-sports/)
+  - Image displayed on the home page
 
 [Back to Top](#table-of-contents)
 
