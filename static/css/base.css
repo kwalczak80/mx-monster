@@ -2,8 +2,8 @@
 
 html {
     height: 100%;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
     font-family: 'Varela Round', sans-serif;
     height: calc(100vh - 164px);
     color: #555;
-    min-height: 100vh; 
+    min-height: 100vh;
 }
 
 .bg-nav {
@@ -32,6 +32,7 @@ body {
 .index-style {
     padding-top: 25vh;
 }
+
 .logo-font {
     text-transform: uppercase;
 }
@@ -42,7 +43,7 @@ body {
     color: #b31212 !important
 }
 
-/* Star rating and category tag */
+/* Category tag color */
 
 .fa-tag {
     color: #158f31 !important;
@@ -54,6 +55,7 @@ body {
     color: #6b38af !important;
 }
 
+/* Star rating tag color */
 .fa-star {
     color: rgb(204, 204, 39) !important;
 }
@@ -64,25 +66,28 @@ body {
 
 /* Contact page */
 .business-hours {
-    background:#212529;
+    background: #212529;
     padding: 1.5rem 1rem;
-    color: rgba(255,255,255,.55);
-    }
+    color: rgba(255, 255, 255, .55);
+}
 
 .business-hours li {
     line-height: 30px;
-    border-bottom: 1px solid #333; 
-    }
+    border-bottom: 1px solid #333;
+}
+
 .business-hours li:last-child {
-    border-bottom: none; 
-    }
+    border-bottom: none;
+}
+
 .business-hours .opening-hours li.today {
-    color: #ffac0c; 
-    }
+    color: #ffac0c;
+}
 
 .banner {
     background: #212529 !important;
-}    
+}
+
 /* Footer */
 .footer {
     position: sticky;
@@ -93,7 +98,7 @@ body {
 
 .footer-link {
     font-family: 'Michroma', sans-serif;
-    color: rgba(255,255,255,.55);
+    color: rgba(255, 255, 255, .55);
     text-decoration: none !important;
 }
 
@@ -104,18 +109,16 @@ body {
 
 .fa-brands:hover {
     color: #b31212 !important;
-  }
-  
-.fa-brands
-  { 
-    color: rgba(255,255,255,.55) !important;
-  }
+}
+
+.fa-brands {
+    color: rgba(255, 255, 255, .55) !important;
+}
 
 .card-link i {
     position: absolute;
     right: 1rem;
 }
-
 
 /* from Bulma */
 .icon {
@@ -126,6 +129,7 @@ body {
     width: 1.5rem;
 }
 
+/* Logo */
 #logo-font h2 {
     font-size: 50px;
     background: -webkit-linear-gradient(#f30606, #b12020, #030303);
@@ -152,7 +156,8 @@ body {
 
 .btn-outline-black {
     background: #ffffff;
-    color: #000000 !important; /* use important to override link colors for <a> elements */
+    color: #000000 !important;
+    /* use important to override link colors for <a> elements */
     border: 1px solid black;
 }
 
@@ -186,16 +191,16 @@ body {
 }
 
 .overlay {
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	position: fixed;
-	background: #F1F1F1;
-	z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: #F1F1F1;
+    z-index: -1;
 }
 
-a.category-badge > span.badge:hover {
+a.category-badge>span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
 }
@@ -237,10 +242,10 @@ input[name='q']::placeholder {
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-left: 4px solid transparent;
-    border-right: 4px solid transparent; 
+    border-right: 4px solid transparent;
     border-bottom: 10px solid black;
     position: absolute;
     top: -10px;
@@ -287,24 +292,17 @@ input[name='q']::placeholder {
 }
 
 .scroll {
-    height:25rem;
+    height: 25rem;
     overflow-y: auto;
-}
-
-/* -------------------------------- Media Queries */
-
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
 }
 
 /* Allauth form formatting */
 
 .allauth-form-inner-content p {
-    margin-top: 1.5rem; /* mt-4 */
-    color: #6c757d; /* text-secondary */
+    margin-top: 1.5rem;
+    /* mt-4 */
+    color: #6c757d;
+    /* text-secondary */
 }
 
 .allauth-form-inner-content input {
@@ -322,8 +320,8 @@ input[name='q']::placeholder {
 
 .allauth-form-inner-content button,
 .allauth-form-inner-content input[type='submit'] {
-	/* btn */
-	display: inline-block;
+    /* btn */
+    display: inline-block;
     font-weight: 400;
     color: #fff;
     text-align: center;
@@ -340,18 +338,19 @@ input[name='q']::placeholder {
     border-radius: 0;
 
     /* standard bootstrap btn transitions */
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .allauth-form-inner-content button:hover,
-.allauth-form-inner-content input[type='submit']:hover {	
-	color: #fff;
+.allauth-form-inner-content input[type='submit']:hover {
+    color: #fff;
     background-color: #222;
     border-color: #222;
 }
 
 .allauth-form-inner-content a {
-	color: #17a2b8; /* text-info */
+    color: #17a2b8;
+    /* text-info */
 }
 
 /* Product Form */
@@ -380,6 +379,15 @@ input[name='q']::placeholder {
     background-color: #dc3545;
     border-color: #dc3545;
     border-radius: 0;
+}
+
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 80%;
+    }
 }
 
 /* fixed top navbar only on medium and up */
@@ -439,7 +447,8 @@ input[name='q']::placeholder {
         font-size: .75rem;
     }
 
-    .increment-qty, .decrement-qty {
+    .increment-qty,
+    .decrement-qty {
         padding: .25rem .5rem !important;
     }
 
@@ -449,18 +458,21 @@ input[name='q']::placeholder {
     .display-4.logo-font {
         font-size: 2rem;
     }
+
     .index-style {
         padding-top: 25vh;
     }
+
     .footer-link {
         font-size: 0.8rem;
     }
-    .fa-brands
-  { 
-    font-size: 10px;
-  }
-  .btt-button {
-    bottom: 100px;
+
+    .fa-brands {
+        font-size: 10px;
+    }
+
+    .btt-button {
+        bottom: 100px;
     }
 }
 
@@ -468,9 +480,11 @@ input[name='q']::placeholder {
     .index-style {
         padding-top: 15vh;
     }
+
     .display-4.logo-font {
         font-size: 2.5rem;
     }
+
     .shop-now-button {
         font-size: 1.3rem;
     }
@@ -480,9 +494,11 @@ input[name='q']::placeholder {
     .index-style {
         padding-top: 15vh;
     }
+
     .display-4.logo-font {
         font-size: 1.5rem;
     }
+
     .shop-now-button {
         font-size: 1rem;
     }

@@ -68,7 +68,6 @@ def product_detail(request, product_id):
     product = get_object_or_404(Product, pk=product_id)
     reviews = Review.objects.filter(product=product).filter(is_published=True)
     review_form = ReviewForm()
-    # product.save()
 
     context = {
         'product': product,
