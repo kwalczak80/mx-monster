@@ -730,6 +730,7 @@ Additional information about the product is presented by using Font Awsome icons
 - The product price
 - The product category
 - The product rating
+- Information about the product quantity available for sale.
 - The product description
 - Option to select the product size. The following size options are available from the drop-down menu (XS, S, M, L, XL). Please note that if the product does not have a size, i.e., the navigation system, the size option will not be visible on the screen.
 - Quantity - to select the number of products the user wants to buy
@@ -776,7 +777,7 @@ The user will be redirected to the page where they can add a new review of the p
 ![Add review page](docs/images/existing_features/product_details_page/add-review-page.JPG)
 
 The user can also edit or delete existing reviews (CRUD functionality). Please note that logged-in users can only manage reviews they have written.
-When a user clicks the edit icon, they are taken to a page where they can edit the review they previously created.
+When the user clicks the edit icon, they will be redirected to a page where they can edit the review they previously created.
 Please note that the description section contains the current review description pulled from the database.
 Once the review is updated, a confirmation message will be displayed on the screen. Please read about the message system below.
 
@@ -812,17 +813,16 @@ The panel contains the following fields:
 - Stock(mandatory field)
 - Rating
 - Image url
-- Current image of the product
-- Check box to delete the current product image
+- Current image of the product(this image is only visible if the user is editing the product that already exists in the database - see the images below)
+- Check box to delete the current product image(this option is only visible if the user is editing the product that already exists in the database - see the images below)
 - **Select image** button - to upload relevant product image
 - **Choose file** buttons - to select thumbnail images(optional)
 - **Add product** button - once clicked; a new product will be added to the database(only if all fields are correct)
 
-If the store owner decides to edit the product, an alert message will appear in the upper right corner of the screen indicating that the user is in edit product information mode.
-
 ![Add product page](docs/images/existing_features/product_management/add-product-page.JPG)
 
 When the user is logged in as a staff user or admin, they have the ability to update or delete the selected product as the edit and delete options become available on the product card.
+If the store owner decides to edit the product, an alert message will appear in the upper right corner of the screen indicating that the user is in edit product information mode.
 
 ![Edit or delete product options](docs/images/existing_features/product_management/edit-or-delete-product.JPG)
 
@@ -875,9 +875,9 @@ If the user clicks on the **Secure checkout** button, they will be redirected to
 
 ### Checkout page
 
-- The user is prompted to enter their delivery information on a checkout form. that integrates Stripe.
-- A checkbox that the user can confirm allows them to save their delivery information for the next time.
-- An order summary will be shown before the user can complete the checkout process so they can confirm the total cost and view all goods.
+- The user is prompted to enter their delivery information on a checkout form.
+- A checkbox that the user can select allows them to save their delivery information to their user profile.
+- On the screen, an order summary appears, allowing the user to review the total cost of the order as well as view all of the goods they are ordering.
 
 ![Order submission](docs/images/existing_features/checkout/order-submission.JPG)
 
@@ -885,11 +885,11 @@ To inform the user that their credit card will be charged a specified amount, a 
 
 ![Stripe payment](docs/images/existing_features/checkout/stripe-payment.JPG)
 
-Once the payment process is completed a confirmation message will be displayed on the screen and a confirmation email will also be sent to the user.
+Once the payment process is complete, a confirmation message will be displayed on the screen, and an email will also be sent to the user.
 
 ![Order confirmation](docs/images/existing_features/checkout/order-confirmation.JPG)
 
-Order details are also emailed to the user as an order confirmation.
+Order details are emailed to the user as an order confirmation.
 
 ![Order confirmation email](docs/images/existing_features/checkout/order-confirmation-email.JPG)
 
@@ -898,7 +898,6 @@ Order details are also emailed to the user as an order confirmation.
 ### Product stock update
 
 When the user orders a product with a specific quantity, this quantity will be deducted from the product stock after the payment process is finished (it must be successful).
-This feature will help other users see the quantity of product that is available for sale.
 
 ![Order product with specific quantity](docs/images/existing_features/stock_update/order-product.JPG)
 
@@ -1178,8 +1177,7 @@ The business owner can add a new employee via the admin panel. All the informati
 
 #### Admin panel - ability to approve product reviews
 
-The registeed user can add the product review, however it will be displayed on the page upon the businnes approval.
-All new reviews are not published by default.
+The registered user can add the product review; however, it will be displayed on the page upon the business's owner's approval. All new reviews are not published by default.
 
 ![Reviews not published](docs/images/existing_features/reviews/reviews-not-published.JPG)
 
@@ -1240,11 +1238,14 @@ I have omitted in error to loop through the messages
 
 Fix
 
+```Django
 {% if messages %}
         <div class="message-container">
             {% include 'partials/toasts/toast_success.html' %}
         </div>
 {% endif %}
+```
+
 </details>
 
 <details>
@@ -1294,7 +1295,7 @@ Fix: Original Proc file web: gunicorn mx_monster.wsgi:application
 
 ![Unable to display privacy page](docs/images/bugs/unable_to_display_privacy_page.jpg)
 
-Fix: Add missing {% block content %} tag
+Fix: Add missing ```{% block content %}``` tag
 
 </details>
 
@@ -1404,7 +1405,7 @@ During testing of the MX Monster Store functionality, I discovered a critical bu
 
 ![HTML code manipulation](docs/images/quantity_validation/html-code-manipulation.JPG)
 
-After removing min and max values, I was able to enter negative product quantities as well as quantities that exceeded the product stock value.
+After removing min and max values, I was able to enter negative product quantities as well as quantities that exceeded the product stock.
 
 ![Negative product quantity added to the bag](docs/images/quantity_validation/quantity-negative-number-of-items-added-to-the-bag.JPG)
 
@@ -1558,7 +1559,7 @@ To set up the project to send emails and to use a Google account as an SMTP serv
 
 ## Amazon WebServices
 
-- Create an account at aws.amazon.com
+- Create an account at [aws.amazon.com](https://aws.amazon.com/)
 
 - Open the S3 application and create an S3 bucket named "mx-monster"
 
