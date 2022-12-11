@@ -13,7 +13,7 @@
     <meta name="description" content="The MX shop online Shop offers a large range of the best brands at the best price. 
         Shop motorcycle clothing and motorcycle accessories online.Low prices for motorcycle gear, parts and accessories.
         Quality brands, fast shipping. Fast deliveries. Free Shipping over 75Eur. 60 day return policy.">
-    <meta name="keywords" content="helmets, helmet, motorcycle helmets, motorbike gear, motorcycle jacket, 
+    <meta name="keywords" content="motorcycle clothing, accessory shop, helmets, helmet, motorcycle helmets, motorbike gear, motorcycle jacket, 
         leather motorcycle jacket, bluetooth motorcycle helmet, biker gloves, motorcycle gloves, boots, motorcycle boots, 
         bikers boots, women's motorcycle boots, motorcycle boots men, motorcycle exhaust, motorcycle suspension, motorcycle bag,
         motorcycle luggage, motorcycle theft protection, motorcycle security, motorcycle gps, gps for motorcycle, garmin motorcycle gps,
@@ -74,7 +74,8 @@
                         <input class="form-control border border-black rounded-0" type="text" name="q"
                             placeholder="Search our site" aria-label="Search field">
                         <div class="input-group-append">
-                            <button class="form-control btn btn-black border border-black rounded-0" type="submit" aria-label="Search button">
+                            <button class="form-control btn btn-black border border-black rounded-0" type="submit"
+                                aria-label="Search button">
                                 <span class="icon">
                                     <i class="fas fa-search"></i>
                                 </span>
@@ -170,10 +171,12 @@
         $('.toast').toast('show');
     </script>
     <script>
-        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-                event.preventDefault();
-                $(this).ekkoLightbox({alwaysShowClose: true});                
+        $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+            event.preventDefault();
+            $(this).ekkoLightbox({
+                alwaysShowClose: true
             });
+        });
     </script>
     {% endblock %}
 
