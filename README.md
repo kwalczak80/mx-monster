@@ -126,26 +126,26 @@ This website is fictional and was built for educational purposes only. No orders
       - [The Main profile page](#testing)
       - [The product management page](#testing)
     - [Automated tests](#testing)
-  - [Code Validation](#code-validation)
-    - [HTML](#code-validation)
-    - [Python](#code-validation)
-      - [mx_monster app](#code-validation)
-      - [bag app](#code-validation)
-      - [checkout app](#code-validation)
-      - [contact app](#code-validation)
-      - [faq app](#code-validation)
-      - [home app](#code-validation)
-      - [newsletter app](#code-validation)
-      - [products app](#code-validation)
-      - [profiles app](#code-validation)
-      - [reviews app](#code-validation)
-      - [staff app](#code-validation)
-      - [other files](#code-validation)
-    - [CSS](#code-validation)
-    - [JS](#code-validation)
-    - [Color Contrast Accessibility Validation](#code-validation)
-    - [Accessibility Validation](#code-validation)
-    - [Lighthouse Validation results](#code-validation)
+  - [Code Validation](#testing)
+    - [HTML](#testing)
+    - [Python](#testing)
+      - [mx_monster app](#testing)
+      - [bag app](#testing)
+      - [checkout app](#testing)
+      - [contact app](#testing)
+      - [faq app](#testing)
+      - [home app](#testing)
+      - [newsletter app](#testing)
+      - [products app](#testing)
+      - [profiles app](#testing)
+      - [reviews app](#testing)
+      - [staff app](#testing)
+      - [other files](#testing)
+    - [CSS](#testing)
+    - [JS](#testing)
+    - [Color Contrast Accessibility Validation](#testing)
+    - [Accessibility testing](#testing)
+    - [Lighthouse testing](#testing)
   - [Google emails](#google-emails)
   - [Stripe](#stripe)
   - [Amazon WebServices](#amazon-webservices)
@@ -1488,13 +1488,7 @@ During my review of the project files, I noticed that the db.json file was expos
 
 ## Testing
 
-All tests [here](READMETESTING.md) in the test file.
-
-[Back to Top](#table-of-contents)
-
-## Code Validation
-
-All validation tests can be found [here](READMEVALIDATION.md) in the validation results file.
+All tests and validation results can be found [here](TESTING.md).
 
 [Back to Top](#table-of-contents)
 
