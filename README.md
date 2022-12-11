@@ -692,7 +692,7 @@ From the **All Products** drop-down menu, the user can also choose the option to
 - by rating(by default high to low)
 - by category(by default A-Z)
 
-![All products drop down menu](docs/images/existing_features/all_products_page/all_products-drop-down-menu.JPG)
+![All products drop down menu](docs/images/existing_features/all_products_page/all-products-drop-down-menu.JPG)
 
 The user also has the option to select the order in which to view the products listed. They can order:
 
