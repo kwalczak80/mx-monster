@@ -69,6 +69,7 @@ This website is fictional and was built for educational purposes only. No orders
     - [User profile page](#user-profile-page)
     - [Shopping bag](#shopping-bag)
     - [Checkout page](#checkout-page)
+    - [Product stock update](#product-stock-update)
     - [Privacy page](#privacy-page)
     - [Terms and conditions page](#terms-and-conditions-page)
     - [Frequently asked quastions page](#frequently-asked-quastions-page)
@@ -896,6 +897,15 @@ Order details are also emailed to the user as an order confirmation.
 ![Order confirmation email](docs/images/existing_features/checkout/order-confirmation-email.JPG)
 
 [Back to Top](#table-of-contents)
+
+### Product stock update
+
+When the user orders a product with a specific quantity, this quantity will be deducted from the product stock after the payment process is finished (it must be successful).
+This feature will help other users see the quantity of product that is available for sale.
+
+![Order product with specific quantity](docs/images/existing_features/stock_update/order-product.JPG)
+
+![Product stock update](docs/images/existing_features/stock_update/product-stock-update-after-successful-payment.JPG)
 
 ### Privacy page
 
