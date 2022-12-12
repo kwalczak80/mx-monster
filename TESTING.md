@@ -462,6 +462,8 @@ The JavaScript and JQuery code within the application was validated by [JSHint](
 The Color [Contrast Accessibility Validator](https://color.a11y.com/) was used to check if there is no contrast issue on the web page.
 
 - [Home page](docs/validation/contrast_validation/home-page-contrast-validation.JPG)
+- [Products page](docs/validation/contrast_validation/products-page-contrast-validation.JPG)
+- [Product page](docs/validation/contrast_validation/product-page-contrast-validation.JPG)
 - [About page](docs/validation/contrast_validation/about-page-contrast-validation.JPG)
 - [Contact page](docs/validation/contrast_validation/contact-page-contrast-validation.JPG)
 - [FAQ page](docs/validation/contrast_validation/faq-page-contrast-validation.JPG)
