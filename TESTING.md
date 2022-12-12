@@ -495,6 +495,7 @@ The Lighthouse tool was used to assess the website's performance, accessibility,
 
 - [Home page](docs/images/lighthouse/home-page.JPG)
 - [Products page](docs/images/lighthouse/products-page.JPG)
+- [Product page](docs/images/lighthouse/product-page.JPG)
 - [About page](docs/images/lighthouse/about-us-page.JPG)
 - [Contact page](docs/images/lighthouse/contact-page.JPG)
 - [FAQ page](docs/images/lighthouse/faq-page.JPG)
