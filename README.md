@@ -761,6 +761,10 @@ To read the reviews of the product, the user needs to click on the **Customer Re
 
 ![Product review](docs/images/existing_features/product_details_page/product-review.JPG)
 
+If the product has no reviews yet, a relevant message will be displayed on the screen once the **Customer Reviews** button is clicked.
+
+![Product with no reviews](docs/images/existing_features/product_details_page/no-product-reviews.JPG)
+
 If the user is logged in, the button to **Add Review** will also be visible.
 
 ![Add review button](docs/images/existing_features/product_details_page/add-review-button.JPG)
