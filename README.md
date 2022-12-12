@@ -1547,7 +1547,7 @@ To set up the project to send emails and to use a Google account as an SMTP serv
   ```
 
 - Back in the Developers section of your stripe account click on Webhooks
-- Create a webhook with the url of your website /checkout/wh/, for example: [https://mx-monster.herokuapp.com/checkout/wh/](https://mx-monster.herokuapp.com/checkout/wh/)
+- Create a webhook with the url of your website /checkout/wh/, for example: [https://your-app-name.herokuapp.com/checkout/wh/](https://your-app-name.herokuapp.com/checkout/wh/)
 - Select the payment_intent.payment_failed and payment_intent.succeeded as events to send
 - Note the key created for this webhook
 - In your local environment(env.py) and heroku, create environment variable `STRIPE_WH_SECRET with the secret values os.environ.setdefault('STRIPE_WH_SECRET', 'YOUR_VALUE_GOES_HERE')`
