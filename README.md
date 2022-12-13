@@ -959,8 +959,17 @@ The **Back** button will redirect the user back to the main newsletter page.
 
 ![Newsletter subscription page](docs/images/existing_features/newsletter/newsletter-subscription-page.JPG)
 
-If the user clicks on the **Unsubscribe** button, they will be redirected to the unsubscription page.
+When the user signs up for a newsletter, a relevant message will be displayed in the right upper corner of the screen(see the messages system below).
+In addition, an email will be sent to the user with the information that they have subscribed to the newsletter.
+If the user tries to sign up for a newsletter a second time, a relevant message will be displayed on the screen(see the messages system below).
+This email also contains a link to unsubscribe from a newsletter if the user wishes to do so.
+
+![Newsletter confirmation email](docs/images/existing_features/newsletter/newsletter-confirmation-email.JPG)
+
+If the user clicks on the **Unsubscribe** button on the newsletter page, they will be redirected to the unsubscription page.
 In order to unsubscribe from a newsletter, the user has to provide their email address and click on the **Unsubscribe** button.
+A relevant message will be displayed in the right upper corner of the screen informing that the user has unsubscribed from a newsletter (see the messages system below).
+A relevant message will also be displayed on the screen in case the email provided by the user does not exist in the database (see the message system below).
 The **Back** button will redirect the user back to the main newsletter page.
 
 ![Newsletter unsubscription page](docs/images/existing_features/newsletter/newsletter-unsubscription-page.JPG)
@@ -1063,7 +1072,13 @@ Messages are displayed on the screen to provide the user with continuous feedbac
 
 ![Sign out message](docs/images/existing_features/messages/message-signed-out.JPG)
 
+![Newsletter subscribed message](docs/images/existing_features/messages/message-newsletter-subscribed.JPG)
+
+![Newsletter unsubscribed message](docs/images/existing_features/messages/message-newsletter-unsubscribed.JPG)
+
 ![Newsletter alredy subscribed by the user message](docs/images/existing_features/messages/message-warning-newsletter-already-subscribed.JPG)
+
+![Newsletter email does not exist in the database](docs/images/existing_features/messages/message-newsletter-email-does-not-exist-in-database.JPG)
 
 ![Email sent message](docs/images/existing_features/messages/message-email-sent.JPG)
 
