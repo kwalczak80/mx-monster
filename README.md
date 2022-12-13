@@ -961,10 +961,11 @@ The **Back** button will redirect the user back to the main newsletter page.
 
 When the user signs up for a newsletter, a relevant message will be displayed in the right upper corner of the screen(see the messages system below).
 In addition, an email will be sent to the user with the information that they have subscribed to the newsletter.
-If the user tries to sign up for a newsletter a second time, a relevant message will be displayed on the screen(see the messages system below).
 This email also contains a link to unsubscribe from a newsletter if the user wishes to do so.
 
 ![Newsletter confirmation email](docs/images/existing_features/newsletter/newsletter-confirmation-email.JPG)
+
+If the user tries to sign up for a newsletter a second time, a relevant message will be displayed on the screen(see the messages system below).
 
 If the user clicks on the **Unsubscribe** button on the newsletter page, they will be redirected to the unsubscription page.
 In order to unsubscribe from a newsletter, the user has to provide their email address and click on the **Unsubscribe** button.
@@ -973,9 +974,6 @@ A relevant message will also be displayed on the screen in case the email provid
 The **Back** button will redirect the user back to the main newsletter page.
 
 ![Newsletter unsubscription page](docs/images/existing_features/newsletter/newsletter-unsubscription-page.JPG)
-
-If the user has subscribed to or unsubscribed from a newsletter, the relevant message will be displayed on the screen.
-See the messages section for more details.
 
 [Back to Top](#table-of-contents)
 
