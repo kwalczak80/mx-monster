@@ -1054,6 +1054,14 @@ Sign out message
 
 ![Sign out message](docs/images/existing_features/messages/message-signed-out.JPG)
 
+Email confirmation alert message
+
+![Email confirmation alert message](docs/images/existing_features/messages/message-confirmation-email-alert.JPG)
+
+Email address confirmed message
+
+![Email address confirmed message](docs/images/existing_features/messages/message-email-confirmed.JPG)
+
 Search error message
 
 ![Search criteria not entered message](docs/images/existing_features/messages/message-error-search-criteria-not-entered.JPG)
@@ -1105,6 +1113,10 @@ Newsletter unsubscribed message
 Newsletter unsubscribed error message
 
 ![Newsletter email does not exist in the database](docs/images/existing_features/messages/message-newsletter-email-does-not-exist-in-database.JPG)
+
+Past order review alert message
+
+![Past order review alert message](docs/images/existing_features/messages/message-past-order-review-alert.JPG)
 
 Email sent confirmation message
 
