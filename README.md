@@ -716,7 +716,7 @@ When the user is interested in a specific product and clicks on the product imag
 The product main photo - presents the product image. Once the image is clicked, the product photo will be opened in a new tab.
 Photos - additional photos of the product are presented as thumbnails. Clicking on any of the thumbnail images will launch the lightbox gallery, so the user will be able to view all the photos in detail (please read about thumbnails below).
 
-#### The product infromation section
+#### The product information section
 
 Additional information about the product is presented by using Font Awsome icons and text. This section contains:
 
@@ -727,7 +727,7 @@ Additional information about the product is presented by using Font Awsome icons
 - Information about the product quantity available for sale.
 - The product description
 - Option to select the product size. The following size options are available from the drop-down menu (XS, S, M, L, XL). Please note that if the product does not have a size, i.e., the navigation system, the size option will not be visible on the screen.
-- Quantity - to select the number of products the user wants to buy
+- Quantity - to select the quantity of the product the user wants to buy
 - The **Keep shopping** button to redirect the user to the all products page
 - The **Add to bag** button to add the specific product to the shopping bag
 
@@ -777,7 +777,7 @@ The user will be redirected to the page where they can add a new review of the p
 The user can also edit or delete existing reviews (CRUD functionality). Please note that logged-in users can only manage reviews they have written.
 When the user clicks the edit icon, they will be redirected to a page where they can edit the review they previously created.
 Please note that the description section contains the current review description pulled from the database.
-Once the review is updated, a confirmation message will be displayed on the screen. Please read about the message system below.
+Once the review is updated, a confirmation message will be displayed on the screen. Please read about the messages system below.
 
 ![Edit review icon](docs/images/existing_features/product_details_page/edit-review.JPG)
 
@@ -787,7 +787,7 @@ The user can also delete the review they created by clicking on the bin icon.
 
 ![Delete review](docs/images/existing_features/product_details_page/delete-review.JPG)
 
-Once the review is deleted, a confirmation message will be displayed on the screen. Please read about the message system below.
+Once the review is deleted, a confirmation message will be displayed on the screen. Please read about the messages system below.
 
 [Back to Top](#table-of-contents)
 
@@ -805,7 +805,7 @@ The panel contains the following fields:
 - SKU - a number to differentiate products and track inventory levels
 - Product name - this is a mandatory field
 - Product description - this is a mandatory field
-- is available - selected by default. If the "is available" option is selected, that means the product will be visible on the page.
+- is available - selected by default. If the "is available" option is selected, that means the product will be visible on the all products page.
 - has sizes - default - "NO".
 - Price(mandatory field)
 - Stock(mandatory field)
@@ -820,7 +820,7 @@ The panel contains the following fields:
 ![Add product page](docs/images/existing_features/product_management/add-product-page.JPG)
 
 When the user is logged in as a staff user or admin, they have the ability to update or delete the selected product as the edit and delete options become available on the product card.
-If the store owner decides to edit the product, an alert message will appear in the upper right corner of the screen indicating that the user is in edit product information mode.
+If the store owner decides to edit the product, an alert message will appear in the upper right corner of the screen indicating that the user is in edit product information mode. Please read about the messages system below.
 
 ![Edit or delete product options](docs/images/existing_features/product_management/edit-or-delete-product.JPG)
 
@@ -840,7 +840,7 @@ In order to open the user profile page, the user must first click on the **My Ac
 
 The form for updating the user's delivery information is displayed on this page. If the consumer returns to the checkout page after completing the form, all shipping data will be instantly updated.
 
-By selecting the order number from the list, the user can view the order history. If the order is completed, the user will be alerted with a message indicating they are viewing a past order summary.
+By selecting the order number from the list, the user can view the order history. If the order is completed, the user will be alerted with a message indicating they are viewing a past order summary. Please read about the messages system below.
 
 The user can also track the current order status. Three status options are available: "Confirmed," "Shipped," and "Cancelled." Once an order is finished, the default state is "Confirmed." The user sees the updated status immediately after it has been changed by the business owner.
 
@@ -863,7 +863,7 @@ When the shopping bag is empty, the bag icon is black; when an item is added to 
 If the user clicks on the bag icon, they will be redirected to the page where they can review the bag content. At this stage, some adjustments to the bag are possible:
 
 - change the product quantities
-- remove the product from  the shopping bag if the product is no longer required
+- remove the product from  the shopping bag if the product is no longer wanted
 
 ![Shopping bag info](docs/images/existing_features/shopping_bag/shopping-bag-info.JPG)
 
@@ -874,12 +874,12 @@ If the user clicks on the **Secure checkout** button, they will be redirected to
 ### Checkout page
 
 - The user is prompted to enter their delivery information on a checkout form.
-- A checkbox that the user can select allows them to save their delivery information to their user profile.
-- On the screen, an order summary appears, allowing the user to review the total cost of the order as well as view all of the goods they are ordering.
+- A checkbox box the user can select allows saving delivery information to their user profile.
+- On the screen, an order summary appears, allowing the user to review the total cost of the order as well as view all the products they are ordering.
 
 ![Order submission](docs/images/existing_features/checkout/order-submission.JPG)
 
-To inform the user that their credit card will be charged a specified amount, a message is displayed immediately beneath the button labelled "Complete Order."
+To inform the user that their credit card will be charged a certain amount, a message is displayed immediately beneath the button labelled "Complete Order."
 
 ![Stripe payment](docs/images/existing_features/checkout/stripe-payment.JPG)
 
@@ -944,33 +944,33 @@ If all the **is_published** boxes are deselected the relevant message will be di
 
 ### Newsletter
 
-The newsletter link appears on the footer, to make it as visible as possible and encourage the user to sign up for the newsletter.
+The newsletter link appears on the footer, to make it as visible as possible and encourage the user to sign up for newsletter.
 Once the user clicks on the **Newsletter** link, the newsletter page will be displayed.
 On this page, the user has two options:
 
-- Subscribe to a newsletter
-- Unsubscribe from a newsletter(if already subscribed)
+- Subscribe to newsletter
+- Unsubscribe from newsletter(if already subscribed)
 
 ![Newsletter page](docs/images/existing_features/newsletter/newsletter-page.JPG)
 
 If the user clicks on the **Subscribe** button, they will be redirected to the newsletter subscription page.
-In order to subscribe to a newsletter, the user has to provide their email address and click on the **Subscribe** button.
+In order to subscribe to newsletter, the user has to provide their email address and click on the **Subscribe** button.
 The **Back** button will redirect the user back to the main newsletter page.
 
 ![Newsletter subscription page](docs/images/existing_features/newsletter/newsletter-subscription-page.JPG)
 
-When the user signs up for a newsletter, a relevant message will be displayed in the right upper corner of the screen(see the messages system below).
-In addition, an email will be sent to the user with the information that they have subscribed to the newsletter.
-This email also contains a link to unsubscribe from a newsletter if the user wishes to do so.
+When the user signs up for newsletter, a relevant message will be displayed in the right upper corner of the screen(see the messages system below).
+In addition, an email will be sent to the user with the information that they have subscribed to newsletter.
+This email also contains a link to unsubscribe from newsletter if the user wishes to do so.
 
 ![Newsletter confirmation email](docs/images/existing_features/newsletter/newsletter-confirmation-email.JPG)
 
-If the user tries to sign up for a newsletter a second time, a relevant message will be displayed on the screen(see the messages system below).
+If the user tries to sign up for the newsletter a second time, a relevant message will be displayed on the screen (Please read about the messages system below).
 
 If the user clicks on the **Unsubscribe** button on the newsletter page, they will be redirected to the unsubscription page.
-In order to unsubscribe from a newsletter, the user has to provide their email address and click on the **Unsubscribe** button.
-A relevant message will be displayed in the right upper corner of the screen informing that the user has unsubscribed from a newsletter (see the messages system below).
-A relevant message will also be displayed on the screen in case the email provided by the user does not exist in the database (see the message system below).
+In order to unsubscribe from newsletter, the user has to provide their email address and click on the **Unsubscribe** button.
+A relevant message will be displayed in the right upper corner of the screen informing that the user has unsubscribed from newsletter (see the messages system below).
+A relevant message will also be displayed on the screen in case the email provided by the user does not exist in the database (Please read about the messages system below).
 The **Back** button will redirect the user back to the main newsletter page.
 
 ![Newsletter unsubscription page](docs/images/existing_features/newsletter/newsletter-unsubscription-page.JPG)

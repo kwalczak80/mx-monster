@@ -122,6 +122,7 @@ Manually testing the MX Monster project was an ongoing process to make sure ever
 - The product name and price are displayed correctly.
 - All the font-awesome icons are displayed correctly.
 - The product category name is presented.
+- The product's stock quantity is displayed correctly.
 - The average product rating is presented. If the product has no rating, a relevant message is displayed.
 - If the site administrator is logged in, the Edit and Delete options are presented on the card.
 - The product description is presented in a clear and readable manner.
