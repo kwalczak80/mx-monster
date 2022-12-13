@@ -1048,41 +1048,81 @@ If the user decides to log out, they will be redirected to the page to confirm t
 
 Messages are displayed on the screen to provide the user with continuous feedback on their interactions. Some examples can be seen below:
 
-![Message alert](docs/images/existing_features/messages/message-alert.JPG)
-
-![Email deleted from the database message](docs/images/existing_features/messages/message-email-deleted-from-the-database.JPG)
-
-![Email does not exist message](docs/images/existing_features/messages/message-email-does-not-exist.JPG)
-
-![Search criteria not entered message](docs/images/existing_features/messages/message-error-search-criteria-not-entered.JPG)
-
-![Item added to the bag message](docs/images/existing_features/messages/message-item-added-to-the-bag.JPG)
-
-![Item removed from the bag message](docs/images/existing_features/messages/message-item-removed-from-the-bag.JPG)
-
-![Product info update message](docs/images/existing_features/messages/message-product-updated.JPG)
-
-![Review added](docs/images/existing_features/messages/message-review-added.JPG)
-
-![Review deleted message](docs/images/existing_features/messages/message-review-deleted.JPG)
-
-![Review updated message](docs/images/existing_features/messages/message-review-updated-successfuly.JPG)
+Sign in message
 
 ![Sign in message](docs/images/existing_features/messages/message-signed-in.JPG)
 
+Sign out message
+
 ![Sign out message](docs/images/existing_features/messages/message-signed-out.JPG)
+
+Search error message
+
+![Search criteria not entered message](docs/images/existing_features/messages/message-error-search-criteria-not-entered.JPG)
+
+Product added to the shopping bag message
+
+![Item added to the bag message](docs/images/existing_features/messages/message-item-added-to-the-bag.JPG)
+
+Product updated in the shopping bag message
+
+![Item updated in the shopping bag](docs/images/existing_features/messages/message-shopping-bag-updated.JPG)
+
+Product removed from the shopping bag message
+
+![Item removed from the bag message](docs/images/existing_features/messages/message-item-removed-from-the-bag.JPG)
+
+Product review added message
+
+![Review added](docs/images/existing_features/messages/message-review-added.JPG)
+
+Product review updated message
+
+![Review updated message](docs/images/existing_features/messages/message-review-updated-successfuly.JPG)
+
+Product review deleted message
+
+![Review deleted message](docs/images/existing_features/messages/message-review-deleted.JPG)
+
+Product editing alert message
+
+![Product editing alert message](docs/images/existing_features/messages/message-product-editing-alert.JPG)
+
+Product successfuly updated message
+
+![Product info update message](docs/images/existing_features/messages/message-product-updated.JPG)
+
+Newsletter subscribed message
 
 ![Newsletter subscribed message](docs/images/existing_features/messages/message-newsletter-subscribed.JPG)
 
-![Newsletter unsubscribed message](docs/images/existing_features/messages/message-newsletter-unsubscribed.JPG)
+Newsletter already subscribed message
 
 ![Newsletter alredy subscribed by the user message](docs/images/existing_features/messages/message-warning-newsletter-already-subscribed.JPG)
 
+Newsletter unsubscribed message
+
+![Newsletter unsubscribed message](docs/images/existing_features/messages/message-newsletter-unsubscribed.JPG)
+
+Newsletter unsubscribed error message
+
 ![Newsletter email does not exist in the database](docs/images/existing_features/messages/message-newsletter-email-does-not-exist-in-database.JPG)
+
+Email sent confirmation message
 
 ![Email sent message](docs/images/existing_features/messages/message-email-sent.JPG)
 
+Order confirmation message
+
 ![Order confirmation message](docs/images/existing_features/messages/message-order-confirmation.JPG)
+
+Product quantity error message
+
+![Product quantity error message](docs/images/existing_features/messages/message-product-quantity-error.JPG)
+
+Product negative quantity error message
+
+![Product negative quantity error message](docs/images/existing_features/messages/message-product-negative-quantity-error.JPG)
 
 [Back to Top](#table-of-contents)
 
