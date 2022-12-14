@@ -1471,6 +1471,8 @@ Fix : Change the code as below to fix the problem
 {{ item.product.name }}{% if item.product_size %} - Size {{ item.product_size|upper }}{% endif %}
 ```
 
+![Product size displaying correctly on the order summary page](docs/images/bugs/product-size-displaying-correctly-on-the-order-confirmation-page.JPG)
+
 </details>
 
 [Back to Top](#table-of-contents)
