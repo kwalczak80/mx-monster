@@ -56,7 +56,7 @@ This website is fictional and was built for educational purposes only. No orders
     - [Products page](#products-page)
     - [Product details page](#product-details-page)
       - [The product image section](#the-product-image-section)
-      - [The product infromation section](#the-product-infromation-section)
+      - [The product information section](#the-product-information-section)
       - [Thumbnails](#thumbnails)
       - [The product reviews section](#the-product-reviews-section)
     - [Product management](#product-management)
@@ -1451,6 +1451,25 @@ The order history text was not easy to read on small screens.
 Fix : Remove the table class and update the code in the profile.html file
 
 [Order history displayed correctly on small screens](docs/images/bugs/order-history-responsiveness-fix.JPG)
+
+</details>
+
+<details>
+<summary>Product size not displaying on the order summary page</summary>
+
+This issue was related to the typo error in the checkout_success.html code
+
+```Django
+{{ item.product.name }}{% if item.product_size %} - Size {{ item.product.size|upper }}{% endif %}
+```
+
+![Product size not displaying on the order summary page](docs/images/bugs/product-size-not-displaying-on-the-order-confirmation-page.jpg)
+
+Fix : Change the code as below to fix the problem
+
+```Django
+{{ item.product.name }}{% if item.product_size %} - Size {{ item.product_size|upper }}{% endif %}
+```
 
 </details>
 
