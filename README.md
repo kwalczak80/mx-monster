@@ -879,7 +879,7 @@ If the user clicks on the **Secure checkout** button, they will be redirected to
 
 ![Order submission](docs/images/existing_features/checkout/order-submission.JPG)
 
-To inform the user that their credit card will be charged a certain amount, a message is displayed immediately beneath the button labelled "Complete Order."
+To inform the user that their credit card will be charged a certain amount, a message is displayed immediately beneath the button labelled **Complete Order**
 
 ![Stripe payment](docs/images/existing_features/checkout/stripe-payment.JPG)
 
@@ -934,7 +934,7 @@ The business owner can edit the question and set status to published so the ques
 
 ![FQA set to publish](docs/images/existing_features/faq/faq-is-published-selected.JPG)
 
-If all the **is_published** boxes are deselected the relevant message will be displayed on the screen.
+If all the **is_published** boxes are deselected a relevant message will be displayed on the screen.
 
 ![FAQ not set to publish](docs/images/existing_features/faq/faq-is-published-deselected.JPG)
 
@@ -969,8 +969,8 @@ If the user tries to sign up for the newsletter a second time, a relevant messag
 
 If the user clicks on the **Unsubscribe** button on the newsletter page, they will be redirected to the unsubscription page.
 In order to unsubscribe from newsletter, the user has to provide their email address and click on the **Unsubscribe** button.
-A relevant message will be displayed in the right upper corner of the screen informing that the user has unsubscribed from newsletter (see the messages system below).
-A relevant message will also be displayed on the screen in case the email provided by the user does not exist in the database (Please read about the messages system below).
+A relevant message will be displayed in the right upper corner of the screen informing that the user has unsubscribed from newsletter (please read about the messages system below).
+A relevant message will also be displayed on the screen in case the email provided by the user does not exist in the database (please read about the messages system below).
 The **Back** button will redirect the user back to the main newsletter page.
 
 ![Newsletter unsubscription page](docs/images/existing_features/newsletter/newsletter-unsubscription-page.JPG)
