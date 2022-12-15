@@ -1894,6 +1894,7 @@ Clone this project by following the steps:
 - [Diagrams](https://app.diagrams.net/)
   - Online tool to create diagrams
 - [Responsive design checker](https://responsivedesignchecker.com/)
+  - Online tool to test the responsiveness
 
 [Back to Top](#table-of-contents)
 
@@ -1919,7 +1920,7 @@ Throughout the process of building this project, various online sources have bee
 ## Content
 
 - [FC Moto](https://www.fc-moto.de/)
-  - Product images
+  - Product images and product descriptions
 - [Privacy Policy Generator](https://policymaker.io/privacy-policy/)
   - To generate the privacy policy for MX Moster store.
 - [Terms and Conditions Generator](https://policymaker.io/terms-and-conditions/)
