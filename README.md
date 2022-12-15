@@ -1893,6 +1893,7 @@ Clone this project by following the steps:
   - Online tool to generate a sectet key for Django
 - [Diagrams](https://app.diagrams.net/)
   - Online tool to create diagrams
+- [Responsive design checker](https://responsivedesignchecker.com/)
 
 [Back to Top](#table-of-contents)
 
