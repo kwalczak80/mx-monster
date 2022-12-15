@@ -1281,7 +1281,7 @@ As part of marketing strategies for the MX Monster Store, I decided to use socia
 
 - A Facebook business page was the chosen platform, to help build relationships and loyalty with customers. This can be achieved by posting frequent updates to the site, promoting the items, and having direct interactions with existing and potential customers. The next steps would include using Twitter, Instagram, and YouTube as social media platforms to target a larger audience.
 
-Facebook site can be viewed [here](https://www.facebook.com/profile.php?id=100088407152747)
+Facebook page can be viewed [here](https://www.facebook.com/profile.php?id=100088407152747)
 
 ![MX Monster facebook page](docs/images/facebook_page/mx-monster-facebook-page.PNG)
 
