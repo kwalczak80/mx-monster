@@ -209,7 +209,7 @@ a.category-badge>span.badge:hover {
     height: 42px;
     width: 42px;
     position: fixed;
-    bottom: 60px;
+    bottom: 70px;
     right: 2px;
 }
 
@@ -451,7 +451,9 @@ input[name='q']::placeholder {
     .decrement-qty {
         padding: .25rem .5rem !important;
     }
-
+    .btt-button {
+        bottom: 100px;
+    }
 }
 
 @media (max-width: 425px) {
@@ -501,5 +503,12 @@ input[name='q']::placeholder {
 
     .shop-now-button {
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 280px) {
+
+    .btt-button {
+        bottom: 120px;
     }
 }
