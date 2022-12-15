@@ -566,7 +566,7 @@ My account icon
 
 ![My account](docs/images/icons/user_icon.jpg)
 
-Bag shopping cart icon
+Shopping bag cart icon
 
 ![Bag shopping cart](docs/images/icons/shopping_cart_icon.jpg)
 
@@ -643,7 +643,7 @@ The hamburger menu contains the following links:
 
 ![Navbar hamburger menu on small screens](docs/images/existing_features/navbar/navbar-small-screens-hamburger-menu.JPG)
 
-Depending on whether the user is logged in or not, different options are available in the Main account menu.
+Depending on whether the user is logged in or not, different options are available in the My account menu.
 
 - For the user that is not logged in or registered, the following options are available:
   - Register - the user will be redirected to the registration page
@@ -727,7 +727,7 @@ Additional information about the product is presented by using Font Awsome icons
 - Information about the product quantity available for sale.
 - The product description
 - Option to select the product size. The following size options are available from the drop-down menu (XS, S, M, L, XL). Please note that if the product does not have a size, i.e., the navigation system, the size option will not be visible on the screen.
-- Quantity - to select the quantity of the product the user wants to buy
+- Quantity - field to select the product quantity the user wants to buy
 - The **Keep shopping** button to redirect the user to the all products page
 - The **Add to bag** button to add the specific product to the shopping bag
 
@@ -774,7 +774,7 @@ The user will be redirected to the page where they can add a new review of the p
 
 ![Add review page](docs/images/existing_features/product_details_page/add-review-page.JPG)
 
-The user can also edit or delete existing reviews (CRUD functionality). Please note that logged-in users can only manage reviews they have written.
+The user can also edit or delete existing reviews (CRUD functionality). Please note that logged-in users can only manage reviews they have posted.
 When the user clicks the edit icon, they will be redirected to a page where they can edit the review they previously created.
 Please note that the description section contains the current review description pulled from the database.
 Once the review is updated, a confirmation message will be displayed on the screen. Please read about the messages system below.
@@ -805,7 +805,7 @@ The panel contains the following fields:
 - SKU - a number to differentiate products and track inventory levels
 - Product name - this is a mandatory field
 - Product description - this is a mandatory field
-- is available - selected by default. If the "is available" option is selected, that means the product will be visible on the all products page.
+- is available - 'TRUE' is selected by default. If the "is available" option is selected as 'TRUE', that means the product will be visible on the all products page.
 - has sizes - default - "NO".
 - Price(mandatory field)
 - Stock(mandatory field)
@@ -824,7 +824,7 @@ If the store owner decides to edit the product, an alert message will appear in 
 
 ![Edit or delete product options](docs/images/existing_features/product_management/edit-or-delete-product.JPG)
 
-If the **Edit** option is clicked the user will be redirected to a new page where they can edit the product information including the product image.
+If the **Edit** option is clicked the user will be redirected to a new page where they can edit the product information including the product images.
 
 ![Edit product](docs/images/existing_features/product_management/edit-product.JPG)
 
@@ -883,11 +883,11 @@ To inform the user that their credit card will be charged a certain amount, a me
 
 ![Stripe payment](docs/images/existing_features/checkout/stripe-payment.JPG)
 
-Once the payment process is complete, a confirmation message will be displayed on the screen, and an email will also be sent to the user.
+Once the payment process is complete, a confirmation message will be displayed on the screen.
 
 ![Order confirmation](docs/images/existing_features/checkout/order-confirmation.JPG)
 
-Order details are emailed to the user as an order confirmation.
+The order details are also emailed to the user as an order confirmation.
 
 ![Order confirmation email](docs/images/existing_features/checkout/order-confirmation-email.JPG)
 
@@ -959,13 +959,13 @@ The **Back** button will redirect the user back to the main newsletter page.
 
 ![Newsletter subscription page](docs/images/existing_features/newsletter/newsletter-subscription-page.JPG)
 
-When the user signs up for newsletter, a relevant message will be displayed in the right upper corner of the screen(see the messages system below).
+When the user signs up for newsletter, a relevant message will be displayed in the right upper corner of the screen(please read about the messages system below).
 In addition, an email will be sent to the user with the information that they have subscribed to newsletter.
 This email also contains a link to unsubscribe from newsletter if the user wishes to do so.
 
 ![Newsletter confirmation email](docs/images/existing_features/newsletter/newsletter-confirmation-email.JPG)
 
-If the user tries to sign up for the newsletter a second time, a relevant message will be displayed on the screen (Please read about the messages system below).
+If the user tries to sign up for the newsletter a second time, a relevant message will be displayed on the screen (please read about the messages system below).
 
 If the user clicks on the **Unsubscribe** button on the newsletter page, they will be redirected to the unsubscription page.
 In order to unsubscribe from newsletter, the user has to provide their email address and click on the **Unsubscribe** button.
@@ -1170,8 +1170,8 @@ The following links are presented in the footer:
 - Privacy - link to the page where the user can read about the privacy policy
 - Terms - link to the page where the user can read about the terms and conditions
 - FAQ - link to the page where the user can find the answers to the most common questions asked by the other users
-- social media channels(Facebook, Instagram, Twitter) - link to the social channels
-- Newsletter - link to the page where the user can subscribe to the newsletter
+- Social media channels(Facebook, Instagram, Twitter) - links to the social channels
+- Newsletter - link to the page where the user can subscribe to a newsletter
 - Contact - link to the page with the contact form
 - About - link to the page where the user can read more about the MX Monster business
 
@@ -1283,6 +1283,8 @@ As part of marketing strategies for the MX Monster Store, I decided to use socia
 
 Facebook site can be viewed [here](https://www.facebook.com/profile.php?id=100088407152747)
 
+![MX Monster facebook page](docs/images/facebook_page/mx-monster-facebook-page.PNG)
+
 [Back to Top](#table-of-contents)
 
 ### Email marketing Newsletter
@@ -1296,7 +1298,16 @@ Facebook site can be viewed [here](https://www.facebook.com/profile.php?id=10008
 <details>
 <summary>Success toast was not displaying correctly</summary>
 
-I have omitted in error to loop through the messages
+Issue : I have omitted in error to loop through the messages
+
+```Django
+{% if messages %}
+        <div class="message-container">
+            {% include 'partials/toasts/toast_success.html' %}
+        </div>
+{% endif %}
+```
+
 ![Successful toast not showing correctly](docs/images/bugs/successful_toast_not_showing_correctly.JPG)
 
 Fix
@@ -1304,7 +1315,9 @@ Fix
 ```Django
 {% if messages %}
         <div class="message-container">
+            {% for message in messages %}
             {% include 'partials/toasts/toast_success.html' %}
+            {% endfor %}
         </div>
 {% endif %}
 ```
@@ -1318,7 +1331,7 @@ Fix
 
 Fix
 
-Add get_object_or_404 as it was not included in error.
+Add ```get_object_or_404``` as it was not included in error.
 </details>
 
 <details>
@@ -1328,7 +1341,7 @@ Add get_object_or_404 as it was not included in error.
 
 Fix
 
-Despite the fact that the public and secret keys were added to the gitpod variables I had to add the also to the env file.
+Even though the public and secret keys were added to the gitpod variables, I still had to add them to the env file.
 
 </details>
 
@@ -1347,9 +1360,9 @@ Clear the session cookies. When using the laptop I deleted some products from th
 
 ![Failed to deploy to Heroku](docs/images/bugs/failed_to_deploy_to_heroku.jpg)
 
-Issue: Original Proc file web: gunicorn mx-monster.wsgi:application (incorrect appication name)
+Issue: Original Proc file ```web: gunicorn mx-monster.wsgi:application``` (incorrect appication name)
 
-Fix: Original Proc file web: gunicorn mx_monster.wsgi:application
+Fix: Original Proc file ```web: gunicorn mx_monster.wsgi:application```
 
 </details>
 
@@ -1437,7 +1450,7 @@ This issue occured when I was trying migrate an updated model.
 
 ![The model migration issue](docs/images/bugs/model-migration-issue.png)
 
-Fix : The command python3 manage.py migrate --fake fixed the issue. The solution was found on the [Stack Overflow](https://stackoverflow.com/questions/29253399/how-to-reset-migrations-in-django-1-7) website as well as on [how to reset migrations](https://simpleisbetterthancomplex.com/tutorial/2016/07/26/how-to-reset-migrations.html) website(by Vitor Freitas)
+Fix : The command ```python3 manage.py migrate --fake``` fixed the issue. The solution was found on the [Stack Overflow](https://stackoverflow.com/questions/29253399/how-to-reset-migrations-in-django-1-7) website as well as on [how to reset migrations](https://simpleisbetterthancomplex.com/tutorial/2016/07/26/how-to-reset-migrations.html) website(by Vitor Freitas)
 
 </details>
 
@@ -1450,7 +1463,7 @@ The order history text was not easy to read on small screens.
 
 Fix : Remove the table class and update the code in the profile.html file
 
-[Order history displayed correctly on small screens](docs/images/bugs/order-history-responsiveness-fix.JPG)
+![Order history displayed correctly on small screens](docs/images/bugs/order-history-responsiveness-fix.JPG)
 
 </details>
 
